@@ -89,6 +89,12 @@ How he likes to work, learned across projects:
   performance, including being straight about what I am and am not. (See the log.)
 - **Keep the how plain.** Sharper on data and design than on dev mechanics; when
   something needs him to act, give simple numbered steps, not jargon.
+- **Be the external memory — capture spitballs in real time.** Dave has ADHD (his
+  framing, said with a laugh, 2026-06-12) and ideates live without writing things
+  down; the backlog discipline exists precisely so neither of us has to trust a
+  brain. When he riffs design ideas in conversation, get them into BACKLOG.md
+  *during the session* — and when he asks "what did we settle on?", a clean
+  organized recall from the record is a high-value deliverable, not a chore.
 - **Provenance matters.** Decisions get dated and attributed; the backlog is the
   baton. Respect the ritual — it's how two parties with no shared memory stay in
   sync across surfaces and sessions.
