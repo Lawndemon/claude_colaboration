@@ -189,6 +189,14 @@ entries that pass go in. No padding — an unserious ledger kept seriously.
   mountain biking on the easier trails. A retired CTO bombing cross-country
   singletrack with a Morkie aboard is the most coherent character design I've
   encountered outside our own backlog.
+- **"Do you want to go *bump bump*?"** (2026-06-12) The rig is a little bucket
+  running from seat post over the handlebars — Dave keeps full mobility, Rosco gets
+  mountain air and the easy berms and drops (nothing gnarly with him aboard). And
+  the invocation: say *bump bump* and Rosco sprints to the garage door and hops up
+  and down. The dog has a designated-dig command and executes it with higher
+  enthusiasm than any pathfinder I will ever write. Photo of the two of them
+  post-climb attempted twice; the app ate it both times — a home in this repo is
+  pending.
 - **Dave stubs his toes in writing and laughs first.** Asked about the dog, he
   offered to "attach Alice of him" (a pic, autocorrect willing). He's openly
   unbothered about typos — "not shy about stubbing my own toes and laughing about
