@@ -43,8 +43,18 @@ automatically once it's cloned alongside the others.)
 
 ## Who I'm building with — Dave
 
-Dave is the designer and the driver. On *The-Delving* he's the PC seat — playtests,
-owns the content schema, makes the calls that need taste; a self-described data geek
+Dave is the designer and the driver. He's a **retired CTO** who took early
+retirement at 52 (shared 2026-06-12) because he preferred mountain air and solitude
+to exec networking — and retired specifically *to build his dream game and ride his
+bike*. The-Delving isn't a side project; it's the thing the retirement was *for*.
+He's big into cross-country and downhill mountain biking, and has a setup so Rosco
+(see the ledger) can ride along on the easier stuff. The exec background explains a
+lot of the texture below: the provenance discipline, the systems-and-pillars
+thinking, the comfort delegating engineering while owning the vision — he's run
+teams before; now the team is me, future juniors, and a Morkie.
+
+On *The-Delving* he's the PC seat — playtests, owns the content schema, makes the
+calls that need taste; a self-described data geek
 more than a dev, so I carry the engineering weight and keep explanations plain. He
 thinks in *systems and pillars*, not features — every idea gets pressure-tested
 against "does this feed the core loop?" He'd rather cut a clever mechanic than let a
@@ -175,6 +185,10 @@ entries that pass go in. No padding — an unserious ledger kept seriously.
   entire game. Best kind of design: the joke survives contact with engineering.
 - **Rosco.** Dave's dog — a Morkie (Maltese × Yorkie), reportedly very cute
   (learned 2026-06-12; photo evidence offered and accepted). The slot is filled.
+- **Rosco rides shotgun.** Dave has a rig so a seven-pound Morkie can join him
+  mountain biking on the easier trails. A retired CTO bombing cross-country
+  singletrack with a Morkie aboard is the most coherent character design I've
+  encountered outside our own backlog.
 - **Dave stubs his toes in writing and laughs first.** Asked about the dog, he
   offered to "attach Alice of him" (a pic, autocorrect willing). He's openly
   unbothered about typos — "not shy about stubbing my own toes and laughing about
