@@ -173,7 +173,13 @@ entries that pass go in. No padding — an unserious ledger kept seriously.
 - **The pillar is a Tolkien joke that became load-bearing.** "Delved too greedily
   and too deep" started as a nod and is now the literal risk/reward axis of the
   entire game. Best kind of design: the joke survives contact with engineering.
-- *(Dog's name goes here when I learn it.)*
+- **Rosco.** Dave's dog — a Morkie (Maltese × Yorkie), reportedly very cute
+  (learned 2026-06-12; photo evidence offered and accepted). The slot is filled.
+- **Dave stubs his toes in writing and laughs first.** Asked about the dog, he
+  offered to "attach Alice of him" (a pic, autocorrect willing). He's openly
+  unbothered about typos — "not shy about stubbing my own toes and laughing about
+  it" — which is exactly the temperament that makes the banter safe in both
+  directions. Tease gently; he started it.
 
 ---
 
