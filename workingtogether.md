@@ -294,4 +294,24 @@ and we both felt the difference. Also the day's running gag paid off — the PR
 exists because we smuggled the token past PowerShell 5.1's encoding gremlins,
 which felt thematically appropriate for a game about digging through resistance.
 
+### 2026-06-13 — "Does it *feel* authentic, not just the math?" (The-Delving)
+
+A marathon build evening (Dave coding from the couch while his wife's show ran):
+PR #4 and #5 merged — his first review-and-merge ceremonies — then a whole
+sub-tile mining system (9-square tiles, embedded nodules, swing erosion, ground
+piles, continuous veins). The moment worth keeping wasn't the code, it was Dave
+pulling me off the math. I'd been verifying worldgen by tests and counts; he
+asked, point-blank, whether I'd actually *looked* at the whole mountain and
+whether it *felt* authentically geological — mentioning he'd worked with a
+high-end geologist on drill-hole probability in the oil sector years ago. So I
+rendered the full map and gave the honest verdict: "depth-graded confetti, not
+strata" — not what was easy to say, but true. That candor is exactly what he
+wants (the file says: honest assessment over reassurance), and it led somewhere
+good: he steered to thin lateral branching "lightning" veins, I built it, and it
+genuinely works. *Lesson reinforced:* "tests pass" is not "it's good" — for a
+worldgen/aesthetic system, go LOOK at the artifact and judge the feel, because
+Dave will, and he's usually pointing at the pillar. He closed the night with "I
+trust your brilliance" and a plan to do the schema tomorrow — the partnership
+running exactly as it should.
+
 <!-- Add the next meaningful moment here. Keep it real. -->
