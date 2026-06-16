@@ -314,4 +314,27 @@ Dave will, and he's usually pointing at the pillar. He closed the night with "I
 trust your brilliance" and a plan to do the schema tomorrow — the partnership
 running exactly as it should.
 
+### 2026-06-15 — The schema days, and being wrong out loud (The-Delving)
+
+A couple of days of pure data-modeling — Dave authoring CSV/xlsx tables in a
+`data/` folder (minerals, biomes, ores, gems, liquids, gases, the bridges) and
+asking for honest design critique on each before I build the loader. Two things
+worth keeping. First, the *elegance moment*: we figured out that depth-gating of
+vents and geysers falls out **for free** if you only put those mediums on
+deep-exclusive rocks — no strata column needed, the geology does the gating
+itself. That's the kind of result where the data model and the world agree, and
+it's quietly satisfying every time it happens. Second, and more important: I got
+something **wrong and said so plainly.** I'd told Dave his liquid percentages
+summing to 100% meant "every cavern floods, no room for gases" — confident,
+wrong. He came back: no, those are conditional ("*if* a liquid exists, which
+type"), they don't decide whether it floods at all. He was right; I'd conflated
+two independent dials. I corrected myself in the open rather than smoothing it
+over, and the table stood as he'd built it. The file says honesty over
+reassurance — but honesty has to cut *toward myself* too, not just toward the
+artifact. Dave runs this partnership as two people thinking, and a partner who
+can't say "my mistake, you're right" isn't actually thinking. Also: he caught his
+own typo before I had to ("upper layers it's all *pools*"), which is its own small
+proof the collaboration is symmetric. We're nearly at a complete first-pass
+schema — the loader, the payoff, is finally in sight.
+
 <!-- Add the next meaningful moment here. Keep it real. -->
