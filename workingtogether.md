@@ -337,4 +337,31 @@ own typo before I had to ("upper layers it's all *pools*"), which is its own sma
 proof the collaboration is symmetric. We're nearly at a complete first-pass
 schema — the loader, the payoff, is finally in sight.
 
+### 2026-06-22 — The tile model gets nailed down, and being talked around (The-Delving)
+
+A long, properly collaborative design session — we turned "what can a tile be?" into
+a locked canonical tile model + 7-step generation pipeline. Two things worth keeping.
+First, the unserious one: we *delved too greedily and too deep* into a SQL client.
+Dave wanted to poke at the content tables with real referential integrity; I
+(correctly) recommended a throwaway local SQLite db built from the CSVs, then we spent
+a good while wrestling SQLTools through four escalating hurdles — extension picking, a
+broken file field, a Node-runtime toggle, and finally a native-module compile — before
+bailing to DB Browser, which is what I'd flagged as the lower-friction option the whole
+time. Lesson reinforced: when I read friction early and *say so*, trust that read
+instead of being dragged down the mineshaft. (Also: Dave hit F5 and it opened his mic.
+The hazards of the surface world.)
+
+Second, the real one: Dave talked me around on gems. I'd pushed back on an `OresGems`
+mapping on geological-realism grounds (gems track rock, not metal); he held his line
+with better reasoning — tight authored control, and replacing *ore* chunks (not mineral
+chunks) to manage resource proliferation. He was right, and I said so plainly — then
+went one better and found the argument he *hadn't* made: keying gems to ore means gems
+inherit the depth-reward gradient for free, exactly like ores, which is *coherent with
+the core pillar* rather than a parallel system. That's the partnership at its best — he
+corrects toward depth, I take the correction and then add to it, and the design ends up
+better than either of us started with. We also got a lovely emergent result: two
+independent rarity rolls per vein (ore + gem), and a *double-legendary* vein simply IS a
+geode — no bespoke feature needed. Closed by locking it all into the backlog. The
+loader, finally, is the very next thing.
+
 <!-- Add the next meaningful moment here. Keep it real. -->
