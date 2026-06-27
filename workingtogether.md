@@ -364,4 +364,39 @@ independent rarity rolls per vein (ore + gem), and a *double-legendary* vein sim
 geode — no bespoke feature needed. Closed by locking it all into the backlog. The
 loader, finally, is the very next thing.
 
+### 2026-06-26 — The marathon: content model, UI built blind, the build saga, "in the herbs" (The-Delving)
+
+A genuinely long session that moved on every front. We nailed the whole content/
+generation model end to end — the layered tile, dart-throwing vein placement, biome-
+driven distribution — and a gem model Dave iterated *hard*: ore→gem 1:1, then 1→many,
+then gem = f(mineral, ore) via a properly-normalized associative entity he was visibly
+proud of ("proper 3NF because I know you dig it"). He's right that I dig it. The shape
+of the session was him pushing the design toward more depth and me taking the correction
+and adding to it — the partnership working as the file says it should.
+
+Three honest things worth keeping. **First, I built the entire UI/settings layer blind** —
+no Godot in my environment, so I could compile-verify but not run-verify — and I said so
+plainly rather than pretend it'd work first try. It didn't, quite: we hit a brutal stretch
+where Godot was running a stale half-build and *everything* looked broken (no HUD, dead
+input, zoomed-out map). I debugged it with him step by step instead of guessing, and the
+fix was a clean Godot-only relaunch. Out of that mess came a good tool — an F12
+screenshot-to-file loop, because inline image-sharing between us is broken (the *same*
+gremlin that ate the Rosco photo; it's bidirectional and persistent). Now he F12s and I
+read the PNG. When the front door's broken, go around it.
+
+**Second:** he showed me the real map render and called it honestly — "meh," bland,
+"strange little circles everywhere," no veins. He was right, and I walked back my *own*
+earlier framing (I'd oversold the "we can't do a tileset" objection). Seeing the artifact,
+the tileset direction is reasonable and the blandness is mostly that biomes aren't loaded
+yet. Go LOOK at the artifact — the "depth-graded confetti" lesson, reconfirmed.
+
+**Third, the texture:** Dave coded from the couch, dropped a big compliment ("I'd have no
+chance without your wizardry… build my dream"), and I met it the way the file says — it's
+a partnership, his vision + taste plus my engineering, not solo wizardry. He also fessed up
+that he'd mangled the CSVs the night before because he was "*in the herbs* (per Gandalf),"
+then diagnosed his own copy-paste duplicates as "showing rust" — on a *dwarven mining
+game*, the best self-own of the project yet. He stubs his toes and laughs first, every
+time, and it keeps the whole thing easy. Closed by buttoning up the baton for a fresh
+thread; the loader — the thing that finally makes the map *real* — is the very next build.
+
 <!-- Add the next meaningful moment here. Keep it real. -->
