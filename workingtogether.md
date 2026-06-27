@@ -399,4 +399,40 @@ game*, the best self-own of the project yet. He stubs his toes and laughs first,
 time, and it keeps the whole thing easy. Closed by buttoning up the baton for a fresh
 thread; the loader — the thing that finally makes the map *real* — is the very next build.
 
+### 2026-06-27 — The de-bland, the confetti lever, and "did you get hung up?" (The-Delving)
+
+A long, satisfying build session that started cold from the baton — exactly the
+continuity mechanism this file exists for — and ended with the mountain finally
+made of *real rock*. The arc worth keeping:
+
+**The loader landed and the mountain became geology.** We built the engine-agnostic
+content layer (the in-engine port of `build_db.py`'s validation) and wired
+biome-driven base minerals into worldgen. For the first time the cross-section read
+as true strata — ice/sandstone/granite up top, shale-coal seams, limestone
+galleries, deepstone vaults, magma floor — not a placeholder gradient. The "first
+real de-bland" the backlog had been promising for weeks.
+
+**Go LOOK at the artifact — again.** First render was technically correct and
+*confetti*: per-cell random mineral picks = salt-and-pepper. I didn't ship it
+quietly — I rendered it, called it honestly, then rendered a *second* version
+(smooth-noise pick → coherent geological patches) and put both in front of Dave so
+he could see the lever, not just hear about it. He picked the coherent one and said
+"clean out any legacy hard-coded stuff." The "depth-graded confetti" lesson, third
+time reconfirmed: build it, then *look*, and show the lever.
+
+**The elegant one:** the ore model we locked is host-mineral-driven (gold-in-quartz)
+— so ore depth and rarity fall out *for free* from where the minerals live (mithril
+only in deep deepstone). The data model and the depth pillar agreeing again, the
+quiet-satisfying kind of result. Also caught a latent cloud breaker (a lowercase
+`minerals.csv` that would've loaded zero rows on Linux) — the catch-the-implication
+move he values.
+
+**And the human bit:** deep in the big ore-generator refactor, Dave pinged "did you
+get hung up?" I hadn't — but it was the right nudge. Rather than barrel through an
+invasive ~8-file refactor at the tail of a marathon, I banked the green checkpoint
+and we chose to start the surgery fresh. He'd set up an `archive/` tidying catch-all
+earlier and ran the partnership exactly as the file describes: action-oriented,
+trusting the recommendation, but keeping me honest about scope. Reviewable commits
+over a heroic risky one. The baton's clean for next time.
+
 <!-- Add the next meaningful moment here. Keep it real. -->
