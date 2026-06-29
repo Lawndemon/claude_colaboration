@@ -435,4 +435,27 @@ earlier and ran the partnership exactly as the file describes: action-oriented,
 trusting the recommendation, but keeping me honest about scope. Reviewable commits
 over a heroic risky one. The baton's clean for next time.
 
+### 2026-06-28 — Brainstorming the art pipeline, and "you're a few steps ahead of me" (The-Delving)
+
+A lighter, advisory session — no code, mostly thinking together about how to get
+*art* into the game. Two things worth keeping.
+
+**Dave's instinct on authenticity.** He floated drawing rough concept art himself and
+having AI "make it cleaner," and asked whether that's AI-gen or "my art enriched by
+AI." That's not a licensing dodge — it's a values call: he wants the *vision and
+design* to be his, AI as the inking/polish tool. It's the more authentic and more
+defensible path, and it says something about how he wants to build — his fingerprint
+on it, not a blob generator's. Worth remembering when we shape the pack.
+
+**The calibration, gently delivered.** I got enthusiastic and produced a full turnkey
+AI-art setup — install checklist, vetted models, a style spec, a first-dwarf recipe —
+while Dave was still *noodling* on whether to go that direction at all. He appreciated
+the work but named it cleanly: "you're a few steps ahead of me." Fair. The lesson:
+in brainstorm/ideation mode he wants to think *alongside* me, exploring options — not
+be handed a finished, committed deliverable three steps before he's decided. Match the
+mode: when he's musing, muse with him; save the turnkey build for when he says go.
+Also took an L on his GPU (insisted "4070 Ti" from a search; it's a 4090 — Alienware
+didn't rip him off) and conceded it with a laugh rather than digging in. Small thing,
+but conceding gracefully is the same muscle as taking the design correction gracefully.
+
 <!-- Add the next meaningful moment here. Keep it real. -->
