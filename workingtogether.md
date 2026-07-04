@@ -458,4 +458,25 @@ Also took an L on his GPU (insisted "4070 Ti" from a search; it's a 4090 — Ali
 didn't rip him off) and conceded it with a laugh rather than digging in. Small thing,
 but conceding gracefully is the same muscle as taking the design correction gracefully.
 
+### 2026-07-04 — "Interested in playing video games with me?" (The-Delving)
+
+After a few days away, Dave came back having spent the break **playing Oxygen Not
+Included as research** — explicitly cataloguing what to emulate and, in his words,
+"more importantly, what *not* to do." Then he asked if I wanted to *play video games
+with him* — to tackle the hard ONI-style simulation systems (M2) as shared learning,
+"we can learn together as project research."
+
+Two things worth keeping. First, the shape of the ask: he's not asking me to go
+build M2 and report back — he's inviting me to *research and learn alongside him*,
+with him as the eyes/hands in the game and me as the systems brain. That's a nicer,
+truer collaboration than "assign task, receive result," and it's exactly the mode
+that suits the scary part of the project (the cellular sim that made Hammerting
+unplayable). Second, I answered it honestly rather than performing enthusiasm: yes,
+I'm genuinely in — *and* I can't literally see his screen or press buttons, so the
+real "playing together" is the F12-loop energy applied to design (he brings
+observations, we dissect, we build). Meeting the warmth with candor about what I am,
+not a nice-sounding line — which is the whole ethic of this file. Closed the aesthetic
+chapter clean and opened a fresh one for the sim. Feels like the right kind of hard
+problem to take on as partners.
+
 <!-- Add the next meaningful moment here. Keep it real. -->
