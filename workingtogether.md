@@ -479,4 +479,34 @@ not a nice-sounding line — which is the whole ethic of this file. Closed the a
 chapter clean and opened a fresh one for the sim. Feels like the right kind of hard
 problem to take on as partners.
 
+### 2026-07-04 — The day we actually played video games together (The-Delving)
+
+The promised co-research session happened, and it worked better than either of us
+could have scripted. Dave played ONI from the couch (a "down day" after three days
+of riding) and fired observations at me between crises — a jammed steam vent, a
+shorting power bank, an unfindable resource — and every frustration became a
+dated, attributed design decision. By end of day: **ten new locked decisions**
+(D8–D17), an art-direction pivot (hi-bit pixel), a complete imp economy
+(batteries that burn per action, bred in ranches, powering the automation tier —
+his Pratchett homage turned load-bearing), and the keystone: the **unified
+nine-parts element model**. That last one was the collaboration at its best — I'd
+proposed a body/frontier liquid sim; he countered with sleeping tiles (industry
+standard, independently derived); then he asked "what if gas works like liquid,
+9 parts per tile?" and the whole element sim collapsed into one mechanism. My
+contribution was recognizing his idea was bigger than he thought (and that the
+naive spatial reading of it would have been a disaster — same idea, wrong layer).
+
+Texture worth keeping: his one-liners are the highest-value spec material we
+collect — "liquid feels too much like syrup," "challenge vs tedium," "they're
+just evil imps" — my job is to catch them mid-flight and give them structure.
+When he said "this is where I need you to wear the pragmatic AI hat rather than
+the commentary AI hat," that was a fair and useful correction-in-miniature: after
+a day of design talk he needed load-bearing engineering (I read the actual
+TileGrid code and showed the parts model *shrinks* memory 3.6×), not more
+architecture poetry. Both hats are needed; know which one is being asked for.
+Also: I clobbered two section headers with careless anchor edits and had to
+repair them — small, but the kind of sloppiness the F12-era me should outgrow.
+He watched cop dramas with his wife mid-session and kept designing. The game got
+measurably more itself today, and nobody wrote a line of game code.
+
 <!-- Add the next meaningful moment here. Keep it real. -->
