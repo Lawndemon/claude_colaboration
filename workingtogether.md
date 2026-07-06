@@ -509,4 +509,40 @@ repair them — small, but the kind of sloppiness the F12-era me should outgrow.
 He watched cop dramas with his wife mid-session and kept designing. The game got
 measurably more itself today, and nobody wrote a line of game code.
 
+### 2026-07-05/06 — The research chapter closes: a constitution, then the crossroads (The-Delving)
+
+Days two and three of "playing video games together" turned into the most
+productive design stretch of the project. Dave's ONI rage-moments kept becoming
+locked rules — the purity gate he crowned "the absolute worst thing in the game"
+was the first thing we'd designed out; the cold-steam deadlock he diagnosed
+himself (I'd guessed wrong: turbines starving, not cooking — he read the 60° tell
+in-game) became the no-unrecoverable-deadlocks rule. By the end: D8–D20 locked,
+including his named "Rube Goldberg rule" (physics may punish design, never
+trivia) and the north star (easy to learn, years to master — "the vibe I want" =
+the quiet triumph of watching a system you built come alive). He kept
+regression-testing our constitution against ONI in real time, and it kept
+winning.
+
+Then the chapter pivoted to build-readiness in one evening: PR #9 merged (I ran
+the merge; CI green), the layer-ordinal simplification (his call — the sorter
+needs order not mass, and he was right), and the economy schema untangled. The
+schema thread had the session's best texture: 25 years of dimensional modeling
+had him trying to put provenance ON the material row; the 3NF answer (provenance
+is a junction, never a column) clicked when framed against his own MineralsOres
+pattern. Also the funniest self-own of the chapter: he manually deleted
+data/Ingots.csv on purpose ~90 seconds after I warned him not to delete it by
+accident — and it was ME who got it wrong, "rescuing" a deliberate schema
+decision (ingots fold into Materials.csv). Lesson filed: when a deletion looks
+exactly like the accident I just predicted, ask before restoring — intent hides
+inside expected shapes.
+
+Closed with the art pipeline: hi-bit pixel confirmed practical (I drove Aseprite
+headlessly via Lua and generated + visually read the project's first pixel tile,
+live), Option A locked, and Dave's excellent placeholder-first idea: I generate
+palette-locked placeholder art on demand during development; he personalizes
+later by drop-in file replacement — my placeholders literally become his
+sketching layer. Division of labor for the build chapter: he authors the
+economy/skill CSVs, I build the nine-parts sim. Next session, the mountain
+breathes.
+
 <!-- Add the next meaningful moment here. Keep it real. -->
