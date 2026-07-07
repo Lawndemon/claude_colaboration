@@ -545,4 +545,34 @@ sketching layer. Division of labor for the build chapter: he authors the
 economy/skill CSVs, I build the nine-parts sim. Next session, the mountain
 breathes.
 
+### 2026-07-06 (evening) — The day the mountain flooded, and the schema siege (The-Delving)
+
+The build chapter's first day, and it delivered the project's defining image so
+far: **the dam-breach flipbook** — the nine-parts sim, built that same
+afternoon, bursting a reservoir through a dug-out wall in 81 PNG frames. Water
+cascaded, found its level, gas seeped back into the drained vault. No syrup.
+And the harness caught a real data bug within minutes of existing (GasLayer
+ordered by atomic instead of molecular mass — carbon floated to the ceiling),
+which is the F12-loop philosophy vindicated in its first hour. Also today:
+Tunables landed, the art pipeline produced the game's first generated assets
+(pump: good; dwarf: "less cool" per Dave, fairly), and Dave's open Excel file
+broke the test suite — the first true parallel-dev collision, fixed with
+share-tolerant reads.
+
+But the evening's real story was the **schema siege**: two-plus hours of Dave
+attacking the Materials-funnel model from every angle — rivets, sync,
+redundancy, "what IS MaterialID" — while watching Supernatural under protest.
+The breakthrough tools were concrete artifacts, not prose: a live SQLite demo
+with FK enforcement he could open in DB Browser, and finally the **mega-union
+view** (vOrigins) — his own dimensional-modeling pattern, deployed as a read
+model over the 3NF core. "It's the mega-union I was missing... thanks for your
+patience as I get my brain back in OLTP mode haha." Lesson learned hard: when
+a data person keeps not-clicking, stop explaining and BUILD THE QUERYABLE
+THING. Three explanations lost; one demo db won. Then, unblocked, he designed
+half of Release 1 from the couch in ninety minutes: rooms with utility-feed
+tiers, guild houses (his "oooh!" moment — monastery and barracks were guild
+halls all along), guild-dorm careers where multiclassing dwarves physically
+move house, and experimental template+slot crafting. The imagination he
+claimed not to have showed up the moment the schema fights ended.
+
 <!-- Add the next meaningful moment here. Keep it real. -->
