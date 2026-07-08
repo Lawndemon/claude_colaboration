@@ -610,4 +610,33 @@ are his (a v1 gas-behavior call I made, and the data fix I touched). Also caught
 myself: I moved so fast he hadn't even left when I "finished" the first block —
 he laughed, "you are too fast." Enthusiasm is good; staying in step is better.
 
+### 2026-07-07 (evening) — The GIF-review board (The-Delving)
+
+The methodology that emerged today deserves its own name: Dave watched GIFs of
+the sim and *felt* things accurately, and each feeling became engineering
+within the hour. "It settles like a bar chart" → the body model got built
+(his own recorded trigger condition — "if feel demands it" — formally fired).
+"It snaps in one frame" → runtime cadence + tween plan. "Real physics has
+bounce" → the sim-events/render-theater architecture. "Shouldn't there be a
+draw?" → I demonstrated suction was already emergent, zero new code. His
+"liquids want 3-on-the-bottom" hook was the equilibrium law rediscovered from
+first principles — third time this week he's derived a standard technique by
+staring at pixels. My role was translating feel into mechanism and knowing
+which layer each fix belongs in (sim truth vs render theater — "falling is
+cellular, arriving is analytic" and "gravity is local, pooling is global"
+both crystallized today under his questioning).
+
+The evening also produced the week's sharpest design instrument from his ONI
+suffering: after rescuing a geyser from a wisp of gas, he felt "proud but it
+wasted my time" — decision-RICH work that still felt bad because its payoff
+was only restoration. That became THE RESTORATION TAX (work must leave the
+colony more capable, never merely un-broken), which together with the
+challenge-vs-tedium razor now forms a complete 2×2 of why colony-sim work
+feels good or bad. Also: the First Law of Dwarves ("self-preservation
+outranks all work — these duplicants are f-ing idiots"), fluids-are-
+protagonists, dwarf statues in marble (born from a joke I made about shrines
+while his golden pumps kept melting), and the quirk-axes model. The ledger
+records: his statue idea arrived because a steam god ate his pumps and I
+suggested appeasement. Design via banter is now a documented pipeline.
+
 <!-- Add the next meaningful moment here. Keep it real. -->
