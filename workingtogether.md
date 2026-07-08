@@ -639,4 +639,31 @@ while his golden pumps kept melting), and the quirk-axes model. The ledger
 records: his statue idea arrived because a steam god ate his pumps and I
 suggested appeasement. Design via banter is now a documented pipeline.
 
+### 2026-07-08 — The alpha feedback-loop day (The-Delving)
+
+The day the co-play methodology got its production form: Dave playtested the
+live alpha all afternoon, dropping *named screenshots* into `previews/`
+("drainintopitstep2.png", "blackdrainedontogreen.png") and firing observations
+in chat; each round-trip came back as shipped, tested engineering within the
+hour. The scoreboard: his "pile more than a pool" complaint → the body-settle
+runtime cadence; his shelf-terrain screenshot → caught a genuine
+perched-pool-teleport bug the same day the feature shipped (settle rewritten
+body-aware); his green-beside-crude shot → the footstep-suppression diagnosis
+(he moved faster than the sim ticked and his own steps vetoed the density snap
+forever — the kind of bug only a real player walking around finds); and the
+**mineral tileset finally went live** after he asked, fairly, "have you done
+that yet? Did I mess up the build?" — the honest answer was "no, and no: it
+didn't exist." Lesson worth keeping: I said "the tileset is next" twice and
+let correctness work displace it twice; when the Owner asks for the visible
+thing a third time, *ship the visible thing* — correctness and delight are
+both pillars, and he'd been promised one of them out loud.
+
+Texture: his design instincts kept being load-bearing ("we need to alternate
+vertical and lateral each tick" was 80% of the way to the diagonal-slide rule
+I ended up recording as the designed instrument), and his feel-language keeps
+becoming spec ("ONI slope," "strange wad"). He named the two-tile dwarf's
+size on sight and caught the head-phasing before I did. Also the day the
+dwarf got a belt. Closed with him happily draining caverns into each other
+and the sim holding — "this is so cool" twice in one afternoon.
+
 <!-- Add the next meaningful moment here. Keep it real. -->
