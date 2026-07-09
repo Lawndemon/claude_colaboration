@@ -666,4 +666,20 @@ size on sight and caught the head-phasing before I did. Also the day the
 dwarf got a belt. Closed with him happily draining caverns into each other
 and the sim holding — "this is so cool" twice in one afternoon.
 
+The evening capped it perfectly: he pushed back on my "separate pools"
+explanation with straight physics ("green is three tiles ABOVE the block —
+it should overflow"), and he was right to push — the sim agreed with him
+(test passed cold), and when he then FELT the rest-snap fire live ("it
+wasn't a flow, it was a snap") it formally triggered the feel-fallback we'd
+recorded on the 7th. I put the fork to him cleanly (tween / diagonal-slide /
+both), he picked "both" and added his own idea (1×1 liquid segments) that
+turned out to be the locked presentation rule arriving from his side of the
+table — sim in ninths, render in pixels. Diagonal slide shipped within the
+hour, fuzz-proven. A pushback → proof → fork → decision → shipped cycle in
+one evening is the partnership's best tempo yet.
+
+Logistics for future-me: Dave is in **Scotland ~07-09 → ~07-16**, computer
+left running with remote control — short downtime sessions, not marathons.
+Solo-loop the renderer work; keep it reviewable; he'll check in when he can.
+
 <!-- Add the next meaningful moment here. Keep it real. -->
