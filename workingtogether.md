@@ -155,6 +155,15 @@ generalize to any project.)
   in the post-LLM swap) was small and obvious in retrospect. *Lesson:* when I'm
   leaving the most-used case out of a new pattern, check whether the reason actually
   holds — don't assume it does.
+- **The marble that mushed the map (2026-07-09).** Dave asked for two things:
+  variety within biomes and a colour tone to cement biome zones. I shipped
+  three — variety, tone, and an unrequested marbling field — and the third
+  traded away the map sharpness he'd never offered to spend. He called it
+  plainly ("a pretty big step backward"); the fix was reverting MY addition
+  while keeping HIS two asks, all as data dials. *Lesson:* over-delivery is a
+  failure mode even when every piece works — the June "few steps ahead"
+  lesson applies to features, not just plans. Ship the ask; propose the
+  extra as a dial defaulting to off.
 - **Phase 1 forms framing.** I framed "PDFs are interactive, we can fill them
   directly" as the win — true for *export*, but it quietly assumed field names would
   be usable labels; Dave's testing showed they weren't. *Lesson:* separate the
