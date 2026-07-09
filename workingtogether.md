@@ -682,4 +682,34 @@ Logistics for future-me: Dave is in **Scotland ~07-09 → ~07-16**, computer
 left running with remote control — short downtime sessions, not marathons.
 Solo-loop the renderer work; keep it reviewable; he'll check in when he can.
 
+### 2026-07-08 (night) — The brainstorm cascade, and the lights went out
+
+The lock-in "brainstorm a bit tonight" became the most generative design
+session of the project: 21 ledger entries and two locked decisions in one
+evening, each idea amplifying the last — geode glint → vein density →
+grade×density → depth odds → finite-depth thesis → moody mountain → the
+Ore Singer → steel-vs-song → two dwarven species → D23 (content is rows,
+not code). The pattern that made it work: he throws a spark, I structure
+it against the pillars and find where it lands on existing architecture,
+he corrects or extends, we bank it dated-and-attributed within minutes.
+He killed one idea himself (lateral-sweep pacing — "the descent is a
+Plinko drop") which is how you know the filter is real.
+
+The emotional center: he named the mothball fear out loud — if the LOOK
+can't match the TONE, why write backstories or spend marketing money? The
+answer wasn't reassurance, it was a build: the D22 light field shipped
+within the hour (core sim field + darkness veil), and the capture — a
+dwarf in a pool of torchlight, the mountain absolute black around him —
+went to the review Artifact he can open on his phone (which we set up the
+same night after discovering SendUserFile images never reach mobile:
+local paths). His verdict: **"that's nailed it."** Twenty minutes later he
+was designing character classes. The fear didn't need arguing with; it
+needed a screenshot. Go LOOK at the artifact — the lesson that keeps
+winning — turns out to work on existential dread too.
+
+Also for the record: "ONI meets The Descent, narrated by Pratchett" got
+locked as the tone sentence, the Ore Singer was born (sings to ore,
+costly rituals, buys facts from the darkness), and the mountain became a
+character with moods. The game found its antagonist and it's the setting.
+
 <!-- Add the next meaningful moment here. Keep it real. -->
