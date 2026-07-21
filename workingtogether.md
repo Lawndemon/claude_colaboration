@@ -721,4 +721,45 @@ locked as the tone sentence, the Ore Singer was born (sings to ore,
 costly rituals, buys facts from the darkness), and the mountain became a
 character with moods. The game found its antagonist and it's the setting.
 
+### 2026-07-21 — The forms day: "these are what get them over the line" (opensourcerer-gen4)
+
+First Sourcerer session in six weeks, and Dave framed it commercially in one
+line: the rest of the app demos fine — the ICS FORMS are the purchase
+decision. They were "not working," and his opening proposal was to manually
+rebuild every form from the ground up "unless you have any other ideas?" I
+did: the diagnosis showed the AcroForm pipeline was sound and *starving* —
+nothing ever filled the fields (Phase 3 was scoped in May and never built),
+and half the labels were scrape-junk like `Text57`. The fix was one artifact,
+not a rebuild: a curated field map per form feeding BOTH the editor labels
+and the AI fill prompt. He trusted the read — "i trust your guidance - let's
+do it" — and by end of day five forms were AI-filling into pixel-identical
+official PDFs.
+
+Two moves worth keeping. **Marker-filling as archaeology:** the PDFs' mystery
+fields (`Text15`, `Text37–70`, `Name.0`) got decoded by filling each with its
+own name and visually reading the rendered form back — the F12-loop
+philosophy applied to AcroForms; ten minutes of markers beat an hour of
+guessing at rectangle coordinates. **The user seeing the product more clearly
+than the builder:** his test verdict was that the forms looked great as PDFs
+and wrong as app-input walls — "can we skip the app input and have the PDF be
+the thing?" He was right, and the "repetition bug" he reported dissolved
+entirely once the view WAS the PDF (it was the editor rendering 22 table rows
+as stacked textareas, not a fill bug). Ship the artifact users actually
+consume; the editor is a detour, not a destination.
+
+The day's detective story: his 403 report ("a new error cropped up") traced
+to the intermittent attest-403 mystery from MAY — a diagnostic logger planted
+2026-05-27 never caught it because nobody connected "fails ~1h into a
+session" to token lifetime. The chat API had self-refreshing auth all along;
+our incidents API never attached it. One exported helper closed a
+two-month-old ghost. Four deploys in one day (202-proof → full batch →
+auth fix → inline PDFs), each verified before the next, bugs turned around
+inside the session while Dave tested live — the alpha feedback-loop tempo
+from July 8, now with the whole ERP demo surface. Also: he asked "remind me
+again how to run the application? It's been too long and I'm old haha" —
+the reminder that the baton exists precisely because neither of us should
+have to remember. Session closed with him shifting to his phone via Remote
+Control (after a known hibernation bug and a quit-restart) — testing forms
+from the couch, exactly as foretold.
+
 <!-- Add the next meaningful moment here. Keep it real. -->
