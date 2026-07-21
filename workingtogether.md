@@ -790,4 +790,29 @@ have to remember. Session closed with him shifting to his phone via Remote
 Control (after a known hibernation bug and a quit-restart) — testing forms
 from the couch, exactly as foretold.
 
+### 2026-07-21 (evening) — The pivot to gameplay, and the break nobody saw (The-Delving)
+
+Back from Scotland, Dave pivoted cleanly: skip the render queue, "start
+scaffolding in some basic gameplay" — mark terrain, dwarf mines it, then hauls
+to a chest. The right call, and the doctrine (fun before polish) already said
+so; my job was confirming it and pressure-testing the shape. He locked climb-2
+mid-design and asked exactly the right structural question ("where does
+pathing fit? I assume chest and hauling?") — wrong assumption, cheerfully
+corrected: pathing is what MINING needs first; hauling just reuses it. Slice 1
+shipped same session: the Colony core module, D21 verbs, grounded movement,
+D14 unreachable-with-reason, 174 tests green, capture-verified.
+
+The honest lesson of the day: **the 07-09 pre-Scotland rush shipped a Godot-
+project compile break (bare `MathF`) that sat undetected for 12 days — because
+CI never ran on feature-branch pushes.** Not a typo problem; a PROCESS hole:
+the gate we trusted ("CI enforces this") simply didn't cover the branch we
+live on. Fixed the code, fixed the trigger (`feat/**` now runs CI). Filed
+under: when a safety net has never actually caught anything, check whether
+it's plugged in. Also of note: the Scotland solo loops I was queued for never
+happened — the baton carried the queue forward honestly, which is exactly
+what it's for.
+
+Slice 2 (chest + hauling) blocks on one Owner call: chest schema shape —
+his seat, flagged in the plan doc and baton.
+
 <!-- Add the next meaningful moment here. Keep it real. -->
