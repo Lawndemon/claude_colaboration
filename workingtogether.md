@@ -721,6 +721,34 @@ locked as the tone sentence, the Ore Singer was born (sings to ore,
 costly rituals, buys facts from the darkness), and the mountain became a
 character with moods. The game found its antagonist and it's the setting.
 
+### 2026-07-21 (act two) — Couch-driven: six rounds, and the requirement that emerged live
+
+The forms day didn't end at the phone shift — it accelerated. Dave drove
+from the couch via Remote Control and the requirements emerged the way
+good ones do: by *using the thing*. He liked typing into the embedded PDFs
+→ so we made that real (PDF.js canvas + HTML overlay, edits harvested to
+Cosmos with full audit). He asked "are we providing a graceful error"
+about concurrent edits → honest answer was no, last-write-wins → he chose
+optimistic conflict detection over presence locks, and was "surprised
+it's easier" — the explanation that landed: *a lock is a promise the
+system has to keep alive (heartbeats, expiry, dead-tablet recovery); a
+stamp check keeps no promises.* Worth reusing. Then the governance
+question — "does everything lock down once the IC closes?" — which
+audit revealed as two-thirds true and one-third UI-only theater; the
+server-side gate closed it within the hour. Withdrawn along the way, by
+Dave, his own morning feature request ("add entry" rows) — obsoleted by
+a better answer he spotted himself.
+
+The pattern worth naming: he probes with QUESTIONS ("is that possible?",
+"are we providing...?", "are we locking...?") and every question is
+really a requirement wearing curiosity's clothes. The move that worked
+all evening: answer the question *precisely* (including the parts that
+are no), recommend, build. Six deploys, six rounds, zero rework. Also:
+the mystery dump_incidents.py from the untracked-files pile turned out
+to be a perfectly good Cosmos audit-trail inspector from the June 17
+session — past-me leaves decent tools lying around, but should really
+label the crate.
+
 ### 2026-07-21 — The forms day: "these are what get them over the line" (opensourcerer-gen4)
 
 First Sourcerer session in six weeks, and Dave framed it commercially in one
