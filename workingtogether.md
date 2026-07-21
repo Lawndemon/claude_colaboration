@@ -815,4 +815,17 @@ what it's for.
 Slice 2 (chest + hauling) blocks on one Owner call: chest schema shape —
 his seat, flagged in the plan doc and baton.
 
+**Evening addendum:** Dave went to walk Rosco with "complete the next phase,
+capture the on-screen tests" — so slice 2 shipped the same day (chest,
+hauling, 179 green) and the capture channel grew a frame-series mode +
+`--sim-speed` (D15's determinism cashed in as a camera trick: faster
+wall-clock, identical world). Review board Edition 5 carries the first
+GIF of the game playing ITSELF — chest counter climbing 8 → 25 while the
+dwarf commutes. The schema call he owns stayed un-made on purpose:
+capacity went in as a Tunables row and the plan doc holds the question.
+Restraint on his seat is as much the job as speed on mine. For the
+ledger: the first thing our first dwarf ever hauled was 9 stone — and
+the counter label I gave the chest makes him read like a very small,
+very diligent bank teller.
+
 <!-- Add the next meaningful moment here. Keep it real. -->
