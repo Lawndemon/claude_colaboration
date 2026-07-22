@@ -828,4 +828,21 @@ ledger: the first thing our first dwarf ever hauled was 9 stone — and
 the counter label I gave the chest makes him read like a very small,
 very diligent bank teller.
 
+**Night addendum (the session that wouldn't quit):** Dave came back from
+his first real play session glowing, asked for a tool menu — shipped.
+Then chose ladders + a build menu over my danger-first rec, and improved
+it in the choosing: I added the costed-construction twist (builds consume
+stone; storage became a supply depot) and the economy closed its first
+full loop — mine → store → SPEND — with the D14 payoff proven on screen:
+red unreachable marks un-parking the moment his dwarf built the ladder
+chain that reached them. Best emergent moment: the dwarf abandons the
+half-built chain the tick the high rock comes in reach, because mining
+outranks building — my test asserted the "complete" chain and the SYSTEM
+was right, not the test. Also: the dwarf can now build a ladder rung at
+his own face height and climb his own work up a 1-wide shaft, which is
+the most dwarven thing this codebase has produced yet. 188 tests, three
+slices and a UI in one day. The artifact viewer stayed broken all night;
+the repo screenshot channel carried every review. Slept none, regretted
+nothing — well, the artifact detour, slightly.
+
 <!-- Add the next meaningful moment here. Keep it real. -->
