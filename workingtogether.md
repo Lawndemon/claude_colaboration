@@ -845,4 +845,26 @@ slices and a UI in one day. The artifact viewer stayed broken all night;
 the repo screenshot channel carried every review. Slept none, regretted
 nothing — well, the artifact detour, slightly.
 
+### 2026-07-23 — The mountain got its soul back (The-Delving, chapter pin)
+
+Two-day arc closed: the colony game EXISTS (crew of three with job
+preferences and claims, free camera, no direct control — the founding
+"priorities, not direct control" line is literally true), and the mountain
+looks like Dave's head. The best exchange of the chapter: he diagnosed
+that my "buffer rock" granite was a mimicry of ONI's abyssalite LOOK when
+he'd been pointing at ONI's biome AESTHETIC all along — "may have cropped
+up due to my poor instructions," he said, wrongly; my inference overshot,
+his correction landed it. The fix inverted the color architecture: biomes
+own hue (his BiomeHueHEX column, wired same-day), minerals own pattern,
+granite opts out and walls every seam. Then his THEBAS biome gave the
+entrance a front porch and Ice Caves became a discovery. The data seat
+worked exactly as designed: he authored rows mid-session, I wired them
+live, the validator caught his 90% mix sum and my placeholder filled it.
+Also of note: hue-model day solved most of the pastel complaint for free,
+and dropping granite from biome mixes (his next edit) will make the
+boundary walls the only home of copper/gold/tin/iron veins — the walls
+become treasure. ONI never did that. Pinned clean at 198 green; next chat
+is his schema brainstorm ("I have some ideas ;)" — the winking emoji is
+load-bearing).
+
 <!-- Add the next meaningful moment here. Keep it real. -->
