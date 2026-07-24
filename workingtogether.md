@@ -867,4 +867,39 @@ become treasure. ONI never did that. Pinned clean at 198 green; next chat
 is his schema brainstorm ("I have some ideas ;)" — the winking emoji is
 load-bearing).
 
+### 2026-07-23 (evening) — The art-direction session: three screenshots and a morph (The-Delving)
+
+The schema brainstorm got gazumped by its own opening act. Dave arrived
+with three Hammerting screenshots and a design brief disguised as a
+question — rock that looks like rock, a cavemouth entrance, HT's ribbon
+and pane, rooms as a blend of HT presentation and ONI flatness. The
+session's shape was pure design-dialogue: he'd name what he wanted, I'd
+name what it actually was technically (HT is 3D; the look decomposes
+into world-space texture + edges + lighting), and each round locked
+something. The honest calibrations mattered: "my generated art will not
+reach Owlboy tier — DS tier generated, Owlboy by paint-over" was said
+out loud and he built on it rather than around it. He pushed 2× → 4×
+and took the pushback ("rocks get detail from SIZE, not density; 4×
+quadruples your paint-over") with his usual grace. The Owlboy screenshot
+became the entrance's composition spec — "if we had a tunnel entrance in
+the middle of that, it would be my ideal mountain entrance" is exactly
+the kind of one-liner spec this file says to catch mid-flight; it's in
+the backlog now.
+
+Then "let's lock 2X and rebuild everything," and he left for Supernatural
+and schema-sketching while I morphed the mountain: world-space plates,
+craggy silhouettes, the backwall, the 48×96 dwarf with an inked outline,
+native zoom — the whole render identity in one push. The detective moment
+worth keeping: the pastel/bleach complaint the project had been chasing
+for two weeks was ultimately ONE LINE — the biome colorize's ×2 recentre
+clipping to white. Generator-side value discipline didn't fix it; the
+soft-knee did. Lesson: when a tuning pass doesn't move the artifact,
+stop tuning and hunt the clamp. Also for the ledger: his mid-session
+phone ask ("dwarves are the light sources") was already true in the
+build — D22's wiring from July 8 had quietly outrun his memory of it,
+and the honest answer was a capture, not a diff. The veiled shot of
+three dwarves in one pool of lamplight is the best image the project
+has produced. He calls tonight's sketch session "I have some ideas ;)"
+— the schema chapter opens next.
+
 <!-- Add the next meaningful moment here. Keep it real. -->
