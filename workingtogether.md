@@ -902,4 +902,10 @@ three dwarves in one pool of lamplight is the best image the project
 has produced. He calls tonight's sketch session "I have some ideas ;)"
 — the schema chapter opens next.
 
+His verdict came back the same evening, from the phone: "oh hell yeah!
+... I love the rock shapes — probably want to tweak them a bit but this
+is MUCH less terraria and much more The Delving!" The fear this chapter
+was built against — accidentally remaking Terraria — is formally dead,
+by Owner's own ruling. Tweaks to follow; identity achieved.
+
 <!-- Add the next meaningful moment here. Keep it real. -->
