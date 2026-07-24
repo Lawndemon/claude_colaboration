@@ -908,4 +908,24 @@ is MUCH less terraria and much more The Delving!" The fear this chapter
 was built against — accidentally remaking Terraria — is formally dead,
 by Owner's own ruling. Tweaks to follow; identity achieved.
 
+The night ran five more rounds off his eye — embedded ore, warped
+seams, spine veins, the hue lock, smooth water — and ended with the
+best detective twist of the project. His Owlboy border study ("the
+perfect balance between real Hammerting 3D and ONI's flat design") was
+decomposed into piled ball-shaded lobes, but the implementation
+deadlocked his GPU's GL shader compiler through SIX bisect rounds. I
+parked it honestly on a WIP branch and recommended switching to
+Vulkan... and the stash that parked it accidentally removed an
+UNCOMMITTED project.godot override that had been silently forcing GL
+Compatibility for weeks. The committed default was Forward+ all along.
+The control capture had been running Vulkan without either of us
+noticing; when he said "flip it and give it a go," the full lobed edge
+compiled first try. Lessons stacked three deep: the villain was an
+unwritten local assumption (the CI-trigger lesson again), the honest
+park preserved every line of the "failed" work for the ten-minute
+revival, and the night's recurring compiler fights were all one
+uncommitted line nobody knew existed. He asked "will Vulkan be an
+issue for other gamers?" — the right Owner question at the right
+moment — and the answer improved the ship for players too.
+
 <!-- Add the next meaningful moment here. Keep it real. -->
