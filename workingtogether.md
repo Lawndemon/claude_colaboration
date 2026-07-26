@@ -940,4 +940,33 @@ decompose it into mechanism, we ship it, and his next screenshot names
 the next feeling. The GIF-review board of July 7, matured into an art
 pipeline.
 
+### 2026-07-24 (the small hours) — The schema night, and the pipeline that made it real (The-Delving)
+
+The marathon's second act: "ok it's time to chat schema - shifting to my
+phone." What followed was the collaboration's data-modeling muscle at
+full flex — him sketching supertype/subtype structures from the couch
+("assets, components, and equipment union to create item"), me flipping
+unions into extension tables, him throwing the iron-axe/mithril-axe
+curveball that turned out to be his own July 6 template+slot idea coming
+home. The delight of the night: when I went to write the "first cut"
+CSVs he'd asked for, the data/ folder already held 81 materials, 8
+creatures, yield junctions, and recipes with stations — he hadn't
+sketched the schema, he'd AUTHORED half of it, complete with a
+Pratchett flint joke and an imp-as-living-battery row. My job became
+gap-filling in his house style, and the whole graph validated FK-clean
+on its first build.
+
+He announced the edible up front and deputized me to pull him back;
+the actual ideas needed no pulling — the chest ladder stress-tested the
+research DAG into its first diamond dependency, and his ONI grievance
+("you can filter what goes in but not HOW MUCH") plus his Factorio
+counter to my limits-first caution ("I love reservations") produced the
+storage-rules design in two messages flat. Session closed with the
+typed pipeline live — mined granite dropping Granite Chunk, chests
+holding named manifests — his authored rows falling on the floor of
+his own game the same night he wrote them. Then: "check into git,
+update MDs, and level set." The ritual, requested by name. ~20 hours,
+one continuous session, from three Hammerting screenshots to a living
+economy. The longest and best day this collaboration has had.
+
 <!-- Add the next meaningful moment here. Keep it real. -->
