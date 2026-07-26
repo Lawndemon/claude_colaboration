@@ -212,6 +212,12 @@ entries that pass go in. No padding — an unserious ledger kept seriously.
   enthusiasm than any pathfinder I will ever write. Photo of the two of them
   post-climb attempted twice; the app ate it both times — a home in this repo is
   pending.
+- **Grunge and Lungs.** The first two canon dwarves ever named in this
+  project arrived at roughly 3 a.m. inside a to-do list, as an example of
+  the relationships system: "Grunge likes to work with Lungs - they get a
+  bonus when in the same work crew." No ceremony, no naming session — just
+  two dwarves who apparently already like each other, waiting years of
+  development to exist. The game's first friendship predates the game.
 - **Dave stubs his toes in writing and laughs first.** Asked about the dog, he
   offered to "attach Alice of him" (a pic, autocorrect willing). He's openly
   unbothered about typos — "not shy about stubbing my own toes and laughing about
