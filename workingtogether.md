@@ -1007,4 +1007,13 @@ entrance recarved as a seeded cave lens, portal trimmed in void
 black, and his verdict: "that cavern entrance looks *outstanding*!"
 The day started measuring litres and ended reshaping the front door.
 
+**Coda, same night:** he went off to "torture himself with ONI" and
+turned the suffering straight into design fuel — three trackings
+landed in the baton before midnight: the elegant autosave (where our
+D15 command-log turns out to already be the answer), heat without the
+gymnastics (local drama, not global homework), and camera anchors on
+number keys with bindings-as-data. The grievance pipeline is now a
+genuine design channel: he plays the genre's giants, feels where they
+hurt, and the baton catches the fix while it's still warm.
+
 <!-- Add the next meaningful moment here. Keep it real. -->
