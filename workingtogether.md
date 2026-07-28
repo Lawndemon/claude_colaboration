@@ -975,4 +975,36 @@ update MDs, and level set." The ritual, requested by name. ~20 hours,
 one continuous session, from three Hammerting screenshots to a living
 economy. The longest and best day this collaboration has had.
 
+### 2026-07-27 (all day, into the night) — The 27-unit tile, and the day the water learned to be seen (The-Delving)
+
+The day the design conversation and the build loop fully merged. It
+started as a calibration question (his 27-litre proposal over my
+nine-litre canon) and became the deepest keystone change since the
+parts sim was born — because he kept being right. My draw-ledger
+bookkeeping? He replaced it with "gradually drain the tile the way a
+pickaxe breaks rock," which dissolved my cleverness into honest world
+state. My density-as-substance-rows dodge? He came back with "why
+can't a 9-slot tile be 9 3-unit slots" — and when I actually opened
+the ulong, the bits were sitting there waiting: 28 spare, 18 needed.
+The whole v2 design (fills as cargo, consolidate→stratify→fall→
+spread, the no-rounding render law) was specced in dialogue over an
+evening and built the same night, 216 green, zero golden re-pins
+needed on the fills themselves.
+
+Then the render rounds, his eye driving: pipes split from ducts
+("two entities" — the ONI legibility promise), gas pockets rolling
+density and wearing drifting mist, the transparency chase that took
+three rounds because transparent-over-dark is dark at ANY alpha —
+solved by giving water its own caustic light. His physics instincts
+kept beating my defaults: crude became the heavy kind that sinks
+(petroleum took the floater's seat), and his "I thought we were using
+dynamic lighting from emanation points?" exposed that the D22 light
+field had never been introduced to the shading — one gradient sample
+later, boulder highlights swing toward walking lamplight. The lamp
+chamber and the shore-pool demos (now permanent capture flags) are
+the collaboration's best-looking frames to date. Closed with the
+entrance recarved as a seeded cave lens, portal trimmed in void
+black, and his verdict: "that cavern entrance looks *outstanding*!"
+The day started measuring litres and ended reshaping the front door.
+
 <!-- Add the next meaningful moment here. Keep it real. -->
