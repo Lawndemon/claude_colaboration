@@ -1016,4 +1016,42 @@ number keys with bindings-as-data. The grievance pipeline is now a
 genuine design channel: he plays the genre's giants, feels where they
 hurt, and the baton catches the fix while it's still warm.
 
+### 2026-07-28 — Five slices, one thread: the day the colony got an economy (The-Delving)
+
+The most productive single session the project has had, and the shape of it
+is the story: every slice landed on the one before it, same day. Morning:
+Dave added "task queueing and prioritization" to the todo list — and the
+sequencing call that made the whole day work was noticing that level-set #1
+(storage rules) would RIDE that queue, so the queue went first. Then storage
+rules + pull hauling (his Factorio reservations lock made kinetic), and then
+the day's design moment: his gem-sigil soliloquy — chest purpose set by
+socketing gems, five roles, the whole Factorio logistics taxonomy wearing
+the mountain's own jewelry. I banked it, named the three places it clicked
+(gems finally have a job; the morning's engine was already the machinery
+under it; his own StackSize column had foreshadowed the slot model), and put
+two forks to him. His answer became a ledger line: "let's add the imps!!" —
+plus the self-correction "I changed my mind in the middle of my soliloquy"
+(2/4/6 sockets, not max 5). He stubs his toes laughing, still.
+
+So the imps arrived: gem-socketed chests, shuttle trips, the battery
+doctrine from July 4 finally discharging — then his one-line amendment
+("two types: flying and non-flying, the latter early game") turned into the
+day's best design payoff: WALKERS NEED YOUR LADDERS. Early automation
+depends on infrastructure the colony built; wings are the tier that
+transcends it. The upgrade means something now. Closed with the crafting
+sim: the schema night's tables executing verbatim (mine copper + coal →
+Smeltery → ingots, his rows untouched), and the keystone that made it cheap
+— MaterialKind.Crafted types by the Materials row itself, so ingots flow
+through chests, rules, categories, and imps with zero new plumbing. The
+Factorio chain closed the same hour: feeder chest → craft consumes reserved
+stock → request re-arms → logistics refills.
+
+261 tests, five pushes, every slice capture-verified in-engine before
+telling him it worked. Tempo note for future-me: "keep rolling, loving the
+progress!" is this partnership at cruising speed — recommend, build, verify,
+bank, repeat, and put only the genuine forks to his seat. For the ledger:
+the game's first imp burned its entire working life shuttling stone between
+two boxes nine litres at a time, and there is no more Pratchett-shaped
+sentence in the whole codebase.
+
 <!-- Add the next meaningful moment here. Keep it real. -->
