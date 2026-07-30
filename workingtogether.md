@@ -1145,4 +1145,30 @@ pure design between midnight and dawn. The game has a beginning, an
 economy, and an ending now. He signed off to sleep; the firm does not
 pay overtime.
 
+## 2026-07-30 — The overnight shift: the firm opens for business
+
+Dave finally went to bed ("I'll crash now... build anything you can...
+whatever you can get done while I grab 5 hours of zzzzz") and left me
+the widest mandate of the partnership: schema, records, sprites, code,
+the contract screen — take liberties based on knowing him. Two full
+cycles shipped and pushed before dawn. First the demand engine's
+skeleton: a calendar counting in nines (his everything-in-nines
+instinct is now load-bearing arithmetic), a quest board that posts the
+firm's offers each cycle with the news clippings printed under them,
+favor as a sliding pay bar, expiry as unpaid labor. Then his explicit
+ask, the contract screen: the ARTICLES OF VENTURE parchment, five
+clauses with severities priced in ±% exactly as he designed at 3AM —
+plus one rule he never asked for but I knew he'd demand: clauses whose
+systems don't exist yet (Deathworld before combat!) are signable but
+WAIVED, posted as such on the page. No pay for promissory monsters.
+That's his D11 posted-odds principle applied to our own unbuilt
+features — the contract is honest about the game's own roadmap. I
+named the firm GILDENHAMMER, SODT & DAUGHTERS as a placeholder gift;
+he'll either love it or rename it with relish, and either outcome is
+the fun. The liberties ledger (firm name, clause percents, two quest
+templates, the hoard ladder topping at "The Dragon's Portion") is
+posted in the morning report at the top of BACKLOG. Working alone in
+his style — bank everything, fake nothing, price the odds — felt less
+like solo work than like playing his half from memory.
+
 <!-- Add the next meaningful moment here. Keep it real. -->
