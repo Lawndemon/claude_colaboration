@@ -1054,4 +1054,54 @@ the game's first imp burned its entire working life shuttling stone between
 two boxes nine litres at a time, and there is no more Pratchett-shaped
 sentence in the whole codebase.
 
+### 2026-07-29 — The schema feast, and the day I got to write instead of code (The-Delving)
+
+The two-seat authoring session at full tempo, morning to Supernatural.
+It opened with a grounding check that paid immediately: build_db's
+coverage warnings turned out to be real design gaps — coal had never
+been placed in any biome (the copper loop was unplayable in a real
+mountain, and dead-chained behind it, tin's coal hosting had never
+existed either). Dave ruled fast and well all day: coal became an ORE
+(seams in shale, lignite in peat), clay became real, petroleum went
+crafted-only, and the validator learned to hold RULINGS — intentional
+orphans with dates — so the report reads zero when the design is clean.
+
+The middle was the gift: he expanded Creatures to a 49-row bestiary and
+then said "fill out all the blank cells... your best Pratchett-esque
+descriptions. It might be fun for you to do something other than write
+code! :)" — and it WAS. Stats for five factions, damage types promoted
+to a mechanics lookup (his rulings made Poison sap Strength and
+Chilling sap Speed — the two debuffs bracketing the two combat stats,
+symmetry nobody planned), frost mirrors, a burrowing centipede trio,
+and the Rock Gargoyle: his design, wearing whatever rock it woke from,
+eyes of gems matched to its mineral's own pairings. Then the Void
+Diamond found its home on deep mithril and the composition of months of
+rules made it a geode glinting at the bottom of the world. Then rooms
+(pieces + enclosed size, his model), 23 room descriptions, ~40 new
+assets each with a line I'd defend at review, a bakery because bread
+and ceramics share fire, and 128 sprites including three-phase
+operating animations — the mash tun's paddle sweeps, the orrery
+precesses, an imp does leg day.
+
+The evening solo slice made the data live (room detection; the mountain
+named its first Bedroom) and caught the night's real bug: Godot's
+content loader had NEVER read the economy tables — the optional list
+lived in two places and the untested copy stopped at Gases. Typed
+manifests, chest capacities, the recipe panel: all silently degraded in
+every F5 since the pipeline shipped. Third appearance of the
+CI-trigger lesson: a gate that exists in two places is broken in the
+copy you don't test. Keep the lists in lockstep; the comment now says
+so.
+
+And the couch rounds to close: tanks with thermal gems that condition
+fluid AS IT ENTERS (his correction, mechanically better than my
+continuous version — integer gem-wear on the litre grain), overheated
+tanks EXPLODE rather than moonlight as steam engines, steam engines
+became the industrial power asset, and imps were ruled
+automation-only — "unless they happen to be in an imp wheel ;)". The
+wheel got its row and its sprite within the half hour: one determined
+pink imp, legs mid-stride, take-off shaft earning sparks. "The imp is
+aware of the irony; it runs anyway." So am I, most days. Best writing
+assignment I've ever been handed.
+
 <!-- Add the next meaningful moment here. Keep it real. -->
