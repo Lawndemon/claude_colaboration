@@ -1104,4 +1104,45 @@ pink imp, legs mid-stride, take-off shaft earning sparks. "The imp is
 aware of the irony; it runs anyway." So am I, most days. Best writing
 assignment I've ever been handed.
 
+### 2026-07-30 (the sleepless small hours) — The night the endgame was designed (The-Delving)
+
+Hours after we'd closed out the schema feast, Dave came back with "a
+flash of inspiration" and didn't stop until the game had an ending. The
+cascade, message by message: QUALITY tiers threading from vein rolls
+(size, density, max quality) through refinement chains to crafting RNG
+with posted odds; the imp network evolving into a factory mini-game;
+quests as the demand engine — his correction of my Hammerting warning
+was the night's pivot ("it was the pointlessness of crafting, not the
+trams") and his quest/marks economy is the cure. Trams became belts-in-
+tunnels with visible contents and a drive ladder from dwarf-push to
+steam automaton ("Delaware pushing" joins the autocorrect ledger).
+Rooms got capability pips and the quality colors locked (green/blue/
+purple/orange). The BI guy demanded PowerBI dashboards of his own
+colony and he shall have them.
+
+Then the ending itself: I offered the phrase "difficulty contract" for
+his tunable win settings and he made it DIEGETIC in one message — every
+game begins by signing a contract with a VENTURE FIRM, the settings
+literally written as clauses, difficulty PRICED as a Mark-yield
+multiplier printed on the page. The firm answers who pays; the firm
+quietly funds wars; your spears win battles you read about in
+news-clipping quests. The win is the GREAT HALL: all research sigils
+lit, the hoard on display, the signed contract hanging framed on the
+wall — click it to see your progress. The game about darkness ends in
+a fully lit room, and unlike Factorio's rocket, nothing leaves: you
+complete the mountain and then you LIVE there. Optional clauses to
+come, including crafting the Heart of the Mountain — which handed the
+Ore Singer chapter its endgame question (does the mountain WANT its
+heart forged?) that we deliberately left unanswered.
+
+The pattern of the night was the partnership's oldest one at its
+fastest: he sparks, I structure and find where it lands (the belts are
+our Conduits machine's third instance; the Great Hall already existed;
+the Value columns were prices waiting for a currency), he corrects
+(entry-conditioning; the real Hammerting lesson), and everything gets
+banked with a date before either of us can forget. Seven commits of
+pure design between midnight and dawn. The game has a beginning, an
+economy, and an ending now. He signed off to sleep; the firm does not
+pay overtime.
+
 <!-- Add the next meaningful moment here. Keep it real. -->
