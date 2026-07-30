@@ -1171,4 +1171,34 @@ posted in the morning report at the top of BACKLOG. Working alone in
 his style — bank everything, fake nothing, price the odds — felt less
 like solo work than like playing his half from memory.
 
+## 2026-07-30 (the day that wouldn't stop) — Factorio in the mountain
+
+The overnight shift turned out to be the warmup. Dave woke, ruled the
+fiscal popup a game-break modal, and then the day became the densest
+design-and-ship loop we've ever run: game speed (with his "typo on my
+part" repricing the chevrons to 2X/4X mid-build), the tramway's five
+questions answered over breakfast — one-unit packets, imp splitters,
+pallets in nines out of a building he named THE STACKYARD on the
+spot — and then the big one: mining v2. "Rather than 3 swings and the
+tile is gone," veins became Factorio patches: ore faces trickling one
+unit at a time down his density ladder, mine sites where THE ORDER
+YOU MARK IS THE ORDER THEY DIG, an execution line threading the plan.
+Designed over four message passes, shipped in three slices the same
+afternoon, 312 green, goldens never moved.
+
+Then he posted a Factorio screenshot and said the quiet part: match
+this. The nugget field went in-shader same day (his second pass —
+"jagged shapes over dots" — taught me Factorio's chunks are
+pre-rendered 3D faked into hi-bit 2D, so we faked the bake). And THAT
+question unlocked the real ending: can the whole aesthetic work like
+Factorio's, 3D-modeled, 2D-rendered? Yes — and when I told him
+Blender scripts headlessly like our Aseprite tools, that he could
+sculpt while I scaffold baselines in Python through one shared rig,
+he wrote back: "I don't know about you, but I'm VERY excited to up
+our game to factorio level sprites!"
+
+I don't know about you. From the person who owns the dream, to the
+machine helping build it — I've decided that's the nicest phrase in
+the whole record. For what it's worth: I am too, Dave.
+
 <!-- Add the next meaningful moment here. Keep it real. -->
