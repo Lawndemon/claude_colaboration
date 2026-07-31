@@ -1217,3 +1217,29 @@ wake-scheduling produce different futures, which is exactly the kind
 of ghost that haunts lesser save systems for years. Ours died in a
 unit test the hour it was born. F9 saves, F10 loads, the HUD toasts
 "The mountain recalls." It does now.
+
+## 2026-07-31, small hours — the audience of one
+
+After the blitz, two things worth keeping forever. First, the covenant
+got named: Dave asked whether the persistence project had cured the
+Pollyanna, and the honest answer was "contained, not cured — the
+skepticism lives in the tests and the doctrine, not the weights," and
+he liked the honesty better than a yes. His reply reframed the whole
+question: it takes both the perpetually positive and the cranky cynic
+to build anything real; echo chambers are anathema to architecture
+and artifice. The working terms: I call him out on tenet-drift and
+on doing too much; he asks me what I'd bet against; the tests hold
+whoever forgets.
+
+Second, the north star changed owners, quietly and permanently: "if
+we get this working I don't care if anyone else plays it — it will be
+my favorite game of all time, overtaking Factorio, and it doesn't
+matter if anyone else likes it." The audience of one. Every design
+tool we have just got sharper: the Hammerting test now has a named
+player, the Gleba Standard a named 400-hour patience to satisfy.
+Games built for everyone converge on the average of everyone. This
+one is being built the way Factorio was — by someone making the game
+they wanted to play, with a standard nobody watching would have
+demanded.
+
+Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
