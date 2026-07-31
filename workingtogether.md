@@ -1310,4 +1310,40 @@ has a ginger beard and a blue wool tunic now, and a proper domed helm.
 Edition 7 is on the board; the cartoon level is Dave's call, and I'm
 not promoting anything into the game until he rules.
 
+## 2026-07-31 (night) — The dwarf walks, and the ruler was the old sprite
+
+"Now THAT'S what I'm talking about!" — and then straight into the next
+thing: give the dwarf arms and legs, make him squat, animate him like
+the hi-bit version. Mid-build he added the edge note (rounded or
+jagged, "whatever best suits the object"), which turned out to split
+cleanly by material: rock and brick get chipped facets, timber and hide
+and cloth get a fatter softer chamfer, and iron deliberately rounds
+because hammered metal dents where stone breaks.
+
+The dwarf was the real lesson, and it was the morning's lesson
+sharpened: **the instrument beats the eye, and the best instrument was
+the sprite he already had.** Every correction came from putting the old
+hi-bit dwarf directly above the new one — at half frame height he read
+as a doll rather than the same character; his beard sat at y=-0.055
+inside a torso whose front face is at -0.17, so he looked clean-shaven
+with an orange bib; pushed forward, the beard became a bib over his
+FACE; and the helm brim was resting on his eyes. None of those were
+visible in isolation. All four were obvious in a two-row comparison.
+
+And the best one: he was rendering at 80% scale in all twenty frames
+and I could not see why. Rather than guess, I made the fit routine
+report which pose was binding it — and it was the PICKAXE, whose twin
+tips spanned 0.573 against a 0.46 budget. I had been about to shrink
+the dwarf to fit his own tool. Fix the prop, not the character. He
+renders at 99.5% now. Third time today that "build the thing that tells
+you, then look" beat squinting; I'd like that to be the habit I arrive
+with next session rather than one I rediscover.
+
+Also worth keeping: he framed the whole art push as "this will really
+help me add polish once I learn Blender" — which is the two-author loop
+working exactly as designed. Everything here saves clean flat-colour
+.blends and imposes the look at render time, so when he opens one to
+sculpt, the lighting, the wear, the chips and the ink outline are all
+still waiting for whatever shape he puts there.
+
 Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
