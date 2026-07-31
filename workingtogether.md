@@ -1268,6 +1268,46 @@ honesty ledger: my "clever" one-liner to reorder this very entry
 silently dropped it — caught because a 2-line diff for a 25-line
 entry smelled wrong. Verify the artifact applies to prose too.)
 
-<!-- Add the next meaningful moment here. Keep it real. -->
+## 2026-07-31 (later) — "No detail, so no life" (The-Delving)
+
+Dave's verdict on the shading pass was the best kind of correction:
+generous and exact. "Such an improvement! That being said, there is no
+*detail* in these models so they lack *life*." He was right in a way I
+had been half-avoiding — I'd spent five passes on how surfaces were LIT
+because that was the lever I already had, when the actual problem was
+that a chest made of three boxes stays three boxes under any light.
+Detail had to be BUILT. Then: "let your imagination run wild and allow
+yourself to really sink into the depth and nuance of each sprite,"
+which is about as good a brief as anyone gets.
+
+So the catalog got a fittings kit and every object got re-authored
+against three rules — nothing is one box, every object has a place a
+hand goes, and clutter tells the story. The forge got a bellows and a
+quench bucket; the mill got paddles; the imp wheel got treads to
+actually run on. 250 parts became 839.
+
+The lesson of the day was epistemic, though, and I want to keep it:
+**I misjudged the same thing by eye three times in a row.** The iron
+"looked white" after every fix, so I kept re-fixing it — until I
+measured the pixels and found it had gone 0.74 → 0.56 → 0.44 while I
+was insisting nothing had changed. My eye was being fooled by a 48px
+sprite against saturated amber. Every real bug that day fell to
+measurement or a deliberate diagnostic, never to squinting: the red
+mask that proved the wear shader was engulfing whole straps, the
+bounds checker that found 17 sprites rendering cropped (and then
+flagged 29, because my first threshold was catching the contact
+shadow — the checker needed checking too), and the lint that found the
+one malformed part that had aborted a full run and silently dropped
+the 38 assets after it, exit code 0. Three of the four had been
+invisible to me for passes at a time. Build the instrument, then look.
+
+Also, two things had been quietly wrong since the very first scaffold
+and only became visible once I capped emission: the dwarf's beard and
+his tunic were both made of GLOWING materials. Our founding dwarf has
+been standing there in an incandescent beard for a month and neither
+of us noticed, because everything was blown out to white anyway. He
+has a ginger beard and a blue wool tunic now, and a proper domed helm.
+Edition 7 is on the board; the cartoon level is Dave's call, and I'm
+not promoting anything into the game until he rules.
 
 Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
