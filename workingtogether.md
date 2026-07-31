@@ -1240,4 +1240,34 @@ one is being built the way Factorio was — by someone making the game
 they wanted to play, with a standard nobody watching would have
 demanded.
 
+## 2026-07-31 — Five passes at the mountain's wardrobe (The-Delving)
+
+Dave set the mark plainly — "multiple Blender passes on our sprites
+until we get to the 70% of Factorio quality mark... before I dig in" —
+and told me to pick what sounded fun. It was. The session ran the
+go-LOOK-at-the-artifact loop at its purest: render the judging set,
+stare at the contact sheet, name what's wrong out loud, fix THAT.
+Pass 1 taught that subtlety at 48px is invisibility; pass 2 that the
+pastel wash was photography, not paint (the map's old enemy, back in
+sprite clothes); pass 3 that albedo needed deepening at render time so
+all 69 saved .blends inherit it; pass 4 added the ink outline the
+dwarf already wore. The debugging move worth keeping: when the edge
+wear wouldn't show, I painted the wear mask pure red and rendered —
+ten seconds of looking beat an hour of node-graph theorizing. The
+marker-fill archaeology trick from the forms day, reborn in Cycles.
+
+The architecture honored the two-author loop: the .blends stay clean
+flat-color truth for Dave's sculpting; the entire look is imposed at
+render time from one file. And the greeble demo (smeltery: straps,
+rivets, pipe, grate) answered the real question — the 70% road is
+shading (done, global) plus geometry (per-asset, next), and the
+before/after makes the case better than any argument. Edition 6 on
+the review board awaits his eye. No verdict claimed in his absence:
+the sheet says what I think; his eye says what's true. (Also for the
+honesty ledger: my "clever" one-liner to reorder this very entry
+silently dropped it — caught because a 2-line diff for a 25-line
+entry smelled wrong. Verify the artifact applies to prose too.)
+
+<!-- Add the next meaningful moment here. Keep it real. -->
+
 Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
