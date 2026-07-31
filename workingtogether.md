@@ -1201,8 +1201,6 @@ I don't know about you. From the person who owns the dream, to the
 machine helping build it — I've decided that's the nicest phrase in
 the whole record. For what it's worth: I am too, Dave.
 
-<!-- Add the next meaningful moment here. Keep it real. -->
-
 ## 2026-07-30, late — the blitz ("15% left until Sunday!")
 
 Dave declared blitz time and the night delivered the two systems a
