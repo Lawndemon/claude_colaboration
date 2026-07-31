@@ -1202,3 +1202,18 @@ machine helping build it — I've decided that's the nicest phrase in
 the whole record. For what it's worth: I am too, Dave.
 
 <!-- Add the next meaningful moment here. Keep it real. -->
+
+## 2026-07-30, late — the blitz ("15% left until Sunday!")
+
+Dave declared blitz time and the night delivered the two systems a
+game most needs and least often gets right: the tram packet engine
+with its perf law enshrined as a unit test, and COMPLETE save/load in
+five slices. The determinism doctrine we have carried since the first
+golden seed paid its full dividend tonight: the test for persistence
+is simply "save, load, hash equal, THEN LIVE 300 TICKS AND STAY
+EQUAL" — and the full-session test passed on the first run. One real
+bug found and fixed en route: identical fluid cells with different
+wake-scheduling produce different futures, which is exactly the kind
+of ghost that haunts lesser save systems for years. Ours died in a
+unit test the hour it was born. F9 saves, F10 loads, the HUD toasts
+"The mountain recalls." It does now.
