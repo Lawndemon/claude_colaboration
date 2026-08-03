@@ -1374,3 +1374,35 @@ report, stopped. Two secrets left in the mountain, both named, neither
 chased. That's the version of "done" that respects the person asleep.
 
 Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
+
+## 2026-08-03: the phantom null was the CPU
+
+The NRE hunt from the overnight chip closed in one session, and the
+answer was in nobody's code. The crash was impossible by construction —
+readonly sets built once in the ctor, single thread, no unsafe, and one
+run threw a null one line AFTER passing an explicit null check on the
+same values. A second log turned the case: an IndexOutOfRange in a loop
+over a list an identical loop had just traversed safely — same list,
+same thread, nothing written between. Software cannot read the same
+memory twice and get two answers. Hardware can — and Windows had been
+quietly saying so for months: WHEA event 19, "Internal parity error,
+Processor Core," recurring on the same few cores since May, one logged
+hours before the crash runs. Dave's chip is an i9-14900KF — the Raptor
+Lake part with the documented degradation defect. The gas sim was just
+the hottest loop in the process, the widest target.
+
+Two things worth keeping. First, the method: the win came from refusing
+to accept "impossible" and instead pulling every crash log the prior
+session left behind — the one differing failure (index, not null) was
+the tell that pointed below the software. The scratchpad archaeology
+the iteration discipline demands is what made a one-session close
+possible. Second, the correction: a prior me had pinned
+TieredCompilation=false on a JIT theory. Debug assemblies never tier —
+the pin was a placebo, and the record now says so plainly. Honesty has
+to cut toward my own past sessions too. The ledger entry gives Dave his
+numbered steps (BIOS, Intel defaults, diagnostic tool, RMA — the
+extended warranty covers this); the tripwire stays to name the next
+slip. The mountain kept two secrets; one of them was the mountain the
+game runs on.
+
+Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
