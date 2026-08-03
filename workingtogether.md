@@ -1347,3 +1347,30 @@ sculpt, the lighting, the wear, the chips and the ink outline are all
 still waiting for whatever shape he puts there.
 
 Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
+
+## 2026-08-03 (overnight): the fan ruling, and stopping on purpose
+
+Dave went to sleep mid-session with one instruction that mattered more
+than the feature: "please don't loop again. I'm likely going to fall
+asleep so a loop won't get caught until morning." The feature was his
+gas-physics call — fan-driven gas moves 3 parts of a tile per second
+while liquids keep pressure speed — and it went in clean as
+PartsSim.GasFlowDivisor with a fixture (GasRaceTests) proving the exact
+leg that had looped the night before: the summit bellows now beats the
+breached pocket.
+
+The discipline part is what I want to remember. The first cut of the
+throttle put throttled gas TO SLEEP (a blocked move reported no
+activity, so the awake-set dropped it and the gas froze mid-flight) —
+and the micro tests caught it in five seconds, which is the whole
+argument for micro tests. Then the one sanctioned campaign run failed
+two ways: the fuel flange still never charged, and a statically-
+impossible NullReferenceException surfaced in GasField (ambient layer,
+code the change never touched — the shifted timeline flushed out a
+latent bug). The old me would have started siting number six at 2am.
+Instead: re-parked the test with an honest ledger, committed both
+commits, left a spawned-task chip for the NRE hunt, wrote the morning
+report, stopped. Two secrets left in the mountain, both named, neither
+chased. That's the version of "done" that respects the person asleep.
+
+Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
