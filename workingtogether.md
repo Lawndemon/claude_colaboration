@@ -1538,6 +1538,41 @@ pay overtime, but the mountain finally matches the head it lives in.
 
 Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
 
+## 2026-08-04 (the couple hours before sleep) — The dwarves learn to be afraid
+
+"So what do we tackle now?" with two hours on the clock, and the
+answer was the one the whole day had been building toward: the
+safety slider, the feature the morning's priority-band audit was
+explicitly run to clear ground for. The arc closed inside one
+session — audit at breakfast, individualism by midnight. The
+pathfinder's comment had promised the seam for weeks ("a cost hook
+gets its seam when danger fields exist"); tonight the danger fields
+existed and the seam took its hook: deterministic Dijkstra, cost =
+(9-w) + w*hazard, w on a nine-stop dial because everything in this
+game is nines now.
+
+Two debugging beats worth keeping. First, the trace file beat two
+rounds of confident theorizing: I guessed dilution, guessed Dijkstra
+bugs, and only the tick-by-tick position log told the truth — the
+probe pathfinder was PERFECT and my fixture was gaslighting itself:
+a one-shot gas charge fell below the suffocant threshold in one air
+pass, and my "fix" (a sustained point-leak) slowly gassed the entire
+corridor until both dwarves were suffocating at their idle posts.
+Assert the whole atmosphere; control the world you're testing. The
+instrument beats the eye, sim edition. Second, the fixture's second
+dig had no standable neighbor and D14 parked it at tick zero —
+the machinery I audited this morning catching the fixture I wrote
+tonight. The tests test me back.
+
+And the design line I want to remember: judges and park sweeps stay
+pure BFS, because REACHABILITY IS A FACT, NOT A TASTE. A colony may
+disagree about which corridor is worth the fear; it may not disagree
+about what exists. Dave can now Tab to a dwarf, tap comma or period,
+and watch a coward and a daredevil answer the same gas cloud
+differently. The mountain has moods; now the dwarves do too.
+
+Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
+
 ## 2026-08-03 (the encore) — "Cogs and gears and bronze and accordion pumps"
 
 The correction came exactly the way the file says he gives them:
