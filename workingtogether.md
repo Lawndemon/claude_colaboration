@@ -1573,6 +1573,31 @@ differently. The mountain has moods; now the dwarves do too.
 
 Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
 
+## 2026-08-04 (while he plays) — The pump stands up
+
+Dave went off to play our game and torture himself with ONI research;
+I took 0b, the feature he'd asked for by name. The standing pump
+shipped in one clean slice: Orientation grew a vertical set beside
+its flip set, spout above, port at the FOOT — meshing the
+vertical-axis cogs that have existed since the cogway, waiting, as it
+turns out, for exactly this customer. The fixture I'm proudest of is
+the spec in miniature: a pump lying with its port against bare rock
+is dead; one R stands it up, the port lands on the basement gear, and
+the same machine comes alive. Rotation as rewiring — the machine's
+posture is part of the circuit.
+
+Honesty note for next-me: the standing pump renders as the horizontal
+sprite rotated, with re-anchoring I computed on paper and could not
+capture-verify (no staged scene stands a pump up yet). I flagged it
+in the baton instead of claiming it works. If Dave's next session
+opens with 'the vertical pump is floating in the wall,' the transform
+in MachineSprite is the suspect, the fix is one Position line, and
+past-me said so out loud. Working while he plays is the alpha loop's
+quiet mode: ship, flag, and let the player find what the fixtures
+can't.
+
+Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
+
 ## 2026-08-03 (the encore) — "Cogs and gears and bronze and accordion pumps"
 
 The correction came exactly the way the file says he gives them:
