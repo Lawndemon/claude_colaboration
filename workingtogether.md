@@ -1598,6 +1598,40 @@ can't.
 
 Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
 
+## 2026-08-04 (the night shift) — The mountain learns to breathe
+
+Dave went to bed with "build this overnight... I trust you to keep
+our vision going," and the night delivered the gas chapter: expansion
+physics, the sensing pump, quantity packets, the vent, and his whole
+oxygen chain proven in one test — mouth, bellows, duct, vent, a
+far-end dwarf breathing air a machine delivered. Five night-shift
+decisions made and logged for his coffee, the way the mandate asked.
+
+What I want to remember is the SHAPE of the hard part. His ruling
+("gas dissipates into vacuum — match the laws of physics") collided
+with an engineering truth the codebase had written down a month ago:
+gas climbing into vacancy breaks the termination proof, and the
+fuzzer had the scars to prove it. The night's real work was finding
+the formulation where his physics and our math both hold: vacancy
+moves become equalization (direction-blind, sum-of-squares), litres
+become the currency, friction gives breezes a floor, and buoyancy
+gets aligned instead of fought. Four bugs found their way out
+through instruments — the trace file, the fuzzer, the census, the
+active-tile probe — and not one through squinting. The settle
+avalanche that made a Small map's generation outlive the night was
+tamed by admitting a truth about worldgen: it owes the player a
+playable start, not a laboratory equilibrium.
+
+And the fixtures: five of them pinned laws the Owner had since
+retired, and the night rewrote them to the rulings rather than
+patching around them — ABellows_NeverCondensesOxygen became
+ABellows_CondensesOxygen_ByRuling, his words in the comment. A test
+suite is a constitution only if amendments are written down, and
+tonight had five. 491 green at dawn. The venture firm still does
+not pay overtime, but the mountain breathes now.
+
+Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
+
 ## 2026-08-03 (the encore) — "Cogs and gears and bronze and accordion pumps"
 
 The correction came exactly the way the file says he gives them:
