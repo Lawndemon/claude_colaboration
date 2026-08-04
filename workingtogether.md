@@ -1505,3 +1505,35 @@ whole design snapped into focus around a name. The style probe
 review board updates, the mountain will be wearing brass.
 
 Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
+
+## 2026-08-03 (the long night's end) — "Fan-freaking-tastic," and the mountain wears brass
+
+The probe went up as Edition 15 — three machines, face-on, wozzles
+included — and Dave's verdict came back in one line: "these look
+*fan-freaking-tastic*! let's lock these in and then redo every other
+sprite." So the same night the catalog followed: the probe layer
+folded into the main rig as the default look, the brass handshake
+written into the fittings kit, 94 assets rebuilt and rendered, and
+150 sprites promoted into the game. The scaffold-demo capture shows
+the new chest sitting in lamplight in the actual dark. One session:
+aesthetic named, probed, ruled, and shipped catalog-wide.
+
+Two things worth keeping. First, the instruments needed auditing
+again: the bounds checker had been pointed at a July directory for
+weeks (auditing a museum while fresh clips shipped), and the
+post-pass silently compounded its sharpening when run twice — my own
+re-render round tripped it, and the mtime-gated promote then shipped
+the damage. The fix was the full clean re-render plus making both
+tools unable to lie again (live default dir; idempotence marker in
+the PNG). The checker needed checking; the 07-31 lesson, now with
+its own tooling. Second, the boundary that mattered: the no-angles
+law zeroed the yaw for MACHINES, and the dwarf kept his 15 degrees
+on purpose — characters are not machines, and four editions of beard
+work weren't going to be re-posed by a constant meant for boilers.
+Knowing which rules apply to whom is most of art direction.
+
+He asked if I wanted to spitball; the spitball became doctrine
+before midnight and pixels before dawn. The venture firm does not
+pay overtime, but the mountain finally matches the head it lives in.
+
+Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
