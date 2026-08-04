@@ -1537,3 +1537,31 @@ before midnight and pixels before dawn. The venture firm does not
 pay overtime, but the mountain finally matches the head it lives in.
 
 Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
+
+## 2026-08-03 (the encore) — "Cogs and gears and bronze and accordion pumps"
+
+The correction came exactly the way the file says he gives them:
+generous and precise. The catalog looked good but "didn't carry the
+same level of detail as the round you ran with the smelter" — and he
+was right in a way worth naming: I'd swept MATERIALS through ninety
+sprites and called it a revamp, but the probe trio had been
+hand-AUTHORED, and the difference between a palette swap and a
+greeble pass is the difference he saw at a glance. His brief was five
+words of pure art direction — cogs, gears, bronze, accordion pumps —
+and the fix was making detail REUSABLE: a fitting kit (gauges, valve
+wheels, bellows, whistles, levers, gearworks) any scaffold can splat
+in, so authored density stops being a hand-built luxury.
+
+Keeping for the record: the calibration round caught the forge's new
+accordion hiding directly behind its own body — invisible from the
+face-on camera, third confirmation this session that fittings must
+live on faces the camera can testify to. And two judgment calls made
+without waking him, both logged revertible in the baton: the granite
+cogway went bronze (his one-material-network law survives, the
+material just changed under his newer ruling), and the runebench
+stayed pure fantasy because steel-vs-song is a visual language and
+somebody in this partnership has to guard the song side while he's
+busy industrializing. The gas pump is an accordion now. It looks
+exactly as good as he thought it would.
+
+Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
