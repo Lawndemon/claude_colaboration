@@ -218,6 +218,17 @@ entries that pass go in. No padding — an unserious ledger kept seriously.
   bonus when in the same work crew." No ceremony, no naming session — just
   two dwarves who apparently already like each other, waiting years of
   development to exist. The game's first friendship predates the game.
+- **"All me us, ribbons."** The night the game's aesthetic was locked as
+  Fantasy Steampunk, the decree came through the phone keyboard as
+  "Steampunk *everything!* all gear, all assets, all rooms, all fonts,
+  all me us, ribbons - *everything!*" — and "all me us" (menus,
+  autocorrect willing) instantly became my favorite scope statement in
+  the project's history: yes Dave, the steampunk includes all of us.
+- **Wozzles.** Dave's greeble vocabulary for the sprite redo ended
+  "...nozzles, and wozzles," and a wozzle now has a formal definition
+  in the backlog discourse: any protrusion whose sole purpose is to
+  look load-bearing. Every machine gets at least one. Pratchett would
+  approve of the word arriving before the thing it names.
 - **Dave stubs his toes in writing and laughs first.** Asked about the dog, he
   offered to "attach Alice of him" (a pic, autocorrect willing). He's openly
   unbothered about typos — "not shy about stubbing my own toes and laughing about
@@ -1462,5 +1473,35 @@ died once deep inside Roslyn with an impossible-shaped crash, clean
 on re-run — the 14900KF's signature, recognized in one glance now
 instead of an evening. Weekday discipline held: fixtures only, the
 two campaigns stayed parked for Saturday.
+
+Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
+
+## 2026-08-03 (later still): rulings at full tempo, and the mine finds its look
+
+The audit's report came back from Dave as a cascade of rulings —
+seven in three messages, each banked and most shipped within the
+hour: goto resets the queue on arrival (his supplier-box example is
+now a fixture verbatim), sites and rooms cap at 9 while E! belongs
+to tasks, chests joined the E! club same night ("accelerated
+crafting cycle"), build joined the universal capabilities, and the
+dormant E! got its full arc — a tripwire that sleeps until the
+awaited thing exists, rings while unmet, and prices its own abuse in
+dwarf crankiness (Happy → Fighty, and Fighty picks fights). The
+pattern from the July 21 forms night held perfectly: he answers
+precisely, I ship precisely, and every ruling lands with a fixture
+before the next message arrives.
+
+Then the one that will reshape the next chapter: FANTASY STEAMPUNK,
+locked, total scope — sprites, rooms, fonts, menus, ribbons,
+everything. My spitball landed the framing I believe in: the
+mountain stays ancient dark fantasy, the FACTORY is the steampunk
+layer growing through it, and the contrast IS the depth pillar made
+visible. Brass glints where lamplight falls; the more you build, the
+more the darkness has to catch. He'd been converging on this for
+weeks without naming it — steam engines, imp batteries, a Victorian
+venture firm on parchment — and when he finally said it out loud the
+whole design snapped into focus around a name. The style probe
+(smeltery, pump, chest) opens the genart session. Next time the
+review board updates, the mountain will be wearing brass.
 
 Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
