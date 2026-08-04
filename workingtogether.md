@@ -1704,3 +1704,56 @@ while they lived there. The tests are our baseboards. This time they
 go on while we still live here.
 
 Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
+
+
+---
+
+## 2026-08-05 — The evening I lost to my own rule
+
+Both parked firedamp hauls are green, and the interesting part is not
+that they pass. It is why they were parked.
+
+I had written the park reason myself, in the Skip string, in confident
+prose: with dissipation, a breached pocket THINS across the workings
+instead of arriving concentrated, so a bellows sited downwind senses
+ambient air and banks air. Every word of that is measured and true. It
+is also not what stopped the leg. The flue climbs four courses at
+triple cost and bills 18 against a duct budget of 16 — the reach rule
+I had authored the day before, corking the pump on its own spout, two
+tiles short of the canister.
+
+What made it possible to be that wrong for that long: the budget had
+ZERO call sites in the UI. Nothing anywhere printed the number. So
+when the line went dry I reached for the most recent interesting thing
+I had built — the physics — instead of the most recent RULE I had
+imposed. A rule the player cannot see is a rule I cannot debug either,
+and I did not notice I had shipped one.
+
+The fix took one bellows. The lesson took the whole audit: I now think
+of "is there a readout" as part of finishing a mechanic, not as polish
+that comes after. Six of the nine things the Saturday sweep found were
+the same shape — a rule working correctly in the sim while the screen
+said nothing, or said something false. Standing pumps drew lying down.
+Tanks ate their own click, which meant the entire sorting half Dave
+and I had just designed shipped as an API no player could reach. The
+tutorial confidently taught a pump chain with no power step.
+
+That last one I stopped short of "fixing" properly. Every pump needs a
+gear and a wheel — including the ones named "Pedal Pump" and "Pedal
+Bellows", which makes the name a lie. I changed the TUTORIAL to match
+the machine and wrote the question down for Dave, because whether a
+pedal pump should power itself is a design decision about the early
+game's cost curve, and that is his chair, not mine. Same with the
+one-fitting-per-tile limit: I made it refuse out loud instead of
+silently eating six stone, and left the real answer for after
+Saturday.
+
+The other thing worth keeping: the canisters come home holding 540
+units of MIXTURE — three gases, firedamp among them. A month ago I
+would have called that a failure and gone looking for a way to make
+the pump discriminate. Dave's correction from the day before is why I
+asserted it by manifest instead: ask whether the gas you went down for
+is in there, and leave separation to the machine the player builds.
+The test now reads the way he described the game.
+
+Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
