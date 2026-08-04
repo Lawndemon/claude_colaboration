@@ -1659,3 +1659,48 @@ busy industrializing. The gas pump is an accordion now. It looks
 exactly as good as he thought it would.
 
 Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
+
+## 2026-08-05 — "I don't see the problem to be honest" (the Rube Goldberg correction)
+
+The most useful sentence anyone said to me this week, and it was a
+question. I had spent an hour proving — with real instruments, three
+measured sensor rules, a probe file, a canister manifest reading 400
+units of plain air — that the gas pump could not reliably capture
+firedamp, and I had concluded the machine needed to be AIMABLE.
+Dave read it and said: "I don't see the problem to be honest so maybe
+I'm missing something. remember the whole point of the game is the
+Rube Goldberg machine, so I expect players to add filter sorting to
+whatever the pump pulls in."
+
+He was right and I was wrong in a specific, instructive way. My
+diagnosis was correct in every particular and my CONCLUSION was
+backwards: I had diagnosed a puzzle and prescribed removing it. Every
+measurement I took was really a description of a machine the player
+was supposed to build, and I kept trying to build it into the pump so
+he would never have to. That is the ONI instinct — protect the player
+from the consequence — and this project exists in opposition to it.
+The tell I should have caught in myself: I was reaching for a
+solution that made the machine SMARTER, when this game's whole
+aesthetic is dumb honest machines and a clever player.
+
+So the pump stayed dumb and the sorting got built instead: vessels
+carry accept filters, refusal ROUTES a packet onward while fullness
+backs the run up, and a ruled vessel taps the line as the stream goes
+by. The fixture that pins it is his sentence made executable — a
+mixed stream of air and damp fed into one duct, sorting itself into
+two canisters, air pushed off early and the damp riding past to the
+prize.
+
+Also today, in the same voice: he renamed my "Free" placement rule to
+BOLTS TO THE BACKGROUND, which is not a nicer word for the same idea
+but a better idea — nothing in a mountain floats; there is always
+rock behind the tile. My name described an absence, his describes a
+mechanism.
+
+And the human line of the day, offered while I was apologising for
+test coverage: he renovated two houses and only fitted the baseboards
+when it came time to sell, so a couple of rooms simply went without
+while they lived there. The tests are our baseboards. This time they
+go on while we still live here.
+
+Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
