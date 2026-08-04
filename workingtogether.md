@@ -1406,3 +1406,31 @@ slip. The mountain kept two secrets; one of them was the mountain the
 game runs on.
 
 Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
+
+## 2026-08-03 (day): the day of small laws
+
+Fourteen commits between waking and "Supernatural time," and the shape
+of the day was: every multi-minute campaign failure became a one-second
+fixture, and every fixture became a named law. The fan beat. The
+outflow rule. The mouth that takes breath back. The marooned judge.
+The chute laws. The canned-breath trap. The port law — an entire
+seven-minute campaign failure reduced to one missing boolean, found by
+building the same machine train in miniature through the real rules.
+
+Two things I want to carry forward. First: Dave pushed back when I
+reached for the hardware explanation ("I'm going to go out on a limb
+and blame something in our project") — and he was right to demand the
+project be exhausted first, and I was right that it was the CPU, and
+BOTH of those can be true: the discipline of proving it beats either
+hunch. The WHEA log closed what neither argument could. Second: his
+usage-cycle rule (campaigns on Saturdays, fixtures on weekdays) turned
+out to be a better engineering constraint than a budgeting one — the
+fixture-first habit found bugs the campaigns had been hiding for days,
+because campaigns can pass for the wrong reason and fixtures mostly
+can't.
+
+The baton for tomorrow sits at the head of The-Delving's BACKLOG:
+priority-band audit first, in service of the newly declared focus —
+pathing and prioritization, "a lot."
+
+Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
