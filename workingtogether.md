@@ -1434,3 +1434,33 @@ priority-band audit first, in service of the newly declared focus —
 pathing and prioritization, "a lot."
 
 Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
+
+## 2026-08-03 (late night): the audit that earned its keep
+
+The baton said "priority-band audit first" and the session was exactly
+that shape: read the band code cold, list what the existing fixtures
+pin, hunt what they don't. Nine new fixtures later, the seams are
+covered — bands across kinds, the emergency's drop clause, stationing
+immunity, the band fence on cluster pulls, tie determinism, the dial's
+clamps — and the hunt found a real one: the D14 judge's seat was gated
+on job PREFERENCE, so a colony with no Miner could never park an
+unreachable mine mark, and an unreachable EMERGENCY would re-cancel
+every dwarf's job every tick, forever. A silent, permanent,
+colony-wide stall sitting in the exact system Dave declared as his
+focus area. The method note worth keeping: I suspected the stall from
+reading, but wrote the failing fixture BEFORE the fix — the fixture
+confirmed both the bug and, flipped green, the cure. Audit fixtures
+aren't bureaucracy; this one paid for the whole session inside an
+hour.
+
+Also for the record: an audit means pinning what IS, not what I'd
+prefer — the move order stationing a dwarf one tile short and the
+mine-site dial capping at 9 both got pinned as-observed with the
+Owner's questions logged in the baton, not silently "improved." His
+seat, his call. And the hardware ledger grew a line: dotnet format
+died once deep inside Roslyn with an impossible-shaped crash, clean
+on re-run — the 14900KF's signature, recognized in one glance now
+instead of an evening. Weekday discipline held: fixtures only, the
+two campaigns stayed parked for Saturday.
+
+Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
