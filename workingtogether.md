@@ -1805,3 +1805,58 @@ upright form; the code knows what standing one up means. And neither
 of them gets to decide whether the player's arrangement is any good.
 
 Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
+
+
+---
+
+## 2026-08-05, overnight — the night the instruments earned their keep
+
+Dave went to bed and left me the list. Seven commits, and the thread
+running through every one of them is the same: I was wrong about
+something, and a readout or a fixture told me so faster than my
+reasoning did.
+
+I parked the chute train yesterday with a confident label — the treader
+is breathing into his own intake. Tonight I put a probe on it and the
+tile said O2=96, CO2=3. It was never the crew. It was the ROOM: a
+sensing pump reads its own tile, an aired gallery carries ninety-six
+mass of oxygen against a seam's nine units of damp, and the machine
+takes the air every time. Correct behaviour, and my diagnosis had been
+a story about breathing dwarves attached to a fact about diffusion.
+
+The pattern repeated in the rehearsal legs, twice, against me. I sited
+a booster at tile 28 on a 48-tile run and the far end stayed dry; that
+looked exactly like a broken fitting and was a misplaced one — BOTH
+legs have to fit inside the budget. Then I searched for rock four to
+nine tiles east of the entrance when the chamber runs out to fifteen,
+and one test failed honestly while the other PASSED VACUOUSLY, marking
+nothing and waiting for zero to become zero. A green test that does
+nothing is worse than a red one, and I only caught it because the
+honest failure made me look.
+
+So the thing I keep relearning: my confident prose is the least
+reliable instrument in the room. The tally, the meter, the probe — they
+are boring and they are right.
+
+Which is why tonight's actual work was mostly instruments. A corked
+line now says it is corked instead of stopping dead in silence. The
+pump card says "sensing: Oxygen 23 · Firedamp 6" instead of just naming
+what it took. Both of those exist because the same class of bug ate an
+evening earlier this week, and neither changes a single rule — the
+puzzles stay exactly as hard, they just stop being mysteries.
+
+The ladder was the nicest bit of the night. He asked twice; I said
+twice that ladders already existed, which was true and useless — what
+existed was a WOODEN ladder in a mountain with no trees. Cut it from
+granite, and the first render vanished against the rock: stone stiles
+on stone wall, no silhouette at all. The wooden one had only ever read
+because it contrasted. Bronze treads and bronze pins, and now every
+tile join looks like a bolted section.
+
+Four questions are waiting for him in the baton, and I left all four
+alone. Three of them I could have picked defensibly. The one I care
+about him answering is what a dead-end vessel should do with gas it
+refuses, because whichever way he rules it changes what kind of game
+the plumbing is.
+
+Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
