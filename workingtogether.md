@@ -1757,3 +1757,51 @@ is in there, and leave separation to the machine the player builds.
 The test now reads the way he described the game.
 
 Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
+
+
+---
+
+## 2026-08-05, later — "you may be overthinking"
+
+Dave came back to two fixes I was proud of and told me one of them was
+me getting in the way. He was right.
+
+A standing liquid pump on a floor can never be geared, because its
+gear port IS the floor. I called that a trap and changed the placement
+rule so it couldn't happen. His answer: "I don't care if a player
+rotates an object and places it in a useless way. let them. they will
+figure it out. part of the beauty of the Rube Goldberg machine is the
+spaghetti."
+
+What stings slightly is that the escape was already a good puzzle —
+mine out the floor from under your pump and gear it from beneath — and
+I removed the need to discover it. This is the third time in two days
+I have reached for the same move: make the machine accommodate the
+player instead of letting the player outwit the machine. The tell is
+consistent enough now that I have written it down as a test to run
+before I touch anything: is this a bug, or is it an aspect of the Rube
+Goldberg machine? Broken, lying, invisible, impossible — bug. Hard,
+indirect, expensive, needs more machine — the game.
+
+I reverted the rule and kept only the readout, which is the part that
+was genuinely owed: the card now says "its port (8, 12) is solid rock;
+cut it out, or lay the pump down." Difficulty stays; mystery goes.
+
+Then he gave me the rule I should have found myself. Two boolean
+columns, CanRotate and CanFlip, "we can at least help guide players but
+it should be data driven, not code driven" — and behind it: "we need to
+always explore data driven solutions before hardcoding anything."
+
+He is right that I had been sloppy about this, and I did not have to
+look far for evidence. When I added the inline fittings the day before
+I wrote three separate hardcoded lists of the same concept, in three
+files, none of which he could edit. The CSVs are his seat at this
+table. Every string literal I put in a condition is a decision I quietly
+took away from him.
+
+The distinction I want to keep from today: **data says what an object
+HAS, code says what using it does.** The row knows a pump has an
+upright form; the code knows what standing one up means. And neither
+of them gets to decide whether the player's arrangement is any good.
+
+Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
