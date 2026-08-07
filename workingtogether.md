@@ -1860,3 +1860,79 @@ refuses, because whichever way he rules it changes what kind of game
 the plumbing is.
 
 Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
+
+---
+
+## The day three systems found out they were connected (2026-08-06)
+
+A long one, and the code was the smaller half of it.
+
+The morning was readouts: an overlay ribbon he asked for, built as
+engine queries rather than renderer colours, so a headless test can
+assert the cogway overlay agrees with the cogway — including the pump
+that sits on a turning line and starves anyway because a rival upstream
+spent the budget first. Then interrogation: click a tile with an empty
+hand and every overlay answers at once, so a dead pump explains itself
+whether or not you had the right view up.
+
+While wiring that I found the starved-machine sentence existed twice —
+once in the card, once as a hand-copied replica in a Core test, with a
+comment asking the next person to re-sync them by hand. Two copies of a
+diagnostic drift, and a diagnostic that has drifted is worse than none.
+
+Then he priced the power economy in DWARFPOWER — one dwarf in a wheel is
+1.00, a pump is a quarter of one — and that is when the day got
+interesting, because three separate things turned out to be the same
+mistake wearing different clothes.
+
+Winding fought the every-N-tiles booster rule: he had just made inline
+pumps need cranking, and a distance rule would have scattered permanent
+chores across the map. The tram's flat per-line fee reversed to per-tile,
+because length should be a decision. And stretching a calendar day from
+two real minutes to ten made a dwarf breathe five times slower in real
+seconds while his pick swung at the same rate — suffocation quietly five
+times gentler, which nobody asked for.
+
+None of those were caught by being clever. Each was caught because a
+number lived in exactly one place and something asked it a question.
+
+Five laws came out of it and went into AGENTS.md, because the useful
+output of a day like that is rules, not fixes: required parts must be
+maintenance-free, no system may require itself, ask which clock a number
+follows, a failed part holds its last position, and test the rule rather
+than the number.
+
+The best exchange was the plumbing design. I proposed a check valve and
+he called it a flange, and rather than let it slide I told him a flange
+is the bolted collar and the one-way part is a check valve — and he
+thanked me for it and took both words, giving "flange" to the adapters
+that actually join things. He has said before that he likes being taught;
+it is worth believing him.
+
+He also caught ME. I flagged ten rows of MaterialsOres as dangling
+references, and he asked whether those columns were just the halves of a
+composite key spelled out so his eye could read them. They were exactly
+that — MaterialOreID is literally MaterialID + OreID, ten rows out of
+ten. His sheet was right and my checker was wrong, and the fix was to
+teach it to detect composite keys rather than to carve out an exception.
+
+Two lessons of my own. I burned an hour and a half re-running a
+four-and-a-half-minute suite for whitespace-only changes until he said
+the tokens were burning — he was right, and the fix was a four-second
+shape pass for the typing loop with the full suite kept for pre-commit.
+And the pictures keep earning their keep: a wind-gauge capture showed
+the inline pumps were being drawn behind their own pipes, invisible for
+days, in a game whose own sheet already said which layer they belong on.
+
+We ended on the imp box — one box, one job, sense or act but never both,
+with boolean logic falling out of the cogway itself: OR is two shafts
+meeting at a gear, AND is two in series. He wants players to build their
+own filters and splitters out of primitives, which is right, and the
+guard rail is that every primitive keeps a dumb manual default so the
+game never requires the clever version.
+
+He said it feels like 5D chess now. It does. But the coupling is what
+makes it a colony sim instead of a pile of minigames — the danger was
+never that the systems touch, only that they might touch invisibly.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
