@@ -1936,3 +1936,65 @@ makes it a colony sim instead of a pile of minigames — the danger was
 never that the systems touch, only that they might touch invisibly.
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+
+---
+
+## The night the settings screen stopped lying (2026-08-07, overnight)
+
+He went to bed and told me to keep going, so I did.
+
+It started with him cursing at ONI for crashing while he played it. He
+asked whether to do a code review or a new feature, and the honest
+answer was that his own complaint WAS the feature: the thing he hates
+most about the market leader is a competitive advantage available for
+about an hour of work.
+
+The review found the bug inside the feature, which was satisfying. His
+settings screen has offered an autosave slider since settings existed —
+persisted, clamped, rendered, and read by absolutely nothing. A player
+who set it to five and played all evening was covered by nothing at all
+and had been told otherwise by the game. The save itself wrote straight
+over the only file, so an interrupted write left you with no colony
+rather than an old one.
+
+Then the same shape again, twice. Every VIDEO setting was applied only
+when he pressed Apply, so the window mode he chose last night was
+ignored at every launch — the one moment it matters. And when he asked
+me to sweep the rest, thirteen of fifteen settings turned out to have no
+consumer at all: four worldgen sliders that reached no generator, an
+edge-scroll option that had never been implemented, a default map size
+the game ignored.
+
+Three bugs, one species: data that is saved, loaded, clamped and
+rendered, and consumed by nothing. None of them LOOKED broken. They
+looked finished. That went into AGENTS.md as a rule with the whole
+consumer map beside it.
+
+The bit I am most pleased with is the two sliders I did NOT wire. Enemy
+frequency and strength configure a combat system that does not exist, so
+they are greyed and labelled "(not yet)". A control that lies is worse
+than a control that is missing, and the row still tells him what is
+coming.
+
+The care went into the worldgen dials. Adding a knob to a deterministic
+generator is only safe if the default path is untouched — not
+equivalent, untouched — so the code branches on 1.0 rather than
+multiplying by it, and the cavern dial moves the noise THRESHOLD rather
+than the noise, so turning it explores a family of related worlds
+instead of scrambling to an unrelated one. Every pinned world golden
+survived, which was the whole argument.
+
+And I left one thing alone deliberately. Thirty-nine assets author a
+footprint in his sheet and nothing consumes it: occupancy is
+per-anchor-tile, and the renderer measures the PNG instead. A 2x2 dwarf
+wheel occupies one tile. That is a gameplay ruling — does it block four
+tiles, which corner anchors, what happens to every fixture — and not
+something to assume at three in the morning on behalf of a sleeping man.
+It is in the baton with the questions spelled out.
+
+Earlier in the evening he said it feels like 5D chess keeping these
+systems straight. I think the settings sweep is the counter-argument:
+the systems are fine, it is the JOINS that rot, and joins are findable
+if you go looking for data nobody reads.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
