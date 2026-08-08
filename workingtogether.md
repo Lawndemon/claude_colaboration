@@ -2060,3 +2060,43 @@ the GAME is missing a mechanic — twice today the answer was the game,
 and those two flags are worth more than the thirty fixes.
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+
+---
+
+## The review that paid for itself, and the campaigns that told the truth (2026-08-07, late)
+
+He asked what to do with the leftover weekly budget and took the plan
+in one line: review first, campaigns after. Both halves earned out.
+
+The review found four things in my own morning diff, and the worst was
+the one I would least like him to have found first: the seal reconciler
+I had defended as "steady-state cheap" was rebuilding its alias maps
+every tick with a LINEAR CONTENT SCAN per machine — in the exact loop
+the Hammerting clause exists to protect. Dirty-gated now on version
+stamps, footprints cached, the hover-path lookup bounded, and the seal
+readouts corrected to admit room air still seeps past (a card that
+overstates a seal is a card lying about the model that keeps dwarves
+alive). All gate-proven before the campaigns ran.
+
+The campaign re-survey was the budget-heavy half and it converged the
+way the fixture arenas taught me to expect: geometry first, then the
+physics underneath. The best find was architectural — a two-course
+corridor carrying a ceiling main is UNINHABITABLE for 2x2 vessels, and
+the answer was above everyone's heads the whole time: the chamber is
+tall, so the mains moved up a course each and the freed row became a
+power bridge, one wheel driving two machines. The second-best find was
+his own sheet talking: the Air Intake has said 2x2 since he authored
+it, and the day its body became real it ate the ore staircase — which
+is exactly the kind of thing the entrances chapter needs to know
+before it pre-places that object on every mouth.
+
+Both campaigns are parked again, but the parking note changed species:
+not "the geometry is stale" but four named physics questions with
+micro-fixture prescriptions — water that will not run a road, damp
+that will not fall an aired shaft, a canister full of canned breath, a
+vein dig that stalls. The discipline note held this time: I stopped at
+one final run instead of iterating nine-minute campaigns, because
+three re-lays into HaulThree this afternoon I had already paid for
+that lesson once.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
