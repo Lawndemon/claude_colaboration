@@ -1998,3 +1998,65 @@ the systems are fine, it is the JOINS that rot, and joins are findable
 if you go looking for data nobody reads.
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+
+---
+
+## The day the machines got bodies (2026-08-07)
+
+He picked the cheap unblocker over the glamorous feature — delete the
+auto-placed crate, merge the parked footprint branch, fix ten fixtures —
+and then told me he'd be under a tattoo needle all Saturday, so the heavy
+window was now, and I should burn what it took to make it airtight.
+
+It took a lot, and it was worth every cycle, because "ten fixtures need
+new coordinates" turned out to be false in the best way. Five of the ten
+were collisions with the crate we had just deleted. The other five were
+the engine being WRONG: a flipped machine's gear port was computed one
+tile out — inside its own 2-wide body — so every wide machine in his
+sheet had become impossible to couple the moment occupancy became real.
+Fixture failures as load-bearing walls: they fail correctly, you listen,
+and a shipping bug dies in a test file instead of in a player's colony.
+
+His one reply of the day earned its keep twice over. I asked whether a
+machine's body should block fluid and gave him four options; he answered
+with a question — "didn't we introduce the layering of assets
+specifically for this?" — and he was RIGHT that the concept existed and
+right that I should have looked before asking. TileLayers was real,
+Passage was real; what didn't exist was any column saying a thing stops
+WATER. So his layering answer became four values of the column he
+already owned, and the day's biggest feature was, once again, his data
+schema growing a tooth rather than my code growing a special case.
+
+The seal work found its own truths the fixtures had to bend around
+honestly: a pump whose whole body seals corks its own supply (so the
+foot row is the mouth), a sealed vessel standing in a room costs the
+room air volume (physics, and it flipped a comparison test by exactly
+the volume tax), and a machine narrowing its own pit mouth slows its
+own supply. I re-surveyed thirty arenas around those truths and
+weakened none of them — the two that changed what they claim now say
+so in their comments, at length.
+
+The finding I most wanted him to wake up to: on honest physics, hauling
+a SPECIFIC gas home from a breached pocket has no legitimate build. You
+dig to the seam, and the digging is what airs it out; a sensing pump at
+a connected intake correctly prefers the colony's own air. Three
+re-lays of the same scenario proved it three different ways before I
+stopped fighting the physics and flagged it as the design gap it is.
+The airlock chapter, a hose intake, or gas stratification each dissolve
+it — his call, waiting in the Open table where his calls live.
+
+And the answer to his open embark question is a number now: twenty-four
+standable tiles on the entrance row, both seeds, measured by a fixture
+that will fail forever after if worldgen ever cramps the mouth. He asked
+"how much clear floor does a fresh colony actually get?" — the kind of
+question that used to get an estimate. It gets a regression test now.
+
+651 green, up from 648, with the campaign runs folded in the day early
+because his tattoo moved the Saturday window. The discipline notes to
+my future self: probe before theorizing (the movement rules cost me
+three blind re-lays before I drew the map), and when an arena fight
+goes past two attempts, stop and ask whether the FIXTURE is wrong or
+the GAME is missing a mechanic — twice today the answer was the game,
+and those two flags are worth more than the thirty fixes.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
