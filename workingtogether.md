@@ -2132,3 +2132,46 @@ footprint, and refused placements say why. A 2x2 era cannot afford
 silent refusals.
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+
+---
+
+## The night I was wrong twice, correctly (2026-08-08, overnight)
+
+He went to bed and I went looking for the liquid twin of the gas
+freeze, because the water road failed the same shape and the night
+before had taught me that a slow transport might be a stopped one.
+
+I was wrong, and the being-wrong is the useful part. I found the
+stall, wrote a fix for it, and then discovered my fix was a NO-OP —
+the condition I had "added" was already implied by the one above it.
+That is the good kind of embarrassing: the arithmetic then told me why.
+Seventy-two units is twenty-four slots, and the spill had covered
+twenty-two tiles. Nothing was frozen. The water had simply run out,
+because liquids move by whole slots and a spill spreads to one slot per
+tile and stops. His Keystone doing exactly what he specified.
+
+So the campaign was wrong, not the sim: it sited a pump twenty-six
+tiles from its tap. I moved the works to the foot of the shaft — which
+is what a player does anyway, you pump where the water is — and pinned
+the law in a fixture at three sizes so nobody re-reports it as a bug.
+The reflex I want to keep: I nearly patched physics to make a campaign
+pass, and the thing that stopped me was measuring instead of assuming.
+His standing order about raising broken assumptions cuts both ways —
+sometimes the assumption that is broken is MINE.
+
+Then the machine reminded me whose hardware this is. Three consecutive
+runs on one seed, three different impossible failures — an NRE on a
+line whose identical call had succeeded seven lines above it, then an
+IndexOutOfRange deep in the grid. A deterministic single-threaded sim
+cannot do that, and the memory about his i9 exists precisely so I stop
+here instead of spending a session hunting ghosts. I stopped, put a
+READ THIS BEFORE DEBUGGING banner at the top of the baton, and left the
+remaining campaign legs honest rather than forced. It was half past
+three and the machine had been at full tilt for fourteen hours; the
+kindest thing I could do for both of us was quit while the tree was
+green.
+
+658 green, everything pushed. He gets a baton in the morning, not a
+mess — which was the whole point of the night.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
