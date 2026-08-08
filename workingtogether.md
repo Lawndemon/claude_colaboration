@@ -2100,3 +2100,35 @@ three re-lays into HaulThree this afternoon I had already paid for
 that lesson once.
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+
+---
+
+## One sentence from him, one condition from me (2026-08-08, just past midnight)
+
+The gas-column fixture put a broken assumption on his desk — the law
+both campaign chutes were built on did not exist; long columns freeze —
+and he answered with a design ruling instead of a patch instruction:
+"I am open to whatever can make gases essentially move like slow
+water." That sentence is the whole spec, and it is a better spec than
+the one it replaced.
+
+The implementation was ONE CONDITION — downward moves into vacancy fire
+on any surplus, the way water falls — plus a termination proof small
+enough to live in a comment. And the verdict that made the evening: 654
+green with zero fixture changes. The freeze had been load-bearing for
+nothing. Every behavior anyone had ever tested survived; only the
+frozen columns woke up.
+
+His preamble matters more than the ruling: "if we find that any
+assumptions we've made in game logic aren't working the way we intended
+please raise it." That is a standing order to keep doing what the
+fixture did — measure the assumption, put the contradiction in front of
+him, and let him rule. The alternative — quietly patching physics to
+make a campaign pass — is exactly the drift the Rube Goldberg question
+exists to catch from the other side.
+
+Also shipped while he played: the build ghost wears its whole
+footprint, and refused placements say why. A 2x2 era cannot afford
+silent refusals.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
