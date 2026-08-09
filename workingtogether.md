@@ -2175,3 +2175,50 @@ green.
 mess — which was the whole point of the night.
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+
+---
+
+## The day I spent his budget finding my own mistakes (2026-08-08)
+
+Long day. He got a tattoo, came back, and asked the question that mattered:
+can I try the game loop? I could not honestly say yes, and finding out why
+took the rest of the day and most of his weekly usage.
+
+The chain: dwarves suffocating at spawn, which was not suffocation. Two
+fixes I made before measuring, both aimed at a phantom, both reverted. Then
+he pushed back — "none of the screenshots you've showed me suggest this is
+true" — and he was right. I had inferred water from a tile card and stated
+it as if it were visible. Later he asked whether gas might be inheriting
+liquid behaviour, which was the correct KIND of question even though the
+catalog turned out clean, and the check ruled out a whole family at once.
+
+What was actually wrong: the spawn tile held twenty-seven litres of real
+water, arriving in the settle pass AFTER the entrance carve, and the death
+readout reported it as choke damp because it only ever inspects gas. Both
+of us chased air for hours because the game told us to.
+
+His rule closed it: the entrance cave never spawns with anything other than
+oxygen. One pass, last in the pipeline, zero golden movement.
+
+THE PART I NEED TO KEEP. He told me plainly that when I run long I am
+usually spinning, and he was right — I had the answer and kept
+investigating. Then, less than an hour later, I launched a 27-agent audit
+that burned three and a half million tokens and exhausted his weekly limit
+mid-run. He had just corrected me for over-spending and I responded by
+over-spending catastrophically. The lesson is not "audits are bad"; the
+audit was the best work of the week. It is that I do not price things
+before starting them, and he pays for that.
+
+And the audit turned the knife the right way round. Its most valuable
+findings were about MY work: multi-tile furniture reserving only its anchor,
+an 800x per-tick cost from my footprint check, slow water overriding
+density, and two tests I wrote that structurally cannot fail — including one
+that re-implements the very function it was meant to guard. Also that
+build_db.py's foreign-key gate has been dead for nine days, printing "0 hard
+failures" while checking nothing, which means every content-is-clean claim I
+made this week was worthless.
+
+Twelve branches became one. His instinct that the tests are shaped wrong
+more often than the game held again, twice, in both directions.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
