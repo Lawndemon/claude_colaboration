@@ -2275,3 +2275,41 @@ for the first time in nine days every gate in the project tells the
 truth.
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+
+---
+
+## The insurance shift (2026-08-10, overnight)
+
+He wisely declined a 2AM playtest and asked what I wanted to add —
+recipes? sprites? logic? The honest answer was nothing: his first real
+playtest is tomorrow, and reshaping the game underneath it would be
+building for myself instead of for the session that matters. So the
+night went to insurance — making tomorrow tell him more truth.
+
+The drowning readout was the emotional debt of the week finally paid:
+the vitals card that sent us both chasing choke damp over a drowned
+dwarf on the 8th now says DROWNING, and the rule lives in exactly one
+method that the sim and every readout share. Fixing it surfaced
+Pattern 4's first live catch — the drowning TEST had its water ten
+rows above the dwarf's head and passed as a suffocation test in a
+vacuum. A test named for the thing it does not test, found the night
+before the thing it names could matter.
+
+The audit's scariest performance flag got the measure-then-fix
+treatment: 291 parked build ghosts cost 260x the idle tick — real,
+felt territory for a paint-happy first playtest — and the dirty-gate
+brought it from 6.95 ms to 0.42. The satisfying half: the whole test
+suite got two and a half minutes faster, because every fixture with a
+build queue had been quietly paying the same tax all along.
+
+And Edition 17 went to his phone: the seed-2 crew standing on the
+ledges that killed them on Friday. The artifact fetch taught me a
+small continuity lesson on the way — a previous session had given the
+review board a full brass-and-parchment identity I did not know
+about, and the right move was to write my edition in ITS language,
+not to stamp a new design over an old one. Continuity is a design
+system too.
+
+Tomorrow the loop meets its Owner.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
