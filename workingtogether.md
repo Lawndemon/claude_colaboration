@@ -2447,3 +2447,32 @@ look at what is living there first. The header lies; the directory
 doesn't.
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+
+### The great scrub (2026-08-11, small hours)
+
+Dave's order after the pixel-dwarf incident: scrub every document a
+new session ramps up from, and make purging legacy content part of
+the regular update — "this isn't the first time we've pulled
+something stale forward."
+
+A scout swept the whole surface and the rot was systemic, not
+incidental: AGENTS.md — the FIRST file a fresh session reads — was
+still routing agents into the retired pixel tool, hours after that
+exact route cost a revert. Twelve plan docs said "in progress" about
+work that shipped weeks ago. The entrances plan said "not built"
+about the day's biggest feature. Two audits read as live work with
+their top findings long fixed.
+
+The pattern behind all of it: this project's docs record decisions
+beautifully and record SUPERSESSION almost never. Shipping writes new
+text; nothing was deleting the old claim it falsified. So the scrub
+law, now codified in the baton and in memory: every update purges
+what it retires, in the same session. A status line is a claim to
+verify against the code, not a fact. The header lies; the directory
+doesn't.
+
+Also scrubbed my own memory files by the same law — the "focus on
+pathing and priority" note from 08-03 was steering work his playtest
+lists had since overtaken.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
