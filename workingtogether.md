@@ -2399,3 +2399,28 @@ was given or chose: wagon, crew, arch, intake on the high rim,
 exhaust at the shoulder, and a calm green "Entrance" over it all.
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+
+### Late-night coda — the mountain was haunted by its own physics
+
+Dave banked two rulings from the couch (demolition drops a rubble
+pile of everything delivered or used; faction standing is an unnamed
+1-to-9 gradient, 1 stabby, 9 happy) and said "let's hit that big
+mountain." The frontier tripwire we set this morning paid out before
+midnight.
+
+The lesson worth keeping: the profiler beat every hypothesis I had.
+I suspected the parts sim, the seals, dwarf planning — the per-phase
+readout said 99.7% air, and the awake-set counts said oxygen was
+innocent and the AMBIENT gases never slept. From there the bug read
+itself: drift and diffusion disagreed about what equilibrium looks
+like, so every worldgen pocket was a perpetual motion machine. Two
+subsystems, each individually correct, each undoing the other's work
+forever — the cost wasn't in either one, it was in the disagreement.
+One sentence of physics (a stacked pocket is at rest) beat any amount
+of clever caching, and 618 tests agreed without a single re-pin,
+because stratification was what they had all been asserting anyway.
+
+Large: 7.8 to 0.056 ms per tick. Huge: 24.9 to 0.109. The Whole
+Mountain is on the parchment.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
