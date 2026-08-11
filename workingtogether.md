@@ -2527,3 +2527,42 @@ no removal path, as a danger for exactly this feature. Building the
 feature retired the danger. 714 tests green across both tiers.
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+
+### The mountain reads its own table — and the tests read the mountain
+
+Dave's mandate was one sentence ("let's absolutely make worldgen use
+the database! in fact, let's focus on removing any hard-coded
+structures across the board") and the chapter it opened turned out
+to be as much about test philosophy as about worldgen.
+
+The June-authored mineral ladders went live: eight gases placeable,
+pools and vents filling from their host rock, caverns breathing what
+the rock exhales. But the day's real lessons were the catches:
+
+The Deep tier earned its nightly seat. My first breath pass rolled
+per TILE, and only the Deep suite could see that confetti gas is a
+gradient at every boundary — the whole mountain born churning, the
+exact perpetual-motion disease the big-mountain hunt had just
+killed. Per-cavern rolls fixed perf AND play: a firedamp cavern is
+a hazard you learn.
+
+Two kinds of hand-list, two different cures. The bellows' condense
+roster and the buoyancy table were pure positional redundancy —
+DELETED, generated from the convention. The vent's breathable trio
+looked identical and wasn't: I widened it, a test caught it within
+the hour, and it went back as the named design split it always was.
+The grep finds the lists; only the tests know which ones are load-
+bearing.
+
+Scenarios must not pin worldgen dice. The haul cavern rolled brine
+the session pools learned their ladders. The ladders are Dave's
+dials — a fixture that breaks on every dial turn is a maintenance
+trap. So the scenarios stake their own water and test the HAUL.
+
+And the CPU testified again: FortyMountains failed in the sweep and
+passed 40/40 solo — the same test it phantom-asserted last session.
+Eighth impossible event. Re-run before debugging remains the law.
+
+Everyday 638, Deep 85, both green. Commit 7a278bd.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
