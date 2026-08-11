@@ -2476,3 +2476,33 @@ pathing and priority" note from 08-03 was steering work his playtest
 lists had since overtaken.
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+
+### Dawn coda — the code scrub, and what the dark tier knew
+
+Dave's order: no dead or dangerous code before the complex chapters.
+Two scout sweeps and the compiler found plenty — a catch-all that
+turned unknown buildables into ladders, saved state the hash couldn't
+see, one player action outside the replay log, a repealed law still
+running its enforcement machinery for nobody.
+
+But the find of the night was structural: the Deep test tier had
+been dark for days. "Run it by hand when things change" had a human
+in it, and the human forgot — the golden save sat unreadable for
+thirty hours, a rehearsal's wheel stood on furniture that didn't
+exist when the fixture was written, a warehouse never got the telling
+every everyday fixture got. Running the dark tier pulled a thread
+that reached all the way back to a PLACEMENT decision: the crayon
+boxes on the doorpost were standing on the colony's best floor, and
+three different fixtures had already tried to build there. The boxes
+mount the arch itself now — the fourth placement, the one the very
+first capture had accidentally argued for. CI got a nightly Deep job.
+A schedule forgets nothing.
+
+And the machine itself testified: seven impossible events in one
+session — phantom nulls, phantom asserts, a test discovery that
+silently shrank. The tests were innocent every time; the silicon was
+not. Dave's CPU memo is now urgent rather than advisory.
+
+703 tests, all green, both tiers. The repo and its story match.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
