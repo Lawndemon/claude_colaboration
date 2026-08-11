@@ -2566,3 +2566,36 @@ Eighth impossible event. Re-run before debugging remains the law.
 Everyday 638, Deep 85, both green. Commit 7a278bd.
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+
+### The enrichment round — the sheet grew teeth
+
+Dave's brief was three items (columns, descriptions, sprites) plus
+"anything else you'd include?" — and the answer turned out to be:
+the two air-boundary columns yesterday promised, the vents seat,
+the hardness ladder, four tunable promotions, a recipe flag that
+was documented but never enforced, and a description net over every
+table forever.
+
+Patterns that held: absence preserves (absent columns read as the
+historic boundaries, hosts without rows keep the array's choice);
+sheet-vs-fallback lockstep tests everywhere a fallback exists; and
+RESERVED notes instead of premature wiring (the power budget is a
+chapter with an Owner ruling in it, not a wire-up).
+
+The round's best vindication was immediate: making SpriteStatic the
+resolver instantly exposed two cells that had held bare item ids for
+weeks — the exact failure mode of parsed-but-unread data. And the
+save golden re-primed to the SAME hash after the vent conversion,
+because the authored rows mirrored the array's host preferences
+exactly — behavior preservation you can measure.
+
+The CPU logged its NINTH phantom: a saturated gate run silently
+discovered 8 fewer tests (637 green where the honest count is 645).
+New house discipline: gate results get count arithmetic, not just
+a green checkmark. Everyday 645, Deep 85. Commit 33c4baa.
+
+Next up, Dave's call: the SpriteArcs chapter — verb-named animation
+rows keyed by the global id namespace, so literally everything can
+animate and nothing has to.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
