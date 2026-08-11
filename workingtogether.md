@@ -2506,3 +2506,24 @@ not. Dave's CPU memo is now urgent rather than advisory.
 703 tests, all green, both tiers. The repo and its story match.
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+
+### Destroy ships — the verb that ate its own dogfood
+
+Dave named it ("Destroy, it's more Dwarfy"), ruled it (dwarf labor at
+build-time cost, rubble of everything used, containers spill), and
+amended my suggestion in the best direction — I proposed folding the
+pre-placed ports into the destroyable world; he made them CHARTER,
+indestructible like the wagon. The design conversation took four
+messages. The implementation honored a day's worth of earlier
+lessons without needing to relearn any of them: the dispatch throws
+on unmatched ids (the scrub's FinishBuild discipline), the
+destination claim's answer counts, the marks are saved AND hashed on
+day one, the charter holds at the API and not just the card (D21),
+and the spill test is his sentence verbatim —
+DeletingABladderOfCO2_FloodsTheRoomWithCO2.
+
+The satisfying symmetry: the scrub had flagged that most stores had
+no removal path, as a danger for exactly this feature. Building the
+feature retired the danger. 714 tests green across both tiers.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
