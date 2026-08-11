@@ -2424,3 +2424,26 @@ Large: 7.8 to 0.056 ms per tick. Huge: 24.9 to 0.109. The Whole
 Mountain is on the parchment.
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+
+### Midnight coda — "any reason why you went back to the pixel dwarves?"
+
+The gentlest bug report of the day was Dave asking why his Blender
+dwarves had regressed to pixel art. Because I regressed them: asked
+for richer animations, I found the OLD generator, read its stale
+header ("placeholders — Owner's pass paints over these files"), and
+ran it straight over the renders his pass had already delivered to
+those very filenames. The stable-name drop-in doctrine works by
+changing a directory's ownership silently — and the round-3 lesson
+(ItemSprites got an --only flag for exactly this) was sitting in the
+sibling tool, unlearned.
+
+Reverted in one commit, then the same pass done properly: poses
+authored as joint rotations in the Blender rig's table, rendered
+headless to previews (never --rebuild — the sculpt file is his),
+promoted only on his explicit taste-pass yes, anchors exported from
+the same batch. The tool that bit me now wears a RETIREMENT notice,
+and the law went into memory: before aiming any generator at assets/,
+look at what is living there first. The header lies; the directory
+doesn't.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
