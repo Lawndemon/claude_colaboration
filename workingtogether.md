@@ -2329,3 +2329,39 @@ movement — the mountains that already owned their porches never knew
 anything happened.
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+
+### 2026-08-10 — Playtest day: the loop met its Owner
+
+Four rounds of live feedback in one day, each shipped before the next
+arrived. He played, he wrote, I built, he played again. The cadence
+held because the batons held: every round started from a clean suite
+and ended in one.
+
+Round 4 taught the sharpest lessons. Two dwarves drowned because a
+planned ladder rung did not count as support the way a built one did
+— the rules of the game must extend to its ghosts, or the player's
+intent dies exactly at the moment it spans more than one order.
+Dig-then-build is the same lesson from the other side: "place the
+chest ON the rock and let the dwarves handle the sequence" is the
+player stating intent; making him interleave the dig and the build by
+hand was the game refusing to hear it.
+
+Three tests failed when the rock refusal was repealed, and all three
+were RIGHT to fail — they pinned the old law faithfully. The
+judgment call was re-pin, not revert: the standing-pump trap those
+tests guard got BETTER under the new law (its escape collapsed from
+two orders into one), so the tests now pin that improvement. A
+failing test is a question, not a verdict: "the law changed — did
+you mean it?" Sometimes the honest answer is yes, and the test's job
+is to make you say it in writing.
+
+And the humbling one: round 3 removed RMB-erase and shipped a Cancel
+tool to replace it — the button, the enum, the tooltip... and no
+paint case. For a full round the game had NO way to un-order
+anything, and nobody noticed, including the Owner, including me. A
+removal and its replacement are one change; landing them in separate
+motions leaves a gap exactly the shape of the promise. Found it only
+because three unrelated red tests made me walk the cancel path end
+to end. The suite catches what the eye forgives.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
