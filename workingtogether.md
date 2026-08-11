@@ -2599,3 +2599,34 @@ rows keyed by the global id namespace, so literally everything can
 animate and nothing has to.
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+
+### SpriteArcs — the verb table, and Dave's best laugh of the week
+
+Dave asked for "up to 5 movement arc columns" and then approved the
+counter-design in one line: "a brilliant approach and one I should
+have thought of myself instead of going with some weird type 5
+dimension setup haha." The verb table it is: one row per (thing,
+verb), keys riding his own global id namespace, absence as the
+off-switch. His June schema had reserved SpriteAnim1-3 for exactly
+this instinct — the columns retired unread, replaced by the shape
+that scales.
+
+The design split that made it clean: the ENGINE only says what
+happened (StoreEvents — a per-tick tile ledger, deposits and
+withdrawals, never hashed), the SHEET says what that looks like
+(open, close, gleam), and the CLIENT plays whatever frames the
+Owner has promoted, no-oping on the rest. Pause holds a lid
+mid-swing. A gleam under the fog veil stays secret. The bounce he
+asked for is procedural — free juice on every container, no
+authoring tax.
+
+Best moment: his ITECHE sculpt already had a mesh named Lid — the
+two-author loop meant the art was waiting for the chapter before
+either of us knew the chapter was coming. Four frames later the
+chest opens in his own art style.
+
+650 + 85 green, count arithmetic exact. Commit 32206ff. His
+promote pass lights the first arcs; the station op1..3 migration
+and the mineral materiality pass are the named threads.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
