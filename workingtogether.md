@@ -2365,3 +2365,37 @@ because three unrelated red tests made me walk the cancel path end
 to end. The suite catches what the eye forgives.
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+
+### Coda, Supernatural time — the mouth becomes a room
+
+Dave shifted to the couch and handed me the evening; the entrances
+chapter's first slice went from locked design to pushed in one
+sitting. Two lessons worth keeping from it.
+
+The cavity had been computed and thrown away TWICE — the purge flood
+and the spawn flood each walk the exact tile set the entrance room
+needed, and both discard it. The feature was never blocked on new
+computation, only on KEEPING something the code already knew. Worth
+checking for that shape before building anything: the answer may
+already be flowing through a function that drops it on the floor.
+
+And the capture pass earned its keep three times in one evening. The
+first photograph caught an orange "too large (max 80)" nag over the
+mouth (the wagon-turned-chest seeding a room scan) and the port pair
+perched invisibly in grey crags. The second round of placement put
+the ports on the walk row — visible, and it resurrected the dead
+trader-crate's collision within hours of the memorial comment
+explaining why the crate died: the opening rehearsal's chest landed
+exactly on the intake. The suite caught the ghost of the crate; the
+third placement (the arch's shoulders) satisfied both masters. And
+the final capture exposed that RebuildPumps had never once run on a
+fresh world — every machine the game ever showed was drawn only
+after something changed, and the entrance is the first thing that
+ARRIVES. A screenshot is a test the suite cannot write: it checks
+what the player actually sees.
+
+The porch is crowded now, and every object on it is one the player
+was given or chose: wagon, crew, arch, intake on the high rim,
+exhaust at the shoulder, and a calm green "Entrance" over it all.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
