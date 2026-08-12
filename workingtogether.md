@@ -2878,3 +2878,41 @@ the images rather than left in a caption — the thing I got wrong last
 week and do not intend to get wrong twice.
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+
+### Coda, same evening — the question that was a bug report
+
+He came back from the ride, said it looked good, and then asked the
+question: are we allowing multiple ores per vein now, or is this two
+veins on top of each other? Plus an observation — the ores look
+colourless, and the copper shots have strange white squares layered in.
+
+The July pattern held exactly: **his questions are requirements wearing
+curiosity's clothes**, and this time one was a bug report wearing them.
+"Squares" was the word that mattered — a shape word, meaning tile-sized,
+meaning per-tile data rather than anything the stone-shaping code could
+produce. The census settled it in one run: gem tiles hand the renderer
+near-white, the client fed that into the ore-nodule hue, and every gem
+tile had been painting its whole square white. The shader has carried
+"gems render EXACTLY like ore — never revealed" as an explicit
+anti-Hammerting rule since the nugget field shipped; the client has been
+breaking it since the day gems existed. You could read the treasure off
+the wall without mining. He found it in a screenshot I made for an
+entirely different purpose.
+
+His other half was answered by data rather than by me: one ore per tile
+always, and what he was looking at was six bodies overlapping in one
+frame — which is the option he had already said he was fine with. Worth
+noticing that he offered me the benign explanation himself and I still
+had to go check, because "ideally not" meant he wanted the fact, not
+reassurance.
+
+And "matte black" for coal turned out to be a precise instruction rather
+than a colour preference. A black stone still wearing the metallic
+crown-glint is GLOSS black — wet pebbles, not coal — so matte meant the
+specular had to go too, which is a dial the sheet did not have. He got
+what he asked for and, with it, the number I owed him: unlit, a coal
+seam now reads at six luminance levels above its rock, which is very
+nearly invisible. Shipped his ruling; raised the consequence; left the
+cell for him. That is the shape this partnership keeps rewarding.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
