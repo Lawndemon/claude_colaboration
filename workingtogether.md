@@ -2663,3 +2663,44 @@ on the ore nugget clusters; the station op1..3 migration and
 projected-light shadows are named threads.
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+
+### The ore habits — where the diagnosis mattered more than the craft
+
+Dave asked for mineral+ore blend sprites at every density tier: 42
+pairs x 5 tiers = 210 renders. Two things saved that from being a
+week of Blender.
+
+First, the DIAGNOSIS. He was right that the veins looked like
+"bubbly soldering lines" and right to doubt that sprites would fix
+it — but the reason was in the GENERATOR, not the art: every body
+grew from a continuous spine capped one layer thick, a July design
+choice ("lightning, not blob"). A strand with lumps on it reads as
+solder however good the lumps are. His Factorio node has no
+centerline at all. Naming that turned an art request into a
+worldgen chapter, and his three shapes (lightning/football/amoeba)
+became a data column.
+
+Second, reading his reference properly. Every stone in a Factorio
+node is the same handful of shapes; what changes core-to-rim is
+COUNT, not artwork. So density is a scatter count, not a texture
+per tier — 210 renders collapsed to 11 optional atlases, and the
+first visible win needed ZERO renders: more cells, mixed sizes,
+overlapping radii, and deleting the dark socket ring that sat every
+nugget in its own crater.
+
+The measurement discipline he imposed earlier keeps paying. Box
+fill couldn't distinguish a small strand from a small body (63% vs
+69%); interior fraction could (9% vs 23%). And counting the taper
+found that at his 5%, a shell needs a ten-tile core radius to round
+up to one tile while today's veins average four and a half — which
+is now the evidence for the vein-size decision he deliberately
+parked. Better to hand him a number than an opinion.
+
+One real bug fell out of just LOOKING at iron: it rendered green.
+A July rule gave ore chunks the biome's hue and kept only their
+luminance. His reference sheet contradicts it — colour is ore
+identity at a glance — so the rule is retired.
+
+655 everyday, 85 Deep. Commit 4055880.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
