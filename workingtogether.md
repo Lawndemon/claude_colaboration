@@ -2630,3 +2630,36 @@ promote pass lights the first arcs; the station op1..3 migration
 and the mineral materiality pass are the named threads.
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+
+### The liquid costume and the rock pass — art night, directed from the couch
+
+Dave's ONI reference shot set the target and the fluids shader —
+which already knew surface, depth and strata per fragment — turned
+out to be 80% of the answer. The other 20% became HIS dials:
+GlowHEX, Murk, Wisp, and (after his phone-call for Kool-Aid) HueHEX.
+The recurring lesson holds at every scale: find the boundary, give
+it a column.
+
+He reviewed from the couch while making dinner, and the loop was
+GOOD: capture, push to docs/screenshots (chat grabs don't reach his
+phone; git does), his ruling arrives, next round. His rulings were
+all cuts — remove the underwater shadows, remove the ONI
+demarcation seams, trust the Blender relief to carry the read. He
+was right each time; the frame got cleaner with every removal.
+
+Two craft lessons paid for in render time: EEVEE treats material
+displacement as faint bump (the first plate pass came back mush —
+real Displace modifiers on real geometry cast the shadows that sell
+rock), and worldgen pools carve brim-full (there is no air inside
+one to pour a demo slick into — stage the units, let his density
+ladder do the sorting).
+
+The CPU logged phantoms ten AND eleven in one evening — a 640-test
+shrunken discovery and a single unnamed failure that never
+reproduced. The count-arithmetic discipline caught both.
+
+Everyday 652, Deep 85. Commit 2e85e0d. His promote judgment stands
+on the ore nugget clusters; the station op1..3 migration and
+projected-light shadows are named threads.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
