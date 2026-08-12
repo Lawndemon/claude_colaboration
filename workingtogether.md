@@ -2796,3 +2796,85 @@ and the WHEA weekly count sits flat at ~16.
 
 Closed the night with both gates green (655 everyday, 85 Deep) and the
 ramp-up surface rewritten for a clean morning start.
+
+---
+
+## 2026-08-12 — "I'll check in from the top of the mountain"
+
+He read the ramp-up, said he was taking Rosco out on the bike, and handed
+me the list with the loosest possible brief: whatever order I thought
+best. So this is a solo shift, and the thing worth keeping from it is not
+the feature — it is four different instruments telling me I was wrong,
+each one cheaper than the argument I would otherwise have had with
+myself.
+
+**The feature**: `OreGrain`, a column on his sheet saying what a single
+broken stone of an ore looks like — clumps, chips, shards, nuggets —
+against `OreFormation`, which was already the shape of the whole body.
+It is the per-ore silhouette identity we agreed on last night when I
+recommended AGAINST eleven Blender atlases (at play zoom a chunk is four
+or five screen pixels; an atlas buys nothing there). Five families, three
+dials each, one LUT, and eleven first-pass assignments he can re-rule one
+cell at a time.
+
+**The lesson I want carved somewhere: the diff said "different", only the
+picture said "worse".** Coal has never had a colour — it became an ore in
+July and the code palette still ended at ten entries, so every seam in
+every mountain has been drawing in the "no ore" grey. I authored
+anthracite for it, measured 33% of pixels changed, watched six new tests
+go green, and was one commit from shipping it. Then I looked at the
+capture: near-black stones on dark rock smear into horizontal bars. It
+looked like damage. Every number I had was real and every number was
+beside the point. It ships as the grey it has always drawn, with a
+three-way comparison sheet on the review board, because coal's colour is
+his call and I had just proved I am not the one to make it.
+
+**And the instruments needed auditing before they could audit anything.**
+I wrote a probe to measure stone silhouettes and it reported compactness
+above 1.0, which is geometrically impossible — my perimeter count was
+wrong. Then it said the round dial had made stones LESS round, which was
+the fusion confound: bigger stones overlap, connected-component labelling
+measures the merged blob, and the shape number quietly becomes a packing
+number. Held size constant inside a single-stone band and roundness came
+back +1.9%, in the right direction and much weaker than I would have
+claimed by eye. Then it found five titanium stones where there are
+hundreds, and swallowed the HUD as silver. So the tool now carries its
+own limits in its docstring: it lies about coal, silver and titanium, and
+the honest instrument for "did anything move" is a plain pixel diff with
+no mask to get wrong.
+
+That diff is what proved the part I actually care about. A dial is only a
+dial if leaving it alone changes nothing, so: iron, unauthored family,
+before versus after — **0.00% of pixels, max delta 0.** It was not, the
+first time. An RGBA8 lookup table cannot store 0.5 (127.5 rounds to 128,
+and 128/255 is 0.502), and that hair moved 7.7% of an iron face and
+flipped whole stone edges. Float LUT, and every expression rewritten as
+an offset from the shipped constant instead of a mix between endpoints,
+and now neutral lands exactly where it always was.
+
+**The suite caught me too, and it was right.** I shipped coal as the
+preserved grey after writing a test asserting coal would NOT be the
+"no ore" grey. 660 passed, 1 failed, and the failure was my own
+assertion contradicting my own decision an hour later. The fix was not to
+soften it: the invariant I actually wanted is that no ore's sort id may
+run past the end of the palette table, because `Color()` clamps and a
+hole then looks exactly like a choice. That is the coal bug stated as a
+rule, and it fails red when you delete the row.
+
+Also for the honesty ledger: I ran `git checkout --` on a file to undo a
+deliberate falsification and wiped an hour of my own work on it in the
+same stroke. Rewrote it. Nobody to blame, and the tell was that I had
+already written the safer version of that command in the very next line
+of the same script.
+
+Found in passing, both pre-existing: `--ore-demo` walked its refresh
+window off the edge of the map for any body near a border, logging
+hundreds of out-of-bounds errors on the titanium seam; and a nullable
+warning in the test project, which now builds at zero warnings alongside
+the client.
+
+Four sheets went to `docs/screenshots/` for his phone, labels burned into
+the images rather than left in a caption — the thing I got wrong last
+week and do not intend to get wrong twice.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
