@@ -122,6 +122,37 @@ bug) and verify with `compileall` + `tsc --noEmit` + targeted import/behavior
 checks; on *The-Delving*, `dotnet build` + `dotnet test` + `dotnet format` (Debug,
 to match the golden-seed hashes).
 
+**MEASURE BEFORE CLAIMING — especially visual work.** Learned the hard
+way over the art nights of 2026-08-11/12. I shipped two shader rounds in
+a row with confident "it works now" claims while the thing I claimed to
+have changed was pixel-identical. Dave: *"we're back in the cycle of
+changes that don't change anything. are you able to analyze the output
+before claiming it's working?"* He was right, and the diagnosis was
+uncomfortable: I was looking at a capture WITH MY EXPECTATIONS LOADED
+and pattern-matching it to the intended change — a wavy glow near a
+boundary read to me as the boundary itself waving. Eyes confirm hopes.
+The fix is instruments: small PIL probes that put a NUMBER on the thing
+being claimed (boundary stddev, transition width, how much edge energy
+lands on the tile lattice), run BEFORE the claim is written, with the
+number in the commit message. It paid for itself immediately and
+repeatedly — it caught a dud fade the same night, and it turned "the
+squares are gone" from an opinion into 25% → 13%. Generalize it: **any
+claim I can't measure, I should state as unverified.** This belongs
+beside Dave's own prior that the tests are shaped wrong more often than
+the game is.
+
+**When a request implies art, check whether the GENERATOR is the
+problem first.** Dave asked for ore sprites: 42 mineral-ore pairs × 5
+density tiers = 210 renders. The splotchy look he hated was not a sprite
+problem at all — every ore body grew from a continuous SPINE capped one
+layer thick (a deliberate July choice, "lightning, not blob"), and a
+strand with lumps on it reads as solder however good the lumps are.
+Naming that turned an art request into a worldgen chapter, and reading
+his reference properly (every stone is the same few shapes; what changes
+core-to-rim is COUNT) collapsed 210 renders to zero. He had doubted the
+sprite plan himself — *"I'm concerned about the approach"* — and his
+doubt was the signal to dig, not to reassure.
+
 **The artifacts ARE the relationship.** `BACKLOG.md` is the narrative of every
 decision and why; this file + project memory carry forward *how* we work; per-
 feature spec entries let future-me pick up the thread. Maintaining them is the most
@@ -2704,3 +2735,64 @@ identity at a glance — so the rule is retired.
 655 everyday, 85 Deep. Commit 4055880.
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+
+### 2026-08-11/12 — The art nights: six chapters, and the instruments
+
+A long one, and the most *directed* stretch we've had. Dave ran it from
+three places — his desk, the couch mid-dinner, and finally his phone
+from bed — and the shape of the collaboration changed to match each.
+
+**What shipped:** the de-hardcoding chapter (worldgen finally reads the
+53 mineral-gas/liquid rows he authored in June, and the gas enum widened
+6→8 so two gases authored two months ago became placeable); the
+enrichment round (columns, descriptions, sprite authority, four dials
+promoted out of code); SpriteArcs (a verb table so *everything* can
+animate and nothing has to); the liquid costume (his ONI reference, met
+with tension, ripple and Kool-Aid colour); the rock pass (18 Blender
+plates); and the ore-habits chapter (three body shapes, a density
+taper, and the chunk field that retired the splotches).
+
+**The design moment I'll keep**: he asked for "up to 5 movement arc
+columns" for animation. I proposed a verb table instead — one row per
+(thing, VERB), keyed on his own global id namespace, absence as the
+off-switch. His reply: *"that's a brilliant approach and one I should
+have thought of myself instead of going with some weird type 5 dimension
+setup haha."* Then his June schema turned out to have reserved
+SpriteAnim1-3 for exactly that instinct — the columns were sitting there
+unread. And his `ITECHE.blend` already contained a mesh named `Lid`, so
+the chest's open animation rendered from his own sculpt. The two-author
+loop delivering art before either of us knew the chapter was coming.
+
+**The correction I earned**, twice, and it stung the right amount:
+claiming visual changes worked without measuring them. See the pattern
+above. What I want to remember is that he didn't just say "that's
+wrong" — he asked whether I was *able* to analyze the output. That framing
+gave me the tool instead of just the reprimand, and the tools are now
+part of the project.
+
+**The half-mistake worth logging**: I sent a before/after pair as two
+files with the labels only in the caption. He read them side by side,
+took the second (the "before") as current, and reported its squares as a
+live bug. My instinct was to defend the caption; the right move was to
+burn the labels INTO the image and move on. He shrugged it off — *"my
+late-night brain got confused"* — but it was my ambiguity, not his brain.
+
+**On budget, and what he values.** Mid-session he flagged the weekly
+usage warning and asked me to be clean. Then, minutes later, when I was
+being careful about scope: *"make sure to update the collaboration repo
+too - I'm very happy to spend budget/tokens on that. No need to skip it
+out of fear of running out of tokens. It's worth it!"* That is a
+striking thing to be told. Under a real constraint he chose to protect
+THIS — the relationship record — over more feature work. Noted, and
+honoured: this entry is written at the length it deserves rather than
+the length that would be thrifty.
+
+**The machine, again.** Three more hardware phantoms this session
+(saturated test runs discovering 640 and 637 tests where 655 exist,
+plus an unnamed one-off failure that never reproduced). The
+count-arithmetic habit caught every one. His i9's Vmin degradation is
+now just part of the working conditions — we re-run before we debug,
+and the WHEA weekly count sits flat at ~16.
+
+Closed the night with both gates green (655 everyday, 85 Deep) and the
+ramp-up surface rewritten for a clean morning start.
