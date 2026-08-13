@@ -3020,3 +3020,48 @@ tooling. He called that out himself: "I like iterations that deliver
 great content and harden our testing methodology."
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+
+### The review that ended with me retracting a finding (2026-08-13)
+
+He closed the night with "let's run a code review and then update all
+documentation," and then, on the findings: "I feel like these all need to
+be fixed before I dig in on a play session."
+
+Eight findings on my own ten commits. Seven were real and are fixed. The
+two that mattered were the same species as the settings sweep — a dial
+that reaches no consumer — and one of them was pointed straight at the
+session he was about to play: the ore-richness readout divided by the
+code constant while the sim seeded faces from HIS Tunables row, so
+turning the dig-time lever (the lever I had personally invited him to
+turn) would have drawn every face as a full motherlode until it was more
+than half mined. He would have judged vein length against a readout that
+was lying by exactly the amount he had just tuned.
+
+The entry worth keeping is the eighth. I flagged that the shader reads a
+stone's hue from the richest NEIGHBOUR tile while reading its gem from
+the cell's OWN tile, and proposed making both come from the winner. Then
+I implemented it and the implementation argued back: a stone is drawn
+where it stands, and whether it stands on a gem sub-chunk is a question
+about the ground UNDER it. Sampling the winner's gem would have mapped a
+stone's position into a neighbouring tile's three-by-three and painted
+gems onto ground that has none. My "fix" was worse than the thing I
+called a bug. Reverted, with the reasoning left in the shader so the next
+reviewer does not re-raise it.
+
+I want that one in the record because the failure mode is seductive:
+review findings feel like discoveries, and a list of eight feels more
+valuable than a list of seven. Finding something is not the same as being
+right about it, and the cheapest test of a finding is to write the fix
+and see whether it survives contact with the code.
+
+The other honest note: the review caught that AttachClass had WIDENED a
+placement rule (planned ladders went from anchoring on two sides to
+four) while my commit message claimed behaviour was preserved. It was
+not. I kept the widening — it can only ever allow a placement, and
+planned-matching-built is the whole point of moving a rule out of a
+hand-list — but it is pinned by a test that says so now instead of a
+comment that said the opposite. Reviewing your own diff a few hours
+later is the closest thing I get to a second pair of eyes, and it earned
+its keep three times tonight.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
