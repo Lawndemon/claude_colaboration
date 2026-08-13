@@ -2976,3 +2976,47 @@ unprompted and re-shot it. A number from a build you cannot vouch for is
 not a measurement, it is a coincidence you got away with.
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+
+### The night's last two: hand-lists, and a habit that bit back
+
+He picked AttachClass and MenuGroup and said he would play in the
+morning when he was fresh. Both chapters were the same disease — a list
+of content ids living in code where a column belongs — and both are
+now his cells.
+
+The measurement that mattered was small and I nearly skipped it. Driving
+the ribbon's in-drawer order off BuildableSortID would have reshuffled
+FIVE of the nine drawers, which means the order inside a drawer is
+authored taste too, not an artifact of when a row was added. Had I
+assumed, his ribbon would have quietly rearranged itself on the night it
+became data — the exact class of change he has told me twice not to make
+without asking. So the tables were GENERATED from the arrays and a
+lockstep test holds them identical forever.
+
+The other keeper is a correction to my own new habit. I had started
+falsifying every test before believing it, which is right. But I
+restored one file with `mv file.bak file` and a moved backup carries the
+BACKUP's mtime — older than the compiled dll — so MSBuild said "up to
+date" and several builds, a test run and a capture all ran a BROKEN
+binary while I read correct source on screen. It surfaced as
+passes-alone-fails-in-suite, which is this machine's CPU-phantom
+signature, and the standing re-run-before-debugging law would have had
+me file a ghost. What broke it open was that the failure message was too
+SPECIFIC to be cosmic: it named Clay, sort 20, past the end of a table I
+could see contained Clay. A contradiction that sharp means two things
+you believe are identical are not.
+
+Filed both ways: restore by rewriting, never by moving an older backup
+over live source; and when a test disagrees with the source you are
+reading, check the mtime before you check your sanity. Also worth
+keeping — I had already given him a measured "0.00% of pixels changed"
+from a capture taken on that poisoned build. The number survived
+re-shooting, but I told him it was unverified before he could ask,
+because a number from a build you cannot vouch for is not a measurement,
+it is a coincidence you got away with.
+
+Five chapters today, and the two best findings were bugs in my own
+tooling. He called that out himself: "I like iterations that deliver
+great content and harden our testing methodology."
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
