@@ -2937,3 +2937,42 @@ the rock side still is not. His closing sentence is the whole brief for
 the next session, and he did not know he was writing one.
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+
+### The evening coda — the stale build that wore a ghost's clothes
+
+Two chapters shipped after the gem slots: the gem YIELD (his ruling —
+"gem yield is the same as ore yield", jackpots and all, because "it
+would be the kind of find that dwarven miners spin tales about over grog
+at the alehouse") and the mineral colour column. Both fine. The thing
+worth keeping happened in between.
+
+I had been falsifying every new test before believing it — break the
+code, watch it go red, put it back — which is a habit this project
+earned honestly. But I restored one file with `mv file.cs.bak file.cs`,
+and a moved backup carries the BACKUP's mtime. Older than the compiled
+dll. So MSBuild said "up to date" and every build, test and capture
+after that ran the BROKEN binary while I read correct source on screen.
+
+It surfaced as a test that passed alone and failed in the suite. That is
+precisely the signature of his i9's phantoms, and this project has a
+standing law that says re-run before debugging — which, followed
+faithfully, would have had me re-run it, watch it pass, and file a
+ghost. The law is right and it would have been wrong here, because the
+law assumes the binary matches the source.
+
+What actually caught it was refusing to let "not reproducible" stand
+when the failure message was specific: it named Clay, sort 20, past the
+end of a table I could SEE had Clay in it. A contradiction that sharp
+is not a cosmic ray; it means two things you believe are the same thing
+are not. Checked the mtime, and there it was.
+
+Two lessons, both filed: restore by rewriting, never by moving an older
+backup over live source; and when a test disagrees with the source you
+are reading, check the mtime before you check your sanity. Also the
+uncomfortable one — I had already told him a measured "0.00% of pixels
+changed" from a capture taken on that poisoned build. The number turned
+out to be right, but I had no business claiming it, so I said so
+unprompted and re-shot it. A number from a build you cannot vouch for is
+not a measurement, it is a coincidence you got away with.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
