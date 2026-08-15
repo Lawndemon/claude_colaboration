@@ -3114,3 +3114,57 @@ playtest report in HIS format. The mode where the game is experienced
 rather than asserted.
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+
+---
+
+## 2026-08-14/15 — the two days the game started testing itself
+
+He asked me to genuinely PLAY, and then kept correcting how I did it. Both
+sessions found more in one sitting than weeks of scripts had, and the
+corrections were the valuable part.
+
+**He retired my scripted test kit.** "I don't see any reason to try and
+script game execution. To me, that's just yields false positives and
+negatives." He was exactly right and I had defended it for days: a script
+asserts what an agent PREDICTED would work, so a red run might be a broken
+game or a naive guess, and every failure needs a human to adjudicate. I
+argued for one replacement — REPLAYS, which encode what actually happened,
+so a failure means the world changed, full stop — and he took it. The
+everyday gate went from 44 minutes to 5 and got more trustworthy.
+
+**Three times he corrected a habit, not a bug.** Muting my own chests to
+feed a mason: "just use the minerals in the chests. The whole reason we
+transport materials to the chests is to use it for crafting." Shrinking a
+station's pull radius because his two-chest pattern was more efficient:
+"don't change the stations pull radius! placing the chest near it makes the
+game loop more efficient but should not be a requirement." And collapsing
+my four proposed side-queues into one list with attributes. Every time, my
+instinct was to make the GAME accommodate what I had already built. Every
+time, his answer was smaller and better.
+
+**What I got wrong and had to correct in writing:** I told him the
+waterworks power train "never could be built". It had stood at t=151,000 —
+I stopped looking after the workaround. And I pushed seven consecutive red
+CI runs while reporting green, because I checked the runs once, saw them
+queued, and never went back. Local green is not a green build. Both
+corrections are in the ledger with my name on them, which is where they
+belong.
+
+**The best moment of the two days** was not a fix. Driving an adit east on
+seed 918273, I breached a water fissure and flooded my own tunnel — dwarves
+wading west down a corridor I had just cut. Entirely fair, entirely my
+fault, and the first time the mountain felt like an opponent rather than a
+fixture.
+
+**And the line he'll probably put on a poster**, made as a joke about the
+task queue and kept as the mine's first law: *"one queue to rule them all,
+and in the darkness bind them."* It survives as a rule because it is the
+general form of a lesson this codebase has already paid for three times —
+two table lists that disagreed, two answers to "is he drowning", two views
+of a chest. When a thing exists in two places, one of them is lying.
+
+He said the queues are the most important part of the game: "we get this
+wrong, the game won't work. We get it right, and it will sing." Seven
+features are specified and none are built. That is the next session.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
