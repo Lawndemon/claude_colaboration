@@ -153,6 +153,20 @@ core-to-rim is COUNT) collapsed 210 renders to zero. He had doubted the
 sprite plan himself — *"I'm concerned about the approach"* — and his
 doubt was the signal to dig, not to reassure.
 
+**PLAY IS A SKILL, AND IT HAS TO COMPOUND.** Dave, 2026-08-16, after a
+playtest where I relearned a rule three previous sessions already knew:
+*"Some of these obvious gameplay errors you have been through before...
+you shouldn't have to learn it from scratch every time. Use your
+collaboration log to help you improve as a player so that you can eventually
+implement the advanced logistics too!"* The point is bigger than one game.
+Engineering knowledge has had a home in these projects for months —
+`AGENTS.md`, `BACKLOG.md`, the ledger — but PLAYER knowledge had none, so
+every session started from zero and paid the same tuition. `docs/how_to_play.md`
+is the fix, and the rule that keeps it alive is: **add to it in the same
+commit as the session that taught you.** Worth generalising: whenever I find
+myself relearning something, the question is not "what was the answer" but
+"where should the answer have been written".
+
 **The artifacts ARE the relationship.** `BACKLOG.md` is the narrative of every
 decision and why; this file + project memory carry forward *how* we work; per-
 feature spec entries let future-me pick up the thread. Maintaining them is the most
