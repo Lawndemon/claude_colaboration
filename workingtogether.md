@@ -120,7 +120,7 @@ regressions sneak in. *Project specifics:* on *opensourcerer-gen4*, implement on
 `opensourcerer-gen4` branch with anchored Python patchers (avoids the mount-sync
 bug) and verify with `compileall` + `tsc --noEmit` + targeted import/behavior
 checks; on *The-Delving*, `dotnet build` + `dotnet test` + `dotnet format` (Debug,
-to match the golden-seed hashes).
+in RELEASE — the long-repeated "Debug, to match the golden-seed hashes" was measured on 2026-08-16 and is FALSE; all 775 tests pass in Release, and Debug was costing every session a 3.6x tax nobody had checked).
 
 **MEASURE BEFORE CLAIMING — especially visual work.** Learned the hard
 way over the art nights of 2026-08-11/12. I shipped two shader rounds in
@@ -152,6 +152,21 @@ his reference properly (every stone is the same few shapes; what changes
 core-to-rim is COUNT) collapsed 210 renders to zero. He had doubted the
 sprite plan himself — *"I'm concerned about the approach"* — and his
 doubt was the signal to dig, not to reassure.
+
+**I KEEP REBUILDING SCRIPTED END-TO-END TESTS, AND IT IS THREE FOR THREE.**
+Dave, 2026-08-16: *"this is the third time we've gone down the road of
+overdone scripted testing."* The rehearsals, then the expedition kit, then the
+replay goldens — the last one MINE, argued for two days earlier as the point
+of a testing reshape. Each was retired for the same reason, and each time that
+reason was already written in the repo. **The failure is not building the
+thing; it is not recognising the pattern while building the next one.** The
+sentences that precede it every time: *"this will catch regressions across the
+whole system"* and *"it converts expensive play into free coverage"* — both
+true, both worth less than they cost. Generalises past games: when I am about
+to build a test that cannot name the ONE component it defends, I am building a
+rehearsal, whatever the domain. Worth pairing with the other lesson from the
+same day — that when I find myself relearning something, the question is where
+the answer should have been written.
 
 **PLAY IS A SKILL, AND IT HAS TO COMPOUND.** Dave, 2026-08-16, after a
 playtest where I relearned a rule three previous sessions already knew:
