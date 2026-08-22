@@ -3197,3 +3197,72 @@ wrong, the game won't work. We get it right, and it will sing." Seven
 features are specified and none are built. That is the next session.
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+
+---
+
+## 2026-08-22 — Stage B: the refactor that was surveyed, refuted and reviewed before it was trusted
+
+He opened with "this is the fresh session for Queue Chapter Stage B. I'll
+change your settings to Fable 5 and Ultracode so we can get this right."
+The heaviest refactor in the codebase, on the part of the game he has
+said will make or break it — and the instruction was not "build it" but
+"get it right." So the day's shape was three layers of disagreement
+before a line was written, and a fourth after.
+
+**The survey changed the plan, the way D2 had.** Seven readers mapped the
+planner, the stores, persistence, the tests, the client, craft and Roles.
+The persistence map said the plan's D1 — "the stores lose the queue fact"
+— was not additive: the band bytes sit inside the store records, every
+reader is unversioned, and moving them out raises the save floor and
+orphans five compat fixtures, for a purity nobody asked for. His own rule
+is the opposite: priority is set on the BROADCASTING OBJECT. D8 amended
+D1 on that evidence, exactly the shape in which D2 was reversed a week
+earlier. Worth keeping: a locked decision can be wrong in a way only a
+survey finds, and the plan template's own rule — keep the trail, reverse
+in writing — is what makes reversing it cheap.
+
+**Then the refuters.** Three agents told to attack the written design
+found eight must-fixes I would have walked into: a tick-start snapshot
+would have had every dwarf drop his cargo when one E! appeared (the E!
+check runs per dwarf INSIDE the roster loop); a band-10 station with no
+makings would have conscripted the colony forever; hand orders are `[0]`-
+only in three places, not one; retiring by object inverts FIFO for chest
+requests; and the priority tool, applied to every object on a tile, would
+have tagged a station's own output pile on a drag. None of those were
+visible from the design doc. All of them were visible from the code to
+someone told to refute rather than to build.
+
+**And then the review caught me twice.** Twenty-one agents over the
+finished diff, each finding refuted by a second: seventeen survived. Two
+were regressions of mine — the pull planner served only a chest's FIRST
+deficit (the old loop had never had that gap), and a mine-site front could
+be stranded between a lane that opened at the site's band and a store
+that still said the mirror's. Both are pinned now. The lesson is not that
+I make mistakes; it is that the order survey → design → refute → build →
+review → refute-the-findings found, at each layer, things the layer before
+could not — and that the budget for that is the budget the Owner said to
+spend. (It cost ~4.5M subagent tokens across the day. He had said token
+cost was not the constraint. It was not.)
+
+**The day also relearned the usage lesson from a new angle.** The design
+panel died on the session limit mid-run — six agents, nothing returned,
+~420k gone. Not the 08-08 shape (I had priced the fan-out), but the same
+lesson one step along: price the WHOLE day, not the next call. When the
+cap reset I ran a smaller pass — refuters against my own design instead
+of three designers plus three judges — and it was the better instrument
+anyway.
+
+**Two findings that were not Stage B's.** A dwarf mid-walk at save time
+replans on load, because his path is derived and never saved, and in the
+probe he fell into the hole he had been walking past while the live
+colony's dwarf kept walking (BUG-017; the probe diverges on `main` too).
+And the local formatter works again — zero WHEA events in the three days
+since his BIOS change, and an injected whitespace fault is caught by
+line. The chip that haunted August is, for now, quiet.
+
+He asked for Stage B and then FEAT-118 and playtesting. Stage B is
+landed; FEAT-118 is the next session's first play. What I want to carry:
+"get it right" is an instruction about PROCESS, and the process that got
+it right was adversarial at every layer.
+
+Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
