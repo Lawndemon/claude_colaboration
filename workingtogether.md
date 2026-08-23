@@ -3397,3 +3397,12 @@ RAID's one structural worry, "the counterplay has never worked in a played
 game" — no longer true. And the thing I want to keep from it is the shape
 of the hour before the first cut: the sessions that failed were played; the
 one that banked was read, refuted, and then played.
+
+**Postscript, same evening.** Dave asked whether to do a code pass before
+he playtested. The honest answer was that the selector had been refuted on
+paper but never reviewed after it was built - the crash ate that rung - so
+I ran it. It found a real bug I had shipped that morning: splitting hauling
+into pull and push let a failed push park a dwarf out of a request he could
+serve, but only once the dial was turned - which is the whole point of the
+dial. Default rows hid it from 951 green tests. The ladder has five rungs
+for a reason, and "tests green" is not the fifth.
