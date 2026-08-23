@@ -3309,3 +3309,52 @@ because a wrong explanation that ships is worse than none. Two "no"s and a
 correction, and the cycle is better for all three.
 
 Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
+
+## 2026-08-23 — The selector that survived by not being rewritten
+
+The most important mechanic in the game (his words) shipped tonight, and
+the shape it shipped in is not the shape I designed. That is the entry.
+
+Dave ruled the queue is FISO — first in, selected out — and then, when I
+asked how a dwarf's disposition composes with a task's band, gave the
+sentence that became D-032: "Band Supreme but where role and skill matter.
+I don't want a hauler heading off to do a dig task if he has no
+appreciable digging ability. A dwarf may take a priority 5 task if there
+are none in the higher queues properly suited to their skills." I wrote a
+design for it: a scored walk over the queue, pick the best row, dispatch
+it. Clean. Three refuters tore it up. One finding was FATAL: my single
+dispatch step would idle a dwarf behind a higher-band pick he could not
+actually plan — a build with no reachable stone — which is the exact
+regression Stage B had just fixed and pinned. The old band ladder handled
+that for free by falling through; my rewrite deleted the ladder. A second
+refuter showed my save-upgrade default (all 5s) would break every banked
+golden and make a reloaded colony behave differently from a running one —
+the BUG-017 shape, again.
+
+So the design that shipped is smaller than the one I wrote, and better for
+it: keep the cascade, change only the ORDER within a band from a fixed
+archetype list to the dwarf's own category numbers, skip a 0 unless it is
+an emergency. Re-derive an old save's row from his archetype so the
+upgrade is byte-identical to a fresh spawn. Then the move that made the
+whole thing safe to land at the end of a long session: I numbered the
+archetype default rows — in the CSV, not in code — so that a colony nobody
+has tuned picks work exactly as it did yesterday. Every elder save from
+v33 to v40 and a fresh session all hashed to one number. 951 tests, zero
+behaviour churn, one pinned hash moved because the row is now in it.
+
+Two things I want to remember. First: the refuters earned their cost
+again, and the fix to a refuted design is usually to do LESS, not to patch
+the ambitious version. Second, a small humiliation: after the session
+crashed and resumed, I spent twenty minutes on a hundred and eleven
+"format errors" in code I had never touched. They were line endings —
+my Python edits had written LF into a CRLF working copy. The CI gate on
+Linux would have passed. Measure before fixing applies to the tooling
+too.
+
+What is owed: the skill RATING term is a constant until per-dwarf skill
+levels exist, so "able" means "willing" today, and I said so in the
+backlog rather than letting the ruling's word "ability" imply something
+the code does not do. The client HUD is unbuilt — it is Core plus the
+seat, and the seat readout was smoke-tested by hand before I called it
+done. Dave turned turbo back on, overclock still off; the suite that
+crawled for ten minutes at 2.2x-slow ran in eighty-four seconds.
