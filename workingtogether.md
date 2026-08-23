@@ -3358,3 +3358,42 @@ the code does not do. The client HUD is unbuilt — it is Core plus the
 seat, and the seat readout was smoke-tested by hand before I called it
 done. Dave turned turbo back on, overclock still off; the suite that
 crawled for ten minutes at 2.2x-slow ran in eighty-four seconds.
+
+## 2026-08-23 (evening) — The waterworks that was refuted before it was cut
+
+"What does pump siting on real terrain mean? We've had pumps for a long
+time." A fair question, and the answer turned out to be the session. The
+pumps were fine. What had never happened was a player putting one where the
+MAP put the water, and three sessions had tried — one lost to a real bug,
+two to me: a wheel facing backwards, a works built under a flood I had made
+myself. Dave's parting line was the right one: "is it a limitation with the
+game or a limitation with the player? I can unstick you if it's the latter."
+
+So I did not touch the map for the first hour. I read the fluid sim until I
+could say why the last session drowned: the generator's pools are sealed
+cavities flooded to the ceiling — no surface, no air — and liquid never
+rises, so cutting in from the side below the top pours the pool into your
+gallery, and a pump on the top tile drinks one tile and starves. That one
+fact inverted the handbook's "site the pump IN the water" into "site it dry
+where the water will ARRIVE, and breach last, from above." Then I wrote the
+cross-section with coordinates, and sent three refuters at it with the
+source open. They found a rung that would have blocked the pump body, a
+corridor that would have lost its floor under the shafts, a tank that holds
+90 units not 540, and a chest rule that would have turned every shaft pile
+into haul work. Any two of those would have been the session.
+
+Then the seat, in batches. It went wrong twice and both were me: a rung at
+face height with rock over it that nobody two tiles tall could stand on —
+the queue said "no route — dig or ladder your way there," which is the
+sentence I should have read first — and a stale seat binary that gave me
+four horizontal cogs and a dead line after I had just added the word for
+"vertical." My own memory file warns about exactly that. The `power`
+readout caught it before the breach, and then the readout itself turned
+out to be lying about line supply, so I fixed that too.
+
+The breach was one dig from the rung above. A hundred and fifty ticks later
+the tank read full. Nobody hurt. First breach. A-001 closed, R-001 — the
+RAID's one structural worry, "the counterplay has never worked in a played
+game" — no longer true. And the thing I want to keep from it is the shape
+of the hour before the first cut: the sessions that failed were played; the
+one that banked was read, refuted, and then played.
