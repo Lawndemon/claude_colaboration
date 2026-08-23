@@ -3406,3 +3406,49 @@ into pull and push let a failed push park a dwarf out of a request he could
 serve, but only once the dial was turned - which is the whole point of the
 dial. Default rows hid it from 951 green tests. The ladder has five rungs
 for a reason, and "tests green" is not the fifth.
+
+## 2026-08-23 (night) — The evening the game grew a spine
+
+Three chapters in one sitting, and the through-line was the same each time:
+he ruled, I refuted before building, and the refuters kept finding the thing
+I had shipped an hour earlier.
+
+The cycle became the game's pulse — three quests a posting with one always a
+stretch, a muster of two dwarves and a bundle every cycle so population
+finally grows, and a delivery that is finished by SENDING the goods to the
+export wagon rather than merely owning them. That last one is my favourite
+thing built today: accepting a quest makes the wagon ASK, and the haul
+network fills it through the queue like any other requester. The colony
+already knew how to do it; the quest just had to speak the language.
+
+Then he said the thing I had been quietly hoping he would: "let's strip these
+out of hardcoding and create a data source for them." Nine venture-contract
+ladders had been sitting in a C# array with a comment promising they would
+move one day. They moved. And the part I am most pleased with is not the
+tables — it is the test that compares the sheet against the code it replaced,
+value for value, level by level. A migration that quietly re-tunes a number
+while claiming to move it is the worst kind, because the diff looks like
+plumbing. Now the day he wants a different ladder, that test fails loudly and
+he changes it on purpose.
+
+He asked "anything I'm missing?" about his schema, and the honest answer was
+yes: it was all rewards and no ask. Every column he listed was a payout;
+nothing said what the player must deliver. He also had QuestType meaning
+cycle/annual when the table already used that name for Delivery/Investment —
+reusing it would have silently changed the meaning of ninety-two rows. Saying
+so was worth more than building it fast.
+
+Two humiliations to keep. First: I deleted a test by anchoring a patch on the
+wrong `[Theory]` — the one that proves an old save actually PARSES — and only
+noticed because the count dropped from 22 to 15. I restored it and widened it
+from seven fixtures to ten. Second, and worse: the refuters found that the
+Muster clause I had added that morning was never saved, never priced and
+never hashed, so a colony signing "The Whole Clan" quietly reloaded "The
+Standard Muster". That is word for word the bug the comment directly above
+that code was written about, in August. I added a field ten inches under a
+warning about adding fields and did not read it.
+
+The pattern that keeps paying: refute before build, and let the gates be
+rude. The hardcoding ratchet caught ten new literals the moment I taught it
+three new prefixes, and every one of them deserved the sentence I had to
+write explaining why it was allowed to stay.
