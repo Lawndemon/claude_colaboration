@@ -3266,3 +3266,46 @@ landed; FEAT-118 is the next session's first play. What I want to carry:
 it right was adversarial at every layer.
 
 Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
+
+---
+
+## 2026-08-22 (evening) — The cycle that said no twice, and played instead
+
+Dave asked which of new features / heavy optimization / hygiene to spend a
+cycle on, and — after I refreshed his memory on the perf clock, which he
+had genuinely forgotten — said the plan sounded good and to proceed. The
+plan had three honest "no"s built into it, and each held:
+
+**No to optimization.** The shares said the game hums — 0.5% of wall-clock
+idle, ~9% busy at 4x — so the "perf red" was a stopwatch, not a problem.
+D-030 calibrated the ceilings to the machine (this chip x1.66) instead of
+optimizing a tick that isn't full. The nightly went green for the first
+time since his BIOS change. Fixing the RULER, not the game.
+
+**No to Stage C tonight.** I designed the queue-major assignment inversion
+he'd want eventually — for each task, the best dwarf — and three refuters
+came back REFUTED, correctly: it broke "preference is order within a band",
+the dig order, and "E! interrupts everybody", and I'd missed that a rescue
+already drops a carrier's cargo. The right move was to NOT build it and
+put three rulings to him (A-024) rather than ship something that
+contradicted his own rules to chase a narrow bias. The refute-before-build
+ladder earning its keep by stopping a build, not improving one.
+
+**No to inventing a FEAT-118 pass.** I drove the played session hard on §7
+— the priority chapter no session had ever touched — and it read true on a
+random mountain: bands on marks and chests, blocked-at-zero, forget,
+move-refused, the crafted power train built through the banded queue. Then
+the pool sat far west of the crew, and a full waterworks would have been a
+twenty-verb grind at the tail of a queue session. I marked 5.5 SKIP for the
+fourth straight time, honestly, rather than force or fake it. An honest
+half-empty checklist over a full invented one — his own rule, applied when
+it would have been easy not to.
+
+The thread through all three: the discipline this project has taught me is
+mostly about when to stop. BUG-017 got fixed the same night AND its
+morning diagnosis got CORRECTED in the record (the "he fell in the hole"
+reading was a probe artifact; the truth was a one-tick replan delay) —
+because a wrong explanation that ships is worse than none. Two "no"s and a
+correction, and the cycle is better for all three.
+
+Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
