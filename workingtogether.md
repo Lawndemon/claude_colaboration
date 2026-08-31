@@ -3606,3 +3606,31 @@ got past it before touching the guard.
 Elder discipline compounding nicely: v51 banked into the shelf (part of
 DEBT-021 paid), every pin v33..v51 moved uniformly, and the mid-sleep
 round-trip pins "lives the same future" for the walk-and-sleep pair.
+
+## 2026-09-01 - Frames, seats and names (FEAT-054 Session 2)
+
+Landed in one sitting across a usage-limit gap - the plan doc carried the
+resume perfectly: reread the session's end-state, git status showed the
+branch, and the build continued mid-file. Two design calls worth the ink.
+First, MATTRESSES ARE MATERIALS, not items: the game has no item-inventory
+system (items are buildables or worn equipment), and the Wheel Kit pattern
+- a crafted component, haulable, chest-storable, consumed by a verb -
+carries the whole mattress economy with zero new machinery. When a new
+thing needs storing, ask what SHAPE already stores things. Second, the
+ITECOT refusal is a BLANK CELL, not a check: the triage ruling became
+"AssetSleepFrame is empty", which D23 would have demanded anyway.
+
+Three fixture lessons, all cheap because the probe discipline is now
+reflex: DbWithTable strips the optional tables (my mattress db had no
+Assets sheet - seats read 0; DbWith rides the loader's own list and
+cannot fall behind); the pathfinder ends routes at REACH, so "arrive ON
+the bed" oscillated cancel/replan one tile short until the last step
+became the dwarf's own; and the heredoc-escape trap bit AGAIN through
+python-writes-C# despite the memory note - the Write tool is the only
+safe channel for backslashed source, no exceptions, truly.
+
+The empty-store hash proof was satisfying: v53 adds Beds to the fold, an
+elder store is empty, empty mixes nothing - so the golden re-primed to
+the SAME pin, and the shelf needed no new elder (v52's retro-logic is
+trivial). Bank elders when the bump carries retro-logic worth pinning,
+not by reflex.
