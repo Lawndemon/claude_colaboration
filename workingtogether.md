@@ -3540,3 +3540,37 @@ proposed default worth his eye: three NEW rooms (Bunk Room, Private Room,
 Private Quarters) above the requirement-free ROOBED, because putting his
 feather requirement ON ROOBED would silently un-detect every bare bedroom
 in every save - a regression wearing a rename.
+
+## 2026-08-31 (afternoon) - The belt that ate the gears, and the ruling that un-designed it
+
+Dave opened with "I thought we had already sorted bug 23 as scripty
+testing?" and the honest answer took two instrumented runs instead of a
+record citation: a conservation census (every crafted component traced
+tick by tick across ground, chests and hands) and then a belt dump that
+found the missing four riding the tram - the exact parts three stalled
+builds were waiting for. WHEN A NUMBER VANISHES, CENSUS EVERY STORE
+INCLUDING THE MOVING ONES; the tramway was the store nobody counted.
+
+The mechanism was not the fixture and not D-075: `Trams.AnyDriven` alone
+made every loose pile push-haulable (his own 2026-08-02 "closest storage
+location" ruling, faithfully generalised into a vacuum), and D-075's pace
+change merely re-timed the race so the sweep beat the build fetches. Two
+lessons in that. First, HIS EARLY RULINGS CAN COLLIDE WITH HIS LATER ONES
+(08-02 belt-as-storage vs 08-25 D-045 clean-to-appropriate-chests) and the
+collision surfaces as a bug years of sessions later - when a defect traces
+to design, check WHICH ruling it implements before calling it drift.
+Second, when I brought him the fork he answered from the player's chair in
+one message - "nothing should go on the belt without instructions... if we
+have dwarves randomly chucking shit onto belts then we designed it wrong"
+- and his previous message's player-mistake frame SURVIVED as the sigil
+case. Presenting the fork as "your two principles, which one owns this
+case" got a ruling that kept both.
+
+Build notes: BeltLineTakes is one home asked four places; the control-arm
+discipline caught nothing this time because it was designed in from the
+start (an uninstructed line must move NOTHING - that test passed first
+try and would have caught the vacuum the day it was written). The
+Confluence's "packet is aboard" assertion turned out to be passable ONLY
+by the limbo bug - an assertion that needs the defect to pass is the
+green-test-that-measures-nothing law wearing its nastiest costume. It
+asserts the outcome now. Deep 89/89, first clean tier since D-075.
