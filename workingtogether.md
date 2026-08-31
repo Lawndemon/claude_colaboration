@@ -3452,3 +3452,59 @@ The pattern that keeps paying: refute before build, and let the gates be
 rude. The hardcoding ratchet caught ten new literals the moment I taught it
 three new prefixes, and every one of them deserved the sentence I had to
 write explaining why it was allowed to stay.
+
+
+## 2026-08-29..31 - The Earthdawn engine, DPA, and the week the dwarves learned to walk
+
+Three days that shipped four chapters and re-ruled one of them the next
+morning, which is the pattern worth remembering: BUILD FAST, BUT WRITE THE
+RULINGS DOWN VERBATIM, because the correction arrives in his next message
+and it lands on whatever the record says. D-073 put dice under every verb on
+his words "all skills"; D-075 pulled mining and building back to measured
+pace on his words "not EVERY action requires a roll" - and because both
+records carried his sentences rather than my paraphrase, the reversal was a
+clean diff instead of an argument.
+
+What the refuter pattern earned this week, concretely: the D-073 refuters
+priced a DN ladder that would have made steel a 640-tick station stall
+BEFORE it shipped; the movement refuters killed two designs (including the
+one he and I had both already agreed to - the accumulator) for a perceptual
+reason that turned out to have a forty-line client fix; and the ONE fixture
+I forced past its timebox (the exhaust pit) was the one that was trying to
+tell me something true - the bellows actively harms under the new lungs.
+When a fixture resists three honest fixes, it is usually reporting a fact,
+not a flake.
+
+The bisect discipline paid twice at full price. Confluence stalling: a
+worktree pinned it to D-075 in one run, then three tunable-poke experiments
+refuted three plausible mechanisms in an afternoon - the row now carries
+evidence, not vibes. The save-replay divergence: one probe proved the save
+lossless, a second proved the dwarf identical post-tick, which cornered the
+fault into the colony subsystems - and Dave then guessed the region (FISO
+randomness) before I found it (an unstable List.Sort on a comparator that
+returned 0 for all placeless hand-craft rows). CREDIT HIS GUESSES IN THE
+RECORD; he reads the code with different eyes and is right often.
+
+Two ruling-shape lessons. First: when he redefines scope ("only crafting
+and fighting roll"), look for what the change DELETES - D-075 erased two of
+three code-review findings by construction, which mattered more than the
+fix I had planned. Second: when he waves off a property I hold dear
+(save-replay bit-equality), the right move is to price what the waiver
+actually costs (almost nothing - the golden re-SIMULATION is the half the
+net uses) and rewrite the fixture to hold the claim he DOES make (the walk
+survives the save). A test that pins a law the Owner has declined is a
+fight scheduled with his future self.
+
+Mechanical scars, so the next session does not re-earn them: worktrees for
+bisects while agents hold the main tree (a mid-workflow checkout tripped on
+phantom dirty files); the dotnet format access-violation gremlin on his
+i9 - re-run before believing any exit code, THEN believe it; ledger IDs
+collide - grep LEDGER.md before minting a BUG number (I re-used a closed
+BUG-022); and heredoc python STILL bites even after the memory note - Write
+tool for anything with backslashes or nested quotes, no exceptions.
+
+And a small design north star that emerged across DPA and sleep and wages:
+his best rulings make abstractions PHYSICAL. Waiting is a clacks broadcast,
+wealth is a box in his room, the wait for dinner is a sensor on a chest.
+When a design question stalls, "what would this be made OF in the mountain"
+is the question that unsticks him - and me.
