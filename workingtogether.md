@@ -3634,3 +3634,34 @@ elder store is empty, empty mixes nothing - so the golden re-primed to
 the SAME pin, and the shelf needed no new elder (v52's retro-logic is
 trivial). Bank elders when the bump carries retro-logic worth pinning,
 not by reflex.
+
+## 2026-09-01 (night) - The mountain sleeps: FEAT-054 ships in a day
+
+Four plan sessions, one day, one feature COMPLETE - the plan doc turned
+"an L" into eight commits that each knew their end-state. D-076 is built
+whole: derived rest, dithered feet, frames with seats and names, the room
+ladder to the 125% Quarters, mattresses as components riding the existing
+economy, and a seven-dwarf labour proof that asserts what a foreman would.
+
+The day's expensive lesson was an INSTRUMENT lesson, twice over. The
+golden pin flip-flopped between two values for an hour: runs racing the
+background Deep suite hit MSB3026 dll locks and SILENTLY RAN YESTERDAY'S
+BINARY (the PlaySession stale-binary trap, now proven to wear test
+clothes) - and mid-hunt I piped a format command into tail and read
+tail's exit code, the exact trap AGENTS.md documents from 2026-08-19.
+Knowing a law's text does not immunize the hands that type at 2am; only
+never-two-test-processes-against-one-tree does. The honest pin (the two
+new Arrivals rows move the canon muster draw) was reachable in five
+minutes on a quiet tree.
+
+And the hardware watch FIRED: nine WHEA parity errors in three days,
+dotnet format segfaulting four times running - the exact pairing the
+BIOS change was believed to have closed (R-005 updated; format gating
+moved to CI for the ship commit, stated in the message). Dave's
+i9-14900KF is telling the same story it told in August, one notch
+louder. His call, flagged loud in the report.
+
+Session 3's collision hat-trick completes the set: MATSTW was already
+the Hearty Stew. Ledger ids, FEAT ids, material ids - the mint rule is
+now burned in: GREP THE ID ITSELF, in every register, closed rows
+included, before writing it anywhere.
