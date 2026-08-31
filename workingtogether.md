@@ -3508,3 +3508,35 @@ his best rulings make abstractions PHYSICAL. Waiting is a clacks broadcast,
 wealth is a box in his room, the wait for dinner is a sensor on a chest.
 When a design question stalls, "what would this be made OF in the mountain"
 is the question that unsticks him - and me.
+
+## 2026-08-31 - The ramp-up that read the ids, and the sleep plan
+
+The ramp-up found the previous session's last commit ("every record matches
+the code") had appended four rows to docs/raid_log.csv - a GENERATED file,
+stale since D-027 was its tail - and minted R-004/R-005/D-028/D-029 off that
+stale tail, every one colliding with an id the real registers had spent. The
+same night re-minted DEBT-018, which was closed on 08-24. The facts were all
+real; the homes and ids were all wrong. The scar note from LAST session said
+"ledger IDs collide - grep before minting", and the very session that wrote
+it tripped on it. A lesson in the record does not protect the tired hour
+that writes the record; only the generator and the grep do. Fixed: bellows
+row is DEBT-024, risks are R-012/R-013, rulings surfaced as D-075 and a
+freshly minted D-079, CSV regenerated from RAID.md per its own contract.
+
+Worth keeping: the decision register is ONE sequence. RAID.md's table holds
+D-001..D-041 and the baton's headings carry D-042 onward - verified by
+matching D-040/D-041 across both files before trusting it. Ids are permanent
+and never chronological; D-079 (save-replay waiver) postdates D-075 in
+number and predates D-078 in subject, and that is fine.
+
+Then FEAT-054: docs/sleep_plan.md written from D-076 with the survey done
+first - StepDwarf is the one priced seam (D-078 left room for 3..5-tick
+steps, dithered statelessly by the task-roll seed idiom, no accumulator);
+rest derives from wake stamps the way D-077 wants morale derived (nothing
+ticks, nothing desyncs); sleep is a need like eat/drink/air, never a Book
+row; Arrivals.csv is the acquisition channel for straw and feathers (hides
+already ride it), so the mattress ladder is playable without farming. One
+proposed default worth his eye: three NEW rooms (Bunk Room, Private Room,
+Private Quarters) above the requirement-free ROOBED, because putting his
+feather requirement ON ROOBED would silently un-detect every bare bedroom
+in every save - a regression wearing a rename.
