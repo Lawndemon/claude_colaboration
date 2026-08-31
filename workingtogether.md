@@ -3574,3 +3574,35 @@ Confluence's "packet is aboard" assertion turned out to be passable ONLY
 by the limbo bug - an assertion that needs the defect to pass is the
 green-test-that-measures-nothing law wearing its nastiest costume. It
 asserts the outcome now. Deep 89/89, first clean tier since D-075.
+
+## 2026-08-31 (evening) - The sleep spine, and the corridor with no air
+
+FEAT-054 Session 1 landed in one sitting off the morning's plan doc: rest
+derived from stamps (the D-077 arithmetic shape, applied a feature early),
+the feet priced in the one walk seam with a stateless dither, collapse
+through the real teardown, the wake stamp spent in CreditXp - a socket
+whose own doc comment had been waiting for it. The plan-first discipline
+paid exactly as advertised: the build phase held zero design decisions,
+only two fixture surprises.
+
+Both surprises worth keeping. First: a bare TileGrid has NO AIR, and a
+contentless dwarf lives ~320 ticks on his lungful, faints at hp 1, and
+sits Downed forever - which LOOKS like your new feature failing (my
+collapse check "didn't fire"; it was correctly outranked by the faint).
+TestAir.Fill(g) is the fixture idiom. The hunt cost five probe runs
+before printing downed=True; print the WHOLE dwarf state first, theorize
+second. And it caught yesterday's BeltLawTests passing on one borrowed
+lungful - fixed in the same commit. Second: my own `| tail -3` on a
+backgrounded Deep run ate the failure name and cost a 10-minute re-run -
+keep the full log, grep it after.
+
+The one Deep red was the tunables MIRROR refusing the restRuns
+ctor-false vs sheet-1 divergence. The escape hatch is naming precedent,
+not an exemption list: TaskRollsRun's prefix is what keeps rollsRun out
+of the guard's pairing, so the row became DwarfRestRuns. When a guard
+and a deliberate policy collide, find how the LAST policy divergence
+got past it before touching the guard.
+
+Elder discipline compounding nicely: v51 banked into the shelf (part of
+DEBT-021 paid), every pin v33..v51 moved uniformly, and the mid-sleep
+round-trip pins "lives the same future" for the walk-and-sleep pair.
