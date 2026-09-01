@@ -3665,3 +3665,35 @@ Session 3's collision hat-trick completes the set: MATSTW was already
 the Hearty Stew. Ledger ids, FEAT ids, material ids - the mint rule is
 now burned in: GREP THE ID ITSELF, in every register, closed rows
 included, before writing it anywhere.
+
+## 2026-09-01 (late) - Thoughts as data: D-077 built against his ledger question
+
+He asked "I assume we track exhaustion, morale, XP in a ledger style
+table?" and the truthful answer had three shapes: rest is DERIVED from
+stamps (stronger than a ledger), XP is a total whose interesting half
+already has a readout, and morale was the bare poked int his question
+was really about - D-077 existed because of it. Built the same evening:
+Moods.csv with a TRIGGER column binding rows to a small code vocabulary
+(no content ids in Core - the D23 move that made the ITECOT blank cell
+work is now a whole subsystem's shape), events as (id, expiry, amount)
+snapshots, conditions derived and never stored, one ComputeMorale call
+yielding number and reasons so the card cannot disagree with itself.
+
+Design lesson worth keeping: REPLACING INTEGRATORS WITH LEVELS changes
+claims, not just code. Two old tests pinned drip shapes (morale falling
+OVER a day near a corpse) and their rewrite was the feature speaking:
+the flat -12 IS the new behavior, assert the level and its flatness.
+When a rework flips a model, expect the old tests to be wrong in the
+direction of the old model, and rewrite them as claims, not deltas.
+
+Two instrument scars, one old one new. The stale-binary trap nearly bit
+AGAIN within hours of being documented: the client build FAILED (2
+errors from my own beheaded fluent chain) and the headless boot ran
+yesterday's dll and printed clean - caught only by counting the build's
+errors before trusting the boot. And the same-hour find that plain
+water blanked the stew's +5 (drink stamped the meal's row) says: when
+two callers share a stamp, ask what the SECOND one overwrites.
+
+Turbo is back per his ruling - clocks over stability, eyes open - and
+the formatter still segfaults regardless, so CI keeps the format gate
+and R-005 carries the whole story.
