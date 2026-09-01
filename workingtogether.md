@@ -3760,3 +3760,42 @@ both stay debuggable.
 
 Also: last session's stamps ran a day ahead (wrote 09-02 on a 08-31/09-01
 session); corrected in both repos. Check the clock before stamping.
+
+## 2026-09-01 (evening): D-084 — the mountain gets a thermometer
+
+The best design session we've had. He asked "full ONI with QoL or
+something different?" and the answer that survived his four probes was:
+HEAT IS GEOMETRY, NOT HISTORY. A tile's temperature is a derived band —
+computed from what reaches it, never simulated forward — and every ONI
+horror he named (the hour-long scalding room, the one-tile insulation
+mistake, the slow base-cook) turned out to be a STATEFUL failure the
+model simply cannot have. His probes each moved the design somewhere
+better: mined-out biomes forced "the rock IS the biome" (ambient
+radiates from remaining rock, so neutrality needs no stored state);
+his lingering-heat instinct became residual stamps on a 30-second
+band-step dial; his insulation push became per-mineral seep where
+THICKNESS is the decision and tiers never exist; his reservoir question
+banked the R2 mixing law. Bands not degrees — but every band OWNS a
+degree range the readouts speak, his copper-volcano example verbatim.
+
+Built R1 same evening: bands table, biome/liquid/asset source columns,
+the lazy Dijkstra field with sign contention, settle arithmetic, the
+Heat overlay in authored hues, hover/card sentences Core-authored. Nine
+tests, all pinning OFFSETS and composed sentences against the LOADED
+table — his taste pass on the roster is cell edits and cannot redden
+them. 1291 green; the golden pin HELD, which is itself the proof the
+field is derived (state leaking into the save would have moved it).
+
+Two scars worth keeping. The smeltery is a STATION, not a furnishing —
+the first seed loop enumerated furnishings only and the forge sat cold;
+found by API survey, not by a red test, which is the wrong way round
+(an asset-emitter test through the STATION path now exists). And
+python-over-CSV rewrites every line when you append a column — the
+quote-normalization churn is semantically clean (three independent
+loaders green) but the diff reads apocalyptic; next content pass,
+consider appending cells with a dumber tool.
+
+The round ladder is banked in the plan: R2 matter (phases, parcel
+temps, his mixing ruling), R3 flesh (exposure clocks, the fire-opal
+smelter he wants), R4 harness (insulated wall, baffle door, the four
+rows that have waited on FEAT-230 since August).
