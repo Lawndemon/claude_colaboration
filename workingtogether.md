@@ -3698,7 +3698,8 @@ Turbo is back per his ruling - clocks over stability, eyes open - and
 the formatter still segfaults regardless, so CI keeps the format gate
 and R-005 carries the whole story.
 
-## 2026-09-02: FEAT-327 — hunger becomes a journey
+## 2026-09-01: FEAT-327 — hunger becomes a journey
+(dated 2026-09-02 when written — the session ran a day ahead of the clock)
 
 "Let's roll into food then!" and by end of day the last instant need is
 gone: eating and drinking are ERRANDS. The plan doc went first (five
@@ -3726,3 +3727,36 @@ The CancelJob ratchet earned its keep in the other direction this time:
 (completing or impossible) in the commit itself. A ratchet you can
 raise WITH A REASON is a working gate; the reason in the commit is what
 keeps the next reader from calling it drift.
+
+## 2026-09-01 (later): D-083, and the Assignment Board in an afternoon
+
+He came back from the roles conversation with a ruling that dissolved a
+two-year-old tangle in one stroke: NO game-named roles. A "role" is a
+player-named TEMPLATE — a dwarf's skill selections and priority row,
+saved under whatever name the player likes, stamped onto the next dwarf.
+The record had been carrying two meanings of "role" (a standing post; a
+matrix preset) and his answer was: neither is ours to name. Banked as
+D-083 at P2, A-019's three questions closed superseded, FEAT-247
+re-scoped whole. The missing-tool law wearing its own clothes.
+
+Then "focus on the priority UI," and D-046's grid went from ruling to
+parchment in one leg: the Assignment Board (key A) — roster as rows, all
+ten authored columns with duties and dormant FADED never hidden, the
+EVERYONE row speaking through one new Core verb over the living. The
+board is a WINDOW: every cell reads PriorityOfDwarf and writes
+SetDwarfPriority, stores nothing, and so can never disagree with the
+selector. Five lane-1 facts on the bulk verb; 1282 green; the capture
+rig grew --capture-board and the proof shot shows the embark trio's true
+dials with mixed-dot and shared-5 Everyone cells — the arithmetic
+photographed working.
+
+The restraint note, for future-me: D-044's three-named-slots semantics
+(will-not-do outside them) did NOT ride along, on purpose. Enforcing it
+flips every fixture that assumes a dwarf does everything — that is a
+blast-radius survey and its own plan, not a rider on a UI leg. The
+board's bones survive that change; only the cell renderer learns the
+rank names. Shipping the window today and the law separately is how
+both stay debuggable.
+
+Also: last session's stamps ran a day ahead (wrote 09-02 on a 08-31/09-01
+session); corrected in both repos. Check the clock before stamping.
