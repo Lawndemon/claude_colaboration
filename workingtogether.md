@@ -3697,3 +3697,32 @@ two callers share a stamp, ask what the SECOND one overwrites.
 Turbo is back per his ruling - clocks over stability, eyes open - and
 the formatter still segfaults regardless, so CI keeps the format gate
 and R-005 carries the whole story.
+
+## 2026-09-02: FEAT-327 — hunger becomes a journey
+
+"Let's roll into food then!" and by end of day the last instant need is
+gone: eating and drinking are ERRANDS. The plan doc went first (five
+locked decisions, the sleep precedent doing most of the arguing), then
+one pass built both halves — the self-errand (Idle need ladder: food,
+drink, sleep, work; nearest chest with an UNRESERVED unit; shipping
+hold still sacrosanct) and the mercy run (a sustenance-felled body in
+breathable air is a FEED target, not a carry target — fetch, feed him
+where he lies, rouse only when no longer felled). The old
+carry → CPR → re-faint death spiral is replaced by a dwarf with a bowl
+of stew, and an empty larder dispatches NOBODY — the death clock is the
+player's emergency, said plainly. Everyday 1277/1277, Deep 89/89 first
+run, merged to main.
+
+Fixture lessons, all three of the same species (the world is livelier
+than the test imagines): a starving dwarf faints MID-ERRAND wherever
+hunger takes him, so pin the faint tile, not the spawn; the embark
+wagon stocks its receiving hold with drinkables, so drain them before
+proving the shipping exclusion; and the casualty's mate must be kept
+fed BY THE FIXTURE or he wanders off on his own errand mid-mercy-run.
+Lane 3 tests live in the whole sim, and the whole sim has opinions.
+
+The CancelJob ratchet earned its keep in the other direction this time:
+73 → 85, twelve new sites, every one named to the guard's closed set
+(completing or impossible) in the commit itself. A ratchet you can
+raise WITH A REASON is a working gate; the reason in the commit is what
+keeps the next reader from calling it drift.
