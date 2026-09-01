@@ -3799,3 +3799,38 @@ The round ladder is banked in the plan: R2 matter (phases, parcel
 temps, his mixing ruling), R3 flesh (exposure clocks, the fire-opal
 smelter he wants), R4 harness (insulated wall, baffle door, the four
 rows that have waited on FEAT-230 since August).
+
+## 2026-09-01 (night): D-085 — the audit that caught the fixtures lying
+
+He handed down the content blessing ("you have my full blessing to expand
+the roster of 'things'") and asked the question that defined the evening:
+have we stubbed ourselves for lack of assets? The audit's answer was
+sharper than either of us expected: THE SLEEP CROWN WAS FIXTURE-ONLY.
+Private Quarters — the 125% rung we shipped and tested a week ago —
+requires statues nobody could place and light nothing buildable emitted.
+Every lane-3 test was green because fixtures place assets DIRECTLY; the
+played game hit a wall no test could see. That is a new failure class
+with a name now: the fixture-reachability gap.
+
+The fix came in two halves. Content: eight furnishings made buildable
+(statue, torch, and six room-census pieces), the Grill homed, Hardtack
+and Moonshine given recipes, eight firm arrivals as interim sources for
+the farm/ranch foods (grain, meat, mushrooms, the forage list) until
+those systems land. Law: ContentChainTests — every chain the sheets
+promise must be walkable by the ENGINE, and the unplaceable set is
+pinned to a documented pending ledger that can only shrink. The guard
+out-audited my own audit within minutes: my python pass counted plant
+and creature yields as "produced," but farming isn't built — the ENGINE
+couldn't cash them. The guard reads the loaded db, so it knew better.
+Lesson burned in: audit with the code's own eyes, never a parallel
+script's.
+
+His smelter ask, answered with proof: already in, always was —
+buildable, Forge-roomed, thirteen recipes, CraftingTests running ore to
+ingots at a placed station. Sometimes the audit's best find is the
+stale mental model.
+
+The sheet==code lockstep guards all fired on the new buildables
+(registry mirror, menu drawer, D23 ledger) - each red a two-minute fix
+because the guards SAID what they wanted. That is what a good ratchet
+buys: expansion at speed without drift.
