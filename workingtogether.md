@@ -3885,3 +3885,28 @@ embark trio is the canonical huddle and the fixture for this feature
 was a screenshot, looked at, three times. Bars are his palette to the
 letter, fed by the card's own numbers, each behind its own toggle, and
 the corpse keeps his name while its bars go out.
+
+## 2026-09-02 (later): the beards
+
+"Keep things steampunky" and the faces landed in a sitting: 28 parts and
+26 tints as pure sheets, a foundry script, and a compositor whose whole
+soul is one per-pixel rule - grayscale multiplies the tint in, SATURATED
+pixels are accents, so the brass gear-beads and the goggle glass keep
+their own colour in a coal-black beard. The infrastructure gift of the
+day: anchors.json already carried a HEAD anchor per frame (exported for
+the tool-in-hand system), so the face layer rode every pose with zero
+new anchor work - the second time this project has been paid back by an
+export somebody added for a different feature.
+
+The huddle capture ends the era of triplets: a winter longbeard under a
+black topknot, a copper ring-goatee, gear-beads under goggles-up. The
+card speaks each face in words from the same lookups the sprite uses.
+His extension surface is a folder and a CSV row; the named follow-ups
+are body slots and a beardless base re-render to kill the orange fringe.
+
+Two process notes, honestly: a bash-mangled backslash put a literal
+newline inside a char literal and the capture that followed ran on the
+STALE binary (14 errors, "boot clean" - the trap's third bite; count
+errors BEFORE trusting any boot, always). And this leg ran directly on
+main - the branch ritual got skipped after the previous merge; green
+before push, but the ritual exists for the day it isn't.
