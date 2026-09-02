@@ -3868,3 +3868,20 @@ buckets, HandPumpTests tip the buckets up the funnel, and the cask pours
 two flagons a dwarf will walk over and drink. His two 2026-08-18
 frustrations, pairing exactly the way he said they would, into the water
 chain the audit thought was missing.
+
+## 2026-09-02: names over heads, bars in his palette, the sweep armed
+
+Three new P1s from him (names, configurable status bars, and the
+appearance system - "many, many different beards" banked verbatim
+awaiting its art-pipeline design pass), then "fire away." The camera got
+its pan dial (Settings, 0.25x-4x) with Shift-sprint on top and a wider
+zoom-out step for the tall map. Tidy armed with almost no code: TagPile
+existed all along - the disabled Cleanup slab was the entire gap between
+a verb and a tool, which is the cheapest feature this project has ever
+shipped. The overhead HUD went through three captures: names at 96px
+smeared across the huddle, body-width at one row merged the even pair,
+and the shipped shape is a THREE-row stagger by roster index - the
+embark trio is the canonical huddle and the fixture for this feature
+was a screenshot, looked at, three times. Bars are his palette to the
+letter, fed by the card's own numbers, each behind its own toggle, and
+the corpse keeps his name while its bars go out.
