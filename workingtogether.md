@@ -3910,3 +3910,25 @@ STALE binary (14 errors, "boot clean" - the trap's third bite; count
 errors BEFORE trusting any boot, always). And this leg ran directly on
 main - the branch ritual got skipped after the previous merge; green
 before push, but the ritual exists for the day it isn't.
+
+## 2026-09-02 (before his playtest): the pre-flight sweep earns twice
+
+He asked "anything left before a deep playtest?" and the sweep answered
+with two real finds. First: placed MOP MARKS were invisible - the rubber
+band showed while dragging and the order then vanished from sight while
+staying in the book. A readout the rule shipped without; water-blue box
+with a wave now, beside the dig and wreck marks. Second and better: the
+Deep tier came back 88/89, and the red was TRUE - the golden save had
+gone stale mid-batch. I re-primed it when v55 held only the mop section,
+then appended pump ids, the met history and the jump key to the stream,
+and the golden never ran again because GoldenSaveTests is Suite=Deep and
+the everyday gate never touches it. EndOfStream, reproducible, honest.
+The re-prime handed back the IDENTICAL pin, proving no sim state moved.
+The batch plan's own risk line said land the bump ONCE, FIRST - I primed
+early instead of last, and the lesson is now a commit message: a golden
+re-primed mid-stream-growth is a golden already stale, and a Deep-only
+guard is blind for exactly as long as you avoid the Deep tier.
+
+Deep 89/89 after the fix. The mountain is his: fifteen checklist rows,
+a settings menu with real knobs, three dwarves with different beards,
+and every gate green.
