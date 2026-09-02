@@ -3834,3 +3834,37 @@ The sheet==code lockstep guards all fired on the new buildables
 (registry mirror, menu drawer, D23 ledger) - each red a two-minute fix
 because the guards SAID what they wanted. That is what a good ratchet
 buys: expansion at speed without drift.
+
+## 2026-09-01 (small hours): the playtest P1 batch - four bones in one sitting
+
+"Go for it!" and the last small bones went in: MOP (his dig-for-puddles
+sentence made arithmetic - buckets equal the litres lifted, exact, with
+the bucket authored on the Liquids sheet so magma refuses by blank
+cell), the HAND PUMP (draw depth four - the theory pins his number, four
+drains and five never - with the funnel as a crafting station riding the
+byproduct plumbing that already existed), the MET-MATERIALS filter (a
+history, not an inventory), and the QUEUE JUMP (FEAT-270's open
+question answered as D-086). One v55 bump carried all of it; thirty
+elder pins held and the golden re-primed once.
+
+The night's best find was architectural: my first jump was a WALL - a
+RowWanted gate that hid the flagged row's rivals - and it deadlocked
+against the D14 judge, which parks work only when NOTHING is reachable.
+The gate hid the reachable mark; the judge could still see it; nobody
+dug anything forever. Its own test rejected it, and the shipped design
+is a BIAS: the flagged tile leads every planner's walk, whoever can
+reach it takes it, and a bad flag jams nobody. When two safety systems
+watch the same queue, the override has to persuade, not forbid.
+
+Fixture comedy, thrice: marks painted on open air (Designate rightly
+no-ops on the unmineable - twice), a puddle that levelled itself out
+from under the assertion (water spreads; the fixture earned its one-tile
+pit), and AddUnit politely refusing a tile that ambient gas had already
+filled. The sim keeps being livelier than the test imagines, which is
+the best thing I can say about a sim.
+
+And the circle that made the evening: MopTests lift the flood into
+buckets, HandPumpTests tip the buckets up the funnel, and the cask pours
+two flagons a dwarf will walk over and drink. His two 2026-08-18
+frustrations, pairing exactly the way he said they would, into the water
+chain the audit thought was missing.
