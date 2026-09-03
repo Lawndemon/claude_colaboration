@@ -3932,3 +3932,34 @@ guard is blind for exactly as long as you avoid the Deep tier.
 Deep 89/89 after the fix. The mountain is his: fifteen checklist rows,
 a settings menu with real knobs, three dwarves with different beards,
 and every gate green.
+
+## 2026-09-02 (his deep playtest, hour one): the live loop
+
+The best working session this project has had: he played, reported in
+batches mid-stream, and fixes landed while he waited. Six reports, six
+answers, one push. The lessons that will outlive the evening:
+
+THE BLOCKER WAS A NAME AND A DRAWER. "We need blocks - without those I
+can't actually play" - and the block existed all along as "Stone
+Platform", 18 stone, filed under POWER because the cogway once needed
+platforms. Discoverability is a feature; a thing the player cannot find
+does not exist. (Renamed, repriced 6, first in Infrastructure.)
+
+DESIGN MEETS PLAY AND PLAY WINS. The drowning dwarf was not a bug - the
+air ladder's give-up clause deliberately kept information imperfect. His
+one sentence ("dwarves should always move out of danger into safety if
+they can") became D-087 and the survival rung in the same hour. The old
+clause was defensible on paper and indefensible on screen.
+
+THE GUARDS EARNED THEIR KEEP TWICE: GoldenFreshnessTests - built after a
+version bump bit us once - fired the moment v56 landed and recited its
+own ritual; the clause-description guard (BUG-026) now makes "schema
+prose at the player" a class that cannot recur.
+
+AND MY OWN KEY CHECK HAD A BLIND SPOT: "case Key.A is free" was true of
+the switch and false of the game - WASD pan is action-bound and
+invisible to a switch grep. The Assignment Board sits on P by his word;
+checking a key now means checking BOTH input systems.
+
+FEAT-357/358/359 minted from his asks (full rebinding, block materials,
+save slots). He is back in the mountain. The reports keep coming.
