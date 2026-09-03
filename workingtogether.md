@@ -3963,3 +3963,41 @@ checking a key now means checking BOTH input systems.
 
 FEAT-357/358/359 minted from his asks (full rebinding, block materials,
 save slots). He is back in the mountain. The reports keep coming.
+
+## 2026-09-03 (the gate that asks questions): checkpoints ship
+
+His playtest question — "what can we do to prevent our dwarves from
+being as stupid as the duplicants?" — got its answer built the same
+day. Checkpoints: a buildable gate whose conditions (sealed, one-way,
+allow list by dwarf) the PATHFINDER obeys, per dwarf. What I want to
+remember:
+
+THE PRINCIPLE OUTRANKS THE FEATURE. The design conversation settled
+one law — protection is ELIGIBILITY, never enforcement-by-suffering.
+A barred dwarf never plans the route, so there is nobody standing in
+the doorway soaking heat. That law was worth writing down twice: as
+the pathfinder's veto (shipped) and as the R3 heat contract in the
+plan (banked) — the checkpoint's condition vocabulary is exactly where
+band tolerance will bolt on later.
+
+THE TEST THAT FAILED WAS TELLING THE TRUTH SIDEWAYS. The mid-walk
+slam test waited 40 ticks before sealing — and 40 ticks was exactly
+the dwarf's walk TO the gate, so the "still west of it" pre-check
+tripped, not the law under test. A failing assert names a fact; WHICH
+fact takes arithmetic (10 steps at 4 ticks each = at the gate). Fixture
+timing is part of the fixture.
+
+ONE CHOKE, THEN THE STRAGGLERS. FindNearestFor turned out to be the
+single per-dwarf planning door, so most of the game got checkpoint-
+aware in one line — but TryPlanMine's two direct reaches and the
+StepDwarf walk needed their own visits. The one-home law held: the
+store answers MayPass, everything else asks.
+
+THE NEW ROW COLLIDED QUIETLY. Checkpoint took MenuOrder 1 —
+ladder's number. The ambiguity guard exists because ties sort by
+accident; renumbered the whole Infrastructure drawer 0..11 rather
+than patch the pair. And the golden's re-prime ritual ran clean: an
+empty store mixes as hash identity, same pin, proven not assumed.
+
+Everyday 1415 green. He asked for a gate; the game got its first
+conditional passability, and R3 got its doctrine.
