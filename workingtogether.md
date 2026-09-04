@@ -4043,3 +4043,39 @@ the thing, not the exit of the pipe.
 Everyday 1422 green, save v58, golden pin held and proven. He asked
 for a picker; the game got a materials law, and the crafting chapter
 got its inheritance doctrine banked.
+
+## 2026-09-04: dwarfiness - the room answers back
+
+FEAT-363 same-day from ruling to green: materials carry an authored
+happiness rating, long-stay rooms aggregate it off the D-089 pins, and
+the feeling stamps where the verbs already are. What held it together:
+
+YESTERDAY'S PIN WAS TODAY'S WHOLE FOUNDATION. The score is just a mean
+over BuiltMaterials reads - no new sim state, no save bump, golden pin
+untouched. When a feature lands as pure derivation over an existing
+store, the design before it was right.
+
+THE MEAN IS THE RULING. His orichalcum hall ("builds the WHOLE great
+hall with it") decided sum-vs-mean by itself: totality is the point,
+so a mean - the hall maxes because everything is orichalcum, not
+because it is big, and one gold table in a bare cave stays plain. The
+dilution test and the tomb test ("grand and nobody cares") are his
+sentences turned into control arms.
+
+BARE ROCK IS ZERO, NOT NEGATIVE. The mountain itself is never an
+insult - only what you built cheaply is. That one line kept early
+natural caves neutral instead of punishing a player before they have
+choices, while loam BLOCKS still read as the insult he asked for.
+
+THE BLANK-LINE TRAP, THIRD BITE: a pre-existing empty line in
+Materials.csv became a phantom row when my column-padding filled it.
+The loader's own Int() guard caught it at first read. Sheet edits now
+get a bad-row sweep before writing back.
+
+THE VERBS WERE ALREADY STANDING. Wake, meal, drink - three one-line
+FeelTheRoom calls beside the moods that already fire there. The
+Library scores and reads out but stamps nothing (no verb puts a dwarf
+there yet) - parked with its reason on the readout, not silently.
+
+Everyday 1429 green. Three features in two days, each standing on the
+one before: the gate, the pin, the feeling.
