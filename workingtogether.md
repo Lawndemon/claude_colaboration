@@ -4079,3 +4079,43 @@ there yet) - parked with its reason on the readout, not silently.
 
 Everyday 1429 green. Three features in two days, each standing on the
 one before: the gate, the pin, the feeling.
+
+## 2026-09-04 (second chapter): gear becomes a thing in the world
+
+FEAT-322, the foundation row - and the day the game's oldest dark
+content lit up. Lessons worth the ink:
+
+THE ROW'S OWN CORRECTED SURVEY WAS THE MAP. Its first draft said the
+slots needed building; the correction said the slots exist and only
+the WORLD half is missing. Trusting that correction meant the whole
+build was five seams instead of a system: a kind, a matcher arm, a
+mint, an errand, a pace factor.
+
+THE MISSING LINK WAS NOBODY'S FEATURE. The Forge recipes weren't dark
+for want of items - they were dark because their inputs live in
+RecipeSlots and no loader ever folded slots into ingredients. One
+fold (slot -> ingredient-whose-selector-is-the-CLASS) and D-070's
+"iron axe and mithril axe are one recipe" runs on machinery that
+never learned a new trick. When a chapter is parked, the park note
+("goes live when the loader chapter arrives") is a to-do list item
+someone eventually collects.
+
+THE GUARDS BUY CONTENT NOW. The producibility guard refused to let an
+axe exist without a haft - wood had NO source in the whole game. Two
+arrivals rows later the firm sells timber, and every wood-only
+buildable from two days ago became honestly buildable. A guard that
+fails is sometimes a shopping list.
+
+THE REGISTER READ MY PROSE. The hardcoded-id scanner flagged a quoted
+item id in my own COMMENT. Reworded rather than resented: a scanner
+that reads everything is the only kind that never misses the real one.
+
+AND THE PIN MOVED FOR THE RIGHT REASON: two new arrivals rows shuffle
+the canon muster draw - the straw/feathers precedent, reproduced twice
+before re-pinning, exactly the flip-flop discipline the pin comment
+carries from the stale-binary hunts.
+
+Everyday 1435 green, save v59. The axe contracts posted dark for five
+weeks; tonight a colony can take one, smelt the iron, cut the axe,
+ship it, and get paid. Next: wages (FEAT-342/343) - now there is
+something worth buying.
