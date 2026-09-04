@@ -4001,3 +4001,45 @@ empty store mixes as hash identity, same pin, proven not assumed.
 
 Everyday 1415 green. He asked for a gate; the game got its first
 conditional passability, and R3 got its doctrine.
+
+## 2026-09-03 (second chapter): the material is the player's to choose
+
+FEAT-358 grown to his full ruling — most buildables take a chosen
+material, a table is the law of validity, the ONI card with the
+priority ribbon is the shape. What this chapter taught:
+
+I NEARLY BUILT THE SECOND HOME. Designed a MaterialBuildClass column,
+wrote it, wired it — then found MaterialClasses.csv + members already
+IS the purpose taxonomy, built for recipe slots (D-070: a slot asking
+Metal takes any member). Reverted my column the same hour and the
+table's cells now speak ClassIDs. The one-home law isn't just about
+queues: before minting a taxonomy, grep for the one the game already
+speaks. (The find also made his craftables ruling land soft: slots and
+build cells share one vocabulary, two consumers.)
+
+THE GUARDS EARNED THEIR KEEP AT BIRTH. The new integrity checks caught
+my own seeds twice before anything shipped: a training dummy asking
+for fiber nothing produces, and EVERY wood-only buildable quietly
+unbuildable because wood has no source yet. The second one is the
+lesson — restricting materials to "what makes sense" can make sense
+into a softlock; the starving check (which counts mined matter as
+obtainable, because a granite smeltery is obtained with a pick) is now
+the permanent tripwire. Stone joined the wood rows until harvests
+exist.
+
+THE CONTROL ARM IS THE FEATURE. The test that matters isn't "granite
+chosen, granite consumed" — it's granite chosen, ONLY MARBLE PRESENT,
+and the build PARKS. A picker that quietly substitutes is a paint
+swatch. The promise-kept test and the elder-compat test (unchosen
+resolves sole-option-or-stone; Bug007's canister still wants hide)
+bracket the feature from both sides.
+
+MY LOCAL FORMAT GATE HAD BEEN LYING. dotnet format segfaults on the
+tests workspace (repeatably - a broken tool, not WHEA), and worse: my
+earlier "format-exit: 0" was grep's exit, not format's. Core verifies
+clean; CI's ubuntu gate is the ruler and always was. Check the exit of
+the thing, not the exit of the pipe.
+
+Everyday 1422 green, save v58, golden pin held and proven. He asked
+for a picker; the game got a materials law, and the crafting chapter
+got its inheritance doctrine banked.
