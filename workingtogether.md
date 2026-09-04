@@ -4119,3 +4119,36 @@ Everyday 1435 green, save v59. The axe contracts posted dark for five
 weeks; tonight a colony can take one, smelt the iron, cut the axe,
 ship it, and get paid. Next: wages (FEAT-342/343) - now there is
 something worth buying.
+
+## 2026-09-04 (third chapter): payday - the till, the thought, the box
+
+FEAT-342/343 as the pair they were banked as. The economy has all
+three corners now: the firm pays the colony, the colony pays the
+roster on the cycle, and the roster buys its ale back from the till.
+
+THE ELDER-PIN LAW HAS TEETH, AND I FELT THEM. Two innocent-looking
+hash folds - a wallet and a payday seat - moved all fourteen pinned
+elder hashes at once, because `hash ^= 0; hash *= prime` is not
+identity and neither is an unconditional mix of a sentinel. The law
+was already written in the Checkpoints store's own comment ("an empty
+store mixes as identity"); I had followed it for collections and
+forgotten it for scalars. Conditional folds, every elder pin returned
+to its number, and the canon pin moved once, explained, reproduced,
+re-pinned. Scalars need the law MORE than collections - a collection
+is naturally empty; a scalar has to choose its silence.
+
+INSOLVENCY AS DESIGN. His ruling made the failure mode the feature:
+an empty till doesn't block the transaction, it writes a thought. And
+roster-order payment means the newest hands get stiffed first - the
+company-store song, emergent from a foreach loop.
+
+THE GUARDS TAXED THE CONTENT AGAIN: tier-0 recipes, silent
+description cells, and - subtlest - the corpse-morale fixture had
+started quietly absorbing a MOODUNP thought because paydays now fire
+inside any five-day fixture. Funded that fixture's till: the
+measurement is the corpse's weight, not the grudge. New systems leak
+into old fixtures through the CLOCK, not just through state.
+
+Everyday 1443 green, save v60. Three features today - gear, wages,
+boxes - and the loop a mine deserves: work, get paid, buy a drink,
+grumble when the till is dry.
