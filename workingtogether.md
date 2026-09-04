@@ -4152,3 +4152,41 @@ into old fixtures through the CLOCK, not just through state.
 Everyday 1443 green, save v60. Three features today - gear, wages,
 boxes - and the loop a mine deserves: work, get paid, buy a drink,
 grumble when the till is dry.
+
+## 2026-09-04 (fourth and fifth chapters): the stone remembers, the marble learns his face
+
+Tombstone and portraits, closing the open-P1 queue he gated the
+playtest on. And the day's hardest lesson was about WATCHING, not
+building:
+
+MY CI WATCHER HAD BEEN RACING. `gh run list --limit 1` grabbed
+whatever run was newest the moment after a push - which twice was the
+PREVIOUS commit's run. The wages push was red for hours while my
+transcript said green; the tombstone push then failed on a gate error
+the wages push had actually introduced. The fix is structural: match
+the run to the pushed SHA, retry until it appears, then watch THAT.
+A green report about the wrong thing is worse than no report.
+
+THE GATE IS CODE TOO. CI's build_db.py still validated ingredient ids
+as plain FKs to Materials - it never learned the class-selector
+vocabulary FEAT-322 taught the engine, and the box recipes' CLAFAS
+rows tripped it. SQLite FKs cannot say "or", so the union check is
+hand-walked now, covering BuildMaterials.Accepts too (which the gate
+had never validated at all). Sheet==code lockstep includes the
+gatekeeper's own Python.
+
+CAPABILITY COLUMNS ARE COMPOUNDING. StillsGloom (the tombstone) and
+Likeness (the portrait) are the LightSource idiom's third and fourth
+tenants; each one is a mechanic with no id in engine code, and the
+guards police them for free. The statue's card promised "a specific
+dwarf, in marble" for weeks - the column made the card honest.
+
+AND THE COMPOSITOR PAID OFF TWICE: FEAT-356's face compositor,
+refactored seed-first, now draws the walking dwarf AND his memorial
+from one cache. "Genuinely unique for free" was FEAT-344's open hope;
+it was already built, waiting for a second caller.
+
+Everyday 1451 green, save v61, pin unchanged through the bump. The
+open-P1 queue he set is EMPTY: gear, wages, hoards, tombstone,
+portraits shipped; faces scrubbed to its true remainder (his Blender
+wardrobe). The mountain is ready for playtest two.
