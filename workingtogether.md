@@ -4229,3 +4229,38 @@ me again: an assert mid-script means NOTHING wrote, not half.
 
 Everyday 1458 green. Fifth chapter in two days, and this one gives
 the playtest back its floor - literally.
+
+## 2026-09-05 (second chapter): the card that was never there
+
+Playtest two, round two - his follow-ups turned up the best bug of
+the week. Lessons:
+
+"DID I MISS IT OR IS IT MISSING?" IS ALWAYS ANSWERABLE BY PIXELS. The
+material card I shipped, tested, and described to him twice had never
+rendered once: anchored to a zero-height point, no minimum size, no
+vertical grow. Every unit test passed because unit tests do not have
+eyes. The answer was a --capture-matcard variant on the self-capture
+harness and one boot of the real client - visual-claims-carry-numbers
+now has a sibling: UI-EXISTENCE claims carry captures. A new screen
+is not shipped until the harness has photographed it standing.
+
+THE CAPTURE PAID TWICE, AGAIN: the shot that proved the card also
+showed it printing "Chiselled Granite Ladder" above a sandstone
+choice - a name from before materials were choosable. Looking at real
+output finds the lies no grep was aimed at.
+
+EXACT-TILE PICKING MISSES MOVING TARGETS. A walking dwarf's sprite
+drifts off his logical tile, so "click the dwarf" failed exactly when
+the player was watching him most. Fuzzy pick within one tile, ties
+deterministic, exact match first - forgiveness sized to the drift.
+
+SELECTION WITHOUT VERBS IS HALF A FEATURE. His "I can not select a
+pending action" was really "selecting it gives me nothing" - the tile
+card now carries cancel actions, so seeing a plan and changing your
+mind are the same gesture.
+
+And FEAT-365 banked: the Earthdawn character sheet, tabs and dice
+shown per skill - the inspector's scattered riches, composed. Click-
+a-dwarf works now, which is its front door.
+
+Everyday 1458 green, twice today.
