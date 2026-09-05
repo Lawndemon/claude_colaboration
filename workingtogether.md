@@ -4190,3 +4190,42 @@ Everyday 1451 green, save v61, pin unchanged through the bump. The
 open-P1 queue he set is EMPTY: gear, wages, hoards, tombstone,
 portraits shipped; faces scrubbed to its true remainder (his Blender
 wardrobe). The mountain is ready for playtest two.
+
+## 2026-09-05: playtest two - the dwarves were framed
+
+His second playtest died in minutes and the report read like a sim
+meltdown: dwarves ignoring work, cancel inert, diggers falling into
+voids, "overwhelmed by two actions." The session's lessons:
+
+REPRO THE ACCUSATION BEFORE FIXING THE ACCUSED. The first move was
+his exact scenario as a Core fixture - ledge, ladders, cancel, a
+stopwatch - and Core passed everything. That one hour of fixtures
+turned "the queue is broken" into two precise client bugs: an eraser
+that only erased PENDING sites (parked ones aren't), and a material
+default that picked first-MET over actually-HELD, pinning promises to
+stone the colony owned none of. The dwarves were keeping D-089's
+promise perfectly; the promise was wrong. Measure-before-fixing has
+never paid better.
+
+A FEATURE'S DEFAULT IS PART OF ITS SAFETY. D-089's promise-keeping
+(never substitute materials) was RIGHT, and it still stalled his
+colony - because the DEFAULT pick could promise the impossible. The
+fix wasn't softening the promise; it was making the default sane and
+the readout honest ("out of Granite Chunk", not "no stone").
+
+THE SAME-TICK LAW. His shaft ruling ("dig -> build rung -> dig ->
+build rung") only works if the rung exists the INSTANT the rock
+breaks - a two-tick gap is a fall. FinishBuild's mine-and-raise cuts
+and raises in one tick, and fetch-before-dig makes "no materials = no
+digging" structural rather than checked. The best safety rules are
+the ones that cannot be violated by timing.
+
+THE VETO BARS STANCES, NOT MARKS. The own-support dig law nearly
+became "park the mark unsafe" - wrong, because a dwarf BESIDE the pit
+can cut it legally. stanceBarred (the barred-step's sibling) prunes
+(stance, target) pairs inside the search, so the mark stays honest
+and the geometry decides. And the regex that tried to thread it bit
+me again: an assert mid-script means NOTHING wrote, not half.
+
+Everyday 1458 green. Fifth chapter in two days, and this one gives
+the playtest back its floor - literally.
