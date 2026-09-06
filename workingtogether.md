@@ -4306,3 +4306,44 @@ arithmetic and it gets checked — exactly why it's trustworthy.
 
 Deep 89/89, everyday 1467, golden pin unmoved. The economy week is
 solid to the corners now.
+
+## 2026-09-06 (overnight, autonomous): powered minesites, course one
+
+He gave the vision (steam-driven minesites), ruled the four questions,
+and went to sleep at 4am with "go ahead with whatever you can tackle."
+What I did and — as much — what I chose NOT to do:
+
+SHIPPED: rock hardness + the hammer drill (FEAT-369/366). A tool's
+MinePower now gates the hardest rock it breaks as well as how fast it
+mines — ONE number for both, exactly his ruling #3, and it fell out of
+FEAT-322's existing hook so the drill was almost pure content. Deepstone
+is drill-only; a pick parks on it with an honest readout. Everyday 1469,
+golden held.
+
+THE DISCIPLINE THAT MATTERED: I did NOT blind-build the steam chain.
+It's XL and its heart (continuous-vs-metered steam, flexipipe reach, the
+consumption model) has design sub-questions, and baking a foundation
+wrong while he sleeps is worse than shipping less. So I wrote a grounded
+design doc (docs/steam_mining_plan.md) with the four sub-questions teed
+up and a build order, and stopped there. "Whatever you can tackle"
+includes knowing what NOT to tackle solo.
+
+THE HONEST BLOCKER, NAMED: per-instance bit-material + quality (his
+explicit ask) needs a crafted-tool-instance item model YieldItem can't
+express today — the same question a copper-vs-mithril axe raises. Worth
+deciding once for all gear, not smuggled in for the drill. Banked on
+D-092, drill shipped type-based in the meantime — playable now, honest
+about what's deferred.
+
+THE PLAYTHROUGH EARLIER: I also actually PLAYED (through the command
+surface — the native window won't grant to computer-use as a
+from-source debug build). Embarked, dug a hall, sank a safe ladder
+shaft (0 falls — D-091 held under real play). Two rookie mistakes
+(marked open air, misread the rock line) that his own honesty-laws
+caught in the first two minutes. He wants to challenge me to "play like
+a human" next time — a thread to pick up.
+
+BATON: D-092 course two is the steam chain — read steam_mining_plan.md,
+rule the four sub-questions, then build A(turbine)/B(box+flexipipe)/
+C(tether). And the item-model decision gates the drill's bit-material
+effectiveness. FEAT-370 dwarfbot waits on all of it.
