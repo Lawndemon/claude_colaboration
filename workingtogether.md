@@ -4264,3 +4264,45 @@ shown per skill - the inspector's scattered riches, composed. Click-
 a-dwarf works now, which is its front door.
 
 Everyday 1458 green, twice today.
+
+## 2026-09-06 (Saturday): the deep scrub of the economy week
+
+He offered credits and a choice — tackle something, or scrub everything.
+It was Saturday (heavy runs allowed) and Deep hadn't run since v55, so
+I ran the works: Deep suite + eight review angles over the six stores
+the week added + a records true-up, all in parallel. What it taught:
+
+A FAST WEEK LEAVES A SHADOW. Seven features in five days, each shipped
+green, and the scrub still found six real bugs and three structural
+debts. None were in the features' HEADLINE behaviour — they were in
+the seams the fast path never exercised: hashes that alias on inputs a
+fixture never feeds, a score delegate whose UNITS differ between two
+engines only the safety slider selects, a veto plumbed into two of
+three pathfinder doors. Green tests prove the demo; a scrub proves the
+corners.
+
+THE SHARPEST BUG WAS INVISIBLE TO EVERY TEST. FindWeighted handed the
+score callback the hazard COST where the BFS twin handed HOPS, so with
+the slider at its default the miner preferred the face BEHIND the gas.
+No fixture caught it because hazard-free worlds cost uniformly — the
+exact clause the class doc bragged about was the blind spot. Three
+angles found it independently; that convergence IS the confidence.
+
+THE STALE-BINARY TRAP BIT AND THE COUNT-ERRORS RULE SAVED IT. A file
+I'd written got truncated to its doc comment somehow; `dotnet test
+--no-build` then "passed 14" on the OLD binary while the Core build was
+red. Counting build errors before trusting the boot caught it — the
+memory earned its keep again. Restored the file, banked the redesign
+it half-promised as DEBT rather than smuggle it in corrupted.
+
+DEPTH IS A CHOICE YOU BANK, NOT SMUGGLE. Three findings (a store
+substrate, a stable DwarfId, multi-tenant material keys) were real and
+deeper than a scrub should carry. DEBT rows, named, with the fix
+sketched — better than a half-done rewrite under a green suite.
+
+THE RECORD GUARDS WORK: RaidLogTests failed on my OWN banner rewrite
+(I dropped "live" and miscounted decisions). The at-a-glance line is
+arithmetic and it gets checked — exactly why it's trustworthy.
+
+Deep 89/89, everyday 1467, golden pin unmoved. The economy week is
+solid to the corners now.
