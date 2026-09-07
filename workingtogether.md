@@ -4347,3 +4347,45 @@ BATON: D-092 course two is the steam chain — read steam_mining_plan.md,
 rule the four sub-questions, then build A(turbine)/B(box+flexipipe)/
 C(tether). And the item-model decision gates the drill's bit-material
 effectiveness. FEAT-370 dwarfbot waits on all of it.
+
+## 2026-09-07: playtest three - measure the stutter, don't guess it
+
+Seven items from his third playtest. Five were client feel, one worldgen,
+one the character sheet still owed. What the day taught:
+
+THE STALE DLL, ONE DIRECTORY OVER. Godot's `--path` run loads the DEBUG
+dll; I'd been building Release for every client verification. New flags
+"never armed", an old flag still worked (the stale Debug dll had it),
+nothing logged an exception - thirty minutes of theorising before a
+control run (a known-good capture on the new build) split the world in
+two. The playsession-stale-binary lesson, again, in a new coat. Memory
+updated: build -c Debug before ANY client run.
+
+MEASURE THE STUTTER. He said "map scrolling stutters" and "dwarves move
+too slowly" in the same breath. The reflex was to crank the speed dial
+and smooth the camera. Instead I built a frame-time ruler
+(--perf-frames, per phase) and it said: 97 fps average, sim 0.3ms, pan
+0.0ms - and RebuildLight at 42ms a hit, five hits a second, on the main
+thread. Not the camera, not the sim: the lighting pass, triggered by
+every dwarf step. Off-thread over a snapshot: panning 8.3ms flat, worst
+9.7ms, zero hitches. The camera smoothing WAS also wrong (it lagged the
+zoom anchor - the "jump"), but without the ruler I'd have shipped the
+camera fix, called it done, and he'd have felt the same stutter.
+
+THE SPEED REVERSAL, NAMED. D-078 made 1x a walk at HIS ask; playtest
+three asks for 4x. His latest ruling wins, but the record says so out
+loud (the wall-clock lever, undone exactly; the in-sim ratios untouched)
+- and it lands WITH the stutter fix, so the next verdict on pace is
+given on a smooth frame.
+
+THE CAPTURE THAT PROVED NOTHING. The first pipes capture laid the run
+inside rock - invisible - and the second laid it right but the rebuild
+waited on a sim tick that never came before the shot. Two blank shots
+before the third showed a tee, an elbow, a cross. Visual claims carry
+captures; captures carry a LOOK.
+
+Shipped: BUG-036 (cancel never withdrew destroy marks), BUG-037 (camera
++ the measured light stutter), BUG-038 (unlike liquids sharing a pool -
+a septum), FEAT-373 (priority x-ray on every mark), FEAT-374 (conduits
+auto-tile), BaseSimScale 4x. Owed: FEAT-365, the character sheet - the
+L item, next.
