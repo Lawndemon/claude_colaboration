@@ -4416,3 +4416,33 @@ reason, and a three-seed fixture pins the LAW the re-pin serves.
 Seven items in, six landed, one ruled (the 4x pace). Everyday 1471 +
 re-pins; CI watching. Next: his verdict on pace on a smooth frame, and
 the steam chain when he rules its four questions.
+
+## 2026-09-07 (handoff): closing the long thread
+
+He called it: the thread is long and eating credits. The handoff pass -
+every register trued (BACKLOG banner rewritten to today; RAID glance,
+R-014 the pace-lever oscillation, A-028..030 his three open rulings,
+I-011 the stray "320"; LEDGER's BUG-030..038 and DEBT-025..027 stand;
+the CSV mirror in step; the RAID guard caught my two duplicate ids from
+reading "last row" as "max id" - the file is not in id order, the test
+is). AGENTS.md now carries the client-tooling laws (Debug dll, the
+capture flags, the frame ruler). docs/playtest_2026-09-07_third_session
+records the seven items with their measurements. steam_mining_plan.md
+says what to build first and what waits on him.
+
+WHAT THIS WEEKEND TAUGHT, IN ONE LINE EACH:
+- A scrub finds the corners a fast week shipped past (six bugs, three
+  debts, none in the headline behaviour).
+- Measure the stutter before fixing the camera; the ruler found the
+  light pass, the camera fix alone would have felt the same.
+- Know what NOT to build solo at 4am: the steam chain got a design doc
+  and four questions, not a foundation baked wrong.
+- Two Windows traps (the Debug dll; "\r\n" in a Godot Label) cost an
+  hour between them; both are in memory now.
+- Play it yourself: two rookie mistakes in two minutes, both caught by
+  the honesty laws we wrote for him.
+
+THE BATON: A-028 (the item model) is the one ruling that unblocks the
+most - the tier ladder, the drill's bite, every crafted tool. A-029 the
+pace verdict. Then the steam chain A -> B -> C. And his "play like a
+human" challenge is still owed.
