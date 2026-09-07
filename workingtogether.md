@@ -4389,3 +4389,30 @@ Shipped: BUG-036 (cancel never withdrew destroy marks), BUG-037 (camera
 a septum), FEAT-373 (priority x-ray on every mark), FEAT-374 (conduits
 auto-tile), BaseSimScale 4x. Owed: FEAT-365, the character sheet - the
 L item, next.
+
+## 2026-09-07 (cont.): the Character Sheet, and two Windows traps
+
+FEAT-365 shipped - his twice-asked "Earthdawn character sheet". Five
+tabs, every number derived from Core at draw time so the sheet cannot
+lie about the dice. The Overview IS the I-inspector's string (one home,
+proven by the capture: same text on the sheet and the HUD beside it).
+"Mining STR 12 -> step 5 -> d8 vs DN 4" - the calculation he asked to
+see, for every skill.
+
+TWO TRAPS, BOTH WINDOWS-SHAPED. (1) StringBuilder.AppendLine writes
+"\r\n"; Godot's Label draws the "\r" as a second break, so the first
+capture double-spaced every line and I went hunting the THEME for a
+leading constant that did not exist. The capture said "eight lines fill
+the pane"; the theme said nothing; the newline flavour was the answer.
+(2) Godot's --path run loads the DEBUG dll - already journaled above,
+but worth the second line: it cost thirty minutes before a control run
+split the world.
+
+THE GOLDEN THAT MOVED FOR A REASON. The pool septum (BUG-038) changed
+cavity geometry wherever unlike liquids used to touch, and the 256x256
+layout hash moved. Not a re-pin-and-move-on: the comment carries the
+reason, and a three-seed fixture pins the LAW the re-pin serves.
+
+Seven items in, six landed, one ruled (the 4x pace). Everyday 1471 +
+re-pins; CI watching. Next: his verdict on pace on a smooth frame, and
+the steam chain when he rules its four questions.
