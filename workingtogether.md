@@ -4574,3 +4574,48 @@ dome to the flexipipe by the same column family. A charged hose reaches
 the face and powers nothing yet. Course C - the tether - closes the loop:
 the drill draws, the turbine un-banks, the pressure is steady because
 something finally spends it.
+
+## 2026-09-07 (midnight): Course C - the loop closes, and the ruler that outran the clock
+
+The tether shipped and the chain runs end to end: water and coal into a
+turbine, steam up a duct into a box, out along a flexipipe of ore chunks
+to a face, and a drill that drinks it. Three rulings, three courses, one
+night. What the last course taught:
+
+THE TETHER WAS ONE COLUMN AND ONE QUESTION. His P1 ruling - "near enough"
+- became `MinePowerUnfed` on the Equipment row (blank = needs no steam)
+and `HandMinePowerAt(d, x, y)`: the tool's power stopped being a property
+of the dwarf and became a question about the FACE he works. Pace, the
+hardness gate and "can anyone crack this" all route through it, so a fed
+drill breaks deepstone where the hose reaches and parks one tile beyond
+it with a verdict that names the steam. Nothing in code names a tool.
+
+THE LOOP CLOSED WITH A CONTROL ARM. Without the drill the whole chain
+banks at five firings and says HOLDING PRESSURE; with a drill on a
+deepstone wall the hose is drunk, the line moves up, the turbine keeps
+firing and the wall cracks. His ruling #1 - keep it fed - is now the game
+it was meant to be, and the proof is the difference between two runs of
+the same rig.
+
+THE RULER OUTRAN THE CLOCK. The pace test came back "fed +28, unfed +28"
+and I nearly called the lever broken. Measured properly - the multiplier
+itself - it is 1.40 against 1.10, exactly as authored; the SWING CLOCK is
+2 ticks, so any pace above ~1.34 rounds to a swing every tick and a dwarf
+whose birth roll gave him strength saturates it fed or unfed. FEAT-322's
+tool pace and D-067's strength pace have both been computed-and-rarely-
+felt since they shipped. Banked as DEBT-028 with the numbers; the dial is
+his. The lesson is the measure-before-fixing prior again, pointed at the
+instrument: when a test says two things are equal, ask whether the ruler
+can tell them apart before asking whether the game does.
+
+THE OLD TEST BECAME THE NEW LAW'S WITNESS. FEAT-366's "a hammer drill
+unlocks deepstone" went red because the drill no longer does that UNFED.
+Rewritten rather than deleted: it now proves the unfed drill parks with
+the verdict, and the tether tests carry the fed half. A red test at a
+ruling change is the record catching up, not a regression.
+
+Owed: his verdict on the pace (A-029, unplayed on the smooth frame), the
+sprites' taste pass (A-031: a turbine with three op frames, a box, a
+hose), and the DEBT-028 dial. Next build: FEAT-375, the head byte, then
+the tier ladder on it. Three CI runs to read in the morning; the first
+came back green before the second was pushed.
