@@ -4533,3 +4533,44 @@ And the capture: the boiler beside the crew, its dome on the left column,
 a duct rising, the firebox glowing, the card reading HOLDING PRESSURE on
 a dead-ended duct - the log said it and the picture agreed. Course B, the
 steam box and the flexipipe, is next; nothing draws steam yet.
+
+## 2026-09-07 (later still): Course B - two rules, not a third network
+
+The steam box and the flexipipe shipped an hour after the turbine, six
+tests green on the first run again, and FEAT-367 flipped to SHIPPED. What
+this one taught:
+
+THE SMALLEST TRUE CHANGE WAS TWO PREDICATES. The plan said "a manifold
+asset and a Conduits variant", and the obvious build was a third conduit
+network with its own class - the Tick's own comment half expected one. But
+the box and the flexipipe are DUCT FABRIC: they Ducts.Add their tile like
+an adapter does. So the store stayed one store, two tile sets rode beside
+the adapters, and Conduits.Tick learned exactly two things: only a box
+bridges rigid and flex, and the steam fabric admits the dome's substance
+alone. The flow map, the reach budget, the corks, the auto-tiling and the
+cards all came for free. When a new thing is "fabric with a coupling",
+say so in the type system's own words and the whole machine agrees.
+
+STORAGE IS PASSIVE, SO THE BOX IS NOT A VESSEL. I nearly built the box as
+a tank that pushes into three lines - and his 2026-08-03 law says a tank
+never pushes; a pump against it does. A manifold is not storage; it is
+the coupling. Reading the law first turned a design question into a
+non-question.
+
+THE STALE DLL, THIRD COAT THIS WEEKEND. The client build failed on a bare
+Func<> (the Godot project has no implicit usings), the capture ran on the
+previous Debug dll, and the log said "4 duct tiles" where the new code
+lays 4 and a box - I had read the number before the build line. Fixed in
+a minute, but the memory earned its keep a third time: READ THE BUILD
+before the shot.
+
+THE ELDER-PIN LAW, KEPT WITHOUT THINKING ABOUT IT: the save bumped to v62
+for two tile sets, folded only when non-empty, and the re-primed golden
+came back with the same pin. D-094 had promised v62 to the head byte;
+that is the next number now, and the record says so.
+
+Fourteen tests, two captures, one substance named end to end from the
+dome to the flexipipe by the same column family. A charged hose reaches
+the face and powers nothing yet. Course C - the tether - closes the loop:
+the drill draws, the turbine un-banks, the pressure is steady because
+something finally spends it.
