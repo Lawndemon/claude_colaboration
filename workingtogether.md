@@ -4446,3 +4446,37 @@ THE BATON: A-028 (the item model) is the one ruling that unblocks the
 most - the tier ladder, the drill's bite, every crafted tool. A-029 the
 pace verdict. Then the steam chain A -> B -> C. And his "play like a
 human" challenge is still owed.
+
+## 2026-09-07 (night, by phone): three rulings, and the option I had not offered
+
+Remote control from his phone, the new thread's first act: the three owed
+decisions, one at a time as he asked. What it taught:
+
+"I WOULD LOVE TO BETTER UNDERSTAND THIS BEFORE MAKING A DECISION." I led
+with a three-option menu on the item model; he asked for the plain version
+first. The table that answered - what exists today, what each shape
+remembers, what two identical tools do, what it costs, what it blocks - was
+the thing that let him rule. Order of operations for a design question by
+phone: the explanation FIRST, the menu second. He is a data geek; a table
+with a row per property beats prose.
+
+THE ANSWER WAS NEITHER OPTION. "Both one and two depending on the item" -
+ordinary gear as stacks, ultra-rare prestige items as one-of-a-kind
+instances - and then the sharper question back at me: enforce that with a
+separate list, through the recipe, or something else? I proposed the
+quality tier (Mythic already meant "no standard recipe makes it"); he ruled
+THE RECIPE DECIDES. Right call: a tier is a colour and a colour should not
+pick a data model, and a recipe is the thing that already knows what it
+makes. D-094. Lesson: when I offer a binary, put the hybrid on the card too
+- he sees the third shape faster than I do.
+
+THE OTHER TWO: the 4x pace stays open - he has not played on the smooth
+frame yet, and a verdict without the playtest would be a fourth constant
+flip (R-014). No true diagonals: auto-tiling was the ask, the network stays
+4-way, A-030 closed in one word.
+
+Then the survey for Course A: the turbine is a self-running station - the
+smelter's flanges and buffer, the pump's beat, no dwarf at the bench - with
+one new piece of geometry, a steam dome, so the product never shares a duct
+with the exhaust (the ring drains the lowest-numbered gas first, and CO2 is
+2 where steam is 6). Building it next.
