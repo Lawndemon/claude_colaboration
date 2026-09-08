@@ -4619,3 +4619,50 @@ sprites' taste pass (A-031: a turbine with three op frames, a box, a
 hose), and the DEBT-028 dial. Next build: FEAT-375, the head byte, then
 the tier ladder on it. Three CI runs to read in the morning; the first
 came back green before the second was pushed.
+
+## 2026-09-08: playtest four - one species of bug, and a reach with two names
+
+Six items from his fourth playtest, sent from the phone in two messages,
+the second cut off mid-sentence and clear anyway. What the batch taught:
+
+THREE CLIENT BUGS WERE ONE SPECIES. The tile card that would not go away,
+the red outline that stayed after a cancel, and right-click never landing
+on Select - each was a per-frame state set by one tool and cleared by
+nobody when the tool changed. The armed build ghost was the move cursor's
+own "lingering-ghost lie" with a different field; the right-click chain
+asked a CanvasLayer's Visible, which is always true, so every right-click
+"closed" a card that was not open and returned before the disarm - since
+2026-08-10, and the BUG-020 fix that pressed the Select slab lived in a
+method right-click never reached. Three fixes, one lesson: a state one
+tool paints is a state that tool's departure must erase.
+
+THE REACH GOT TWO NAMES THE HARD WAY. His ask - two tiles in every
+direction, a four-tall ceiling, two above the top rung - was one afternoon
+of geometry: the second tile of an arm joins the reach when the first is
+open to swing through, so nothing behind a wall is ever "in reach". Four
+fixtures went green first run, including the one that stages his "won't
+mine from the ladder" (it did not reproduce; recorded as measured, not
+fixed). Then the gate came back with twelve red errands - eating, drinking,
+gear, treading - because every search in the game shares one reach
+consult and a dwarf now stopped two tiles short of his larder. The pick's
+reach is not the hand's. HandReach is the old nine, pinned exactly;
+ReachFrom is the pick's, asked for by name by the mining planners and the
+mark judges; build reach inherits the pick's. The gate is the instrument
+that found the seam, and the fix is a NAME, not a number.
+
+THE OLD TEST WAS PINNING A RUNG. The parked-marks fixture insisted the
+chain stand to (3,4); with two-tile reach he builds two rungs a stance and
+cuts from one lower. The claim was always "he cut it standing on the
+chain" - it measures the stance now. A red test at a ruling change is the
+record catching up.
+
+THE QUICK CARD IS THE OBJECT CARD WITH THREE VERBS. No new screen: the
+same bottom-right paper hosts him - doing and why not, health and air,
+belly and water, mood, heat, rest, re-printed every frame - with Move to,
+Reset task (Core's ForgetTask; he may take the same work back, exactly as
+Dave said) and Full sheet. A click on a dwarf opens it; E still opens the
+sheet. Two captures looked at before the claim.
+
+Owed: his verdict on the pace (A-029), the sprites (A-031), the DEBT-028
+dial, and whether the ladder complaint survives tonight's reach - if it
+does, the fixture that stages HIS geometry is the next move, not a guess.
