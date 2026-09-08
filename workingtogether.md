@@ -4480,3 +4480,56 @@ smelter's flanges and buffer, the pump's beat, no dwarf at the bench - with
 one new piece of geometry, a steam dome, so the product never shares a duct
 with the exhaust (the ring drains the lowest-numbered gas first, and CO2 is
 2 where steam is 6). Building it next.
+
+## 2026-09-07 (late): Course A - the turbine that ran itself first time
+
+The steam turbine shipped in one sitting after the rulings, and eight
+tests went green on their first run. Not luck: the survey came first, and
+the design borrowed rather than invented. What the chapter taught:
+
+THE SUBSTRATE DECIDED THE DOME. I had two ways for the smoke to leave -
+the flange ring like the smelter's, or the firebox venting into the room
+like ONI's coal generator - and the tie was broken by READING the drain
+tick, not by testing it: the ring drains the lowest-numbered gas first,
+and carbon gas is part 2 where steam is part 6. A turbine venting both by
+the ring would have sent its smoke up the steam line ahead of the steam.
+So the product got its own outlet, straight up off the body, and the
+standing pump's spout was already the right geometry. His ruling ("mirror
+the smelter") and the substrate agreed; the room-exhaust idea is written
+down as the road not taken.
+
+STEADY PRESSURE WAS FREE. His ruling #1 - the turbine keeps the line
+charged, a drill drains it, starve it and the pipes run dry - needed no
+code of its own. A corked or full dome line leaves the steam in the
+out-flange, the backlog passes a tile's worth, the smelter's drain gate
+closes, and the fire banks without burning a lump. The test proves the
+bunker stops falling and resumes the moment a canister draws. The best
+mechanics are the ones that fall out of a law already in force.
+
+THE GUARDS BOUGHT CONTENT AGAIN. The everyday gate refused the turbine
+twice before it would let it in: every station must move (three operating
+frames) and every recipe's station must belong to a room. The Engine
+House exists because a test went red. Same shape as the timber that the
+axe's producibility guard demanded on 2026-09-04.
+
+THE THIRD DRIFT. The station menu demanded a material output; the order
+accepted equipment and pours as well. The Forge's weapons and the hand
+pump's "Tip the Buckets" have been orderable and invisible since FEAT-322
+- found only because a turbine recipe with no solid output would not have
+been listed either. One predicate now, asked by both; BUG-039.
+
+THE REGISTER READ MY RIBBON. The hardcoded-id ratchet flagged the Steam
+drawer's icon in the code fallback. The pending pile is a ratchet too, so
+the answer was not a raised baseline but an APPROVED row with the reason
+written out: the fallback is pinned identical to the sheet by its own
+test, exactly why the code registry's rows are approved.
+
+THE NUMBER RECONCILED. The baton claimed "everyday 1473"; my run said
+1392. Before touching anything: 1392 + the Deep 89 = 1481 = 1473 + my 8.
+The old figure was the Suite!=Play total wearing the everyday label. It
+carries its true label now. Measure before fixing, even the bookkeeping.
+
+And the capture: the boiler beside the crew, its dome on the left column,
+a duct rising, the firebox glowing, the card reading HOLDING PRESSURE on
+a dead-ended duct - the log said it and the picture agreed. Course B, the
+steam box and the flexipipe, is next; nothing draws steam yet.
