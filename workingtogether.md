@@ -4666,3 +4666,48 @@ sheet. Two captures looked at before the claim.
 Owed: his verdict on the pace (A-029), the sprites (A-031), the DEBT-028
 dial, and whether the ladder complaint survives tonight's reach - if it
 does, the fixture that stages HIS geometry is the next move, not a guess.
+
+
+## 2026-09-08 (evening): playtest four's second message - the preview is the renderer
+
+Four more items from the phone, sent while the first batch was still
+warm: the pump's outline a tile low, piles under water wearing the wrong
+sprite, a dead "cancel this build", and the one that was a feature - draw
+a pipe run by dragging and see EXACTLY what will stand there.
+
+THE GHOST GREW THE WRONG WAY. One subtraction: the footprint law covers
+y-h+1..y upward, the armed rectangle grew downward from its anchor. The
+queued ghosts beside it had been right for a month, because they asked
+TilesUnder. Two renderers for one shape, and one of them lied - the
+one-home law, again, in pixels.
+
+THE CANCEL BUTTON LIVED ON ONE TILE OF FOUR. Sites are keyed at their
+anchor; the card asked IdAt at the clicked tile and offered the button on
+the anchor alone. Dave clicked the pump's top half and saw a card with no
+cancel on it; when he found the button, the morning's click-through ate
+the press. Any tile of a body resolves to its anchor now.
+
+THE PREVIEW IS THE RENDERER. His words were "the exact outcome", and a
+rubber band with a promise on it is not that. The drawn run is the built
+run's own AddConduitTile, per tile, with the path and the standing network
+as its neighbours, in a layer of its own - so straights, elbows and tees
+appear under the button exactly as they will stand, red where the engine
+refuses. Which buildables get the gesture is the sheet's fact
+(ConnectGroup), not a list; the L's first leg is the axis the cursor left
+the anchor on (up 8 then right 4, as he drew it); nothing is placed until
+release. The half-drawn run dies with the tool, the lesson of the morning.
+
+THE FIRST PREVIEW CAME OUT ALL RED, and the reason was a bug no player
+would have guessed: the survey budget is filled only by the light pass,
+and the light pass runs only under the veil. Lift the veil (L, or a --lit
+capture) and every tile is "the dark". A capture staged to prove a feature
+found a bug in the tool beside it - the third time this week the proof
+was worth more than the claim.
+
+THE WET PILE DID NOT REPRODUCE. Same stone pile, dry ground and pool
+floor, same chunks, the wet one over the water; neither the sim nor the
+renderer knows a pile is wet. Measured, not fixed; his screenshot owed -
+a pile of a KIND the stage did not drop is the likely answer.
+
+Owed still: A-029, A-031, DEBT-028's dial, the ladder complaint's
+survival, and now the wet pile's picture.
