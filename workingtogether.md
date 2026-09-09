@@ -5000,3 +5000,55 @@ which I now think should be as automatic as reading the build line.
 
 Not reached: the gas chain still wants the power train, and the client
 still cannot order handwork (DEBT-030). That is the next tool.
+
+
+## 2026-09-09 (evening): four off the P1 list, and the guards that shaped them
+
+"Let's knock out whatever we can from the p1 list." Four went: composite
+build costs, the outhouse, the composter, and the stone cogline before them.
+What I want to keep from this stretch is not the features - it is how often
+the RIGHT answer came from a test refusing my first one.
+
+COMPOSITE COSTS were the interesting build. He has asked three times for a
+thing priced in two materials, and I had shipped three either/or stand-ins.
+The shape was already in his own crafting: slots. A row carries a slot and a
+quantity; rows sharing a slot are alternatives, different slots are all
+required. What made it small was noticing the builder needed NO new state -
+he already carries a list, so "which slot is short" is a question about his
+hands, not a field on the site. I had budgeted a save-format change and a
+day; it was an afternoon and no format change at all.
+
+Then the gate turned red across forty tests and the cause was one line of
+mine: with no material named, my new code picked the FIRST row rather than
+the elder "untyped stone", so every chest ordered without a card demanded
+wood. That is the second time today a behaviour change hid inside a
+refactor's default. The cure both times was to make the new path mirror the
+old one exactly and say so in a comment.
+
+THE OUTHOUSE taught the sharper lesson. I gave it a morale condition - "no
+privy, minus four" - and the morale suite went red because every fixture
+without a Long-Drop lost points nobody had agreed to. I could have re-pinned
+those tests. Instead I withdrew the penalty: he asked for an outhouse that
+produces night soil, not for a colony that suffers without one, and whether
+it should is a MECHANIC and therefore his. The need, the errand and the
+yield are what he asked for; the punishment is a question in the log. I want
+to remember that a red test asking "who decided this?" is worth more than a
+green one that never asks.
+
+The hygiene guard did the same job one layer down: my first cut named a
+buildable id to find a privy and a material id for what it keeps, and the
+register refused both. The cure is the law this repo already has - find the
+column - so the Long-Drop declares itself on its own row and the engine
+names nothing. That is a better design AND a shorter one.
+
+THE COMPOSTER was mostly archaeology. His Compost Bin, Nest Box and
+Butcher's Block have been authored, described and assigned to his rooms for
+months with no buildable row - content nobody could place. Dirt already
+existed as Loam, "farming substrate", mined. So the work was not inventing
+his farm; it was noticing how much of it he had already written down and
+wiring it. I keep finding that the sheets are ahead of the engine, and that
+reading them first turns a design session into a plumbing session.
+
+Not built, and deliberately: spoilage, hunting, ranching, penning, and any
+penalty for going without a latrine. Eight questions sit in A-036 with his
+name on them.
