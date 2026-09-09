@@ -4875,3 +4875,70 @@ The bedroom before the ladder: by Day 2 the hauler slept on the ladder's
 foot at rest 9%. The tutorial's order is not the handbook's; the next
 session cuts the cots first. BUG-052, the checklist forgetting on load,
 waits on an additive save block. Not reached: water, the pump chain, gas.
+
+
+## 2026-09-09 (morning): the second live session - the wall behind the tutorial
+
+Dave said "sounds good let's keep rolling", and I loaded the first
+session's mountain from its save and did what the handbook says a settler
+does before anything else: beds. The Plain Cot - the word the tutorial and
+my own handbook note used - wants Mushroom Wood, and a first colony has
+none; the Box Bed is stone. Three of them went down in the drift, each
+dwarf claimed his own without being told, and by the next night they were
+sleeping in them with "Slept in a bed (+2)" where the night before had
+said "Slept on stone (-4)". The drift became a Bedroom the Rooms overlay
+calls valid, behind two doors. That is the game working, and it should be
+written down as plainly as the rest.
+
+THE MACHINE FIRST, AGAIN. The first launch, five minutes after the PC left
+standby, came up on Direct3D 12 because Vulkan's surface extension was
+missing, and that device died on the first screenshot readback with the
+play server still holding its port. I nearly filed a game bug. The
+relaunch was Vulkan and ran the whole session. It is in AGENTS.md's
+machine block and in my own notes: read the second console line.
+
+I FOUND THE WATER BY CHEATING, AND THE CHEAT WAS A BUG. Hovering the dark
+read every tile in the mountain - rock, swings, gas, water, 300 tiles
+past anything a dwarf had seen - while the card and the dig honoured the
+veil. The pool sits 78 tiles west under seven rows of firedamp, and I know
+that because the hover told me. BUG-055; the hover is one method now, and
+it says what the card says: the dark keeps its secrets.
+
+THEN THE WALL. Every pump the ribbon offers takes metal or wood; every
+pipe, duct, tank and the reservoir take metal or ceramic. The wagon brings
+stone, hide and provisions. Wood has no production; ceramic wants a kiln
+and clay chunks the mountain may not have nearby; metal wants a smeltery
+that costs 120 granite and an ingot recipe that also wants a unit of
+fresh water and a unit of firedamp piped to its flanges - through pipes.
+And the Gear and Dwarf Wheel the tutorial names are handwork the client
+cannot order at all. The tutorial's own step 7 is impossible on a fresh
+mountain, and a sump pump ordered over 465 granite parked as "no stone to
+build with". VISION §9 says possible, never timed. This is not possible.
+It is I-012 in the RAID log and A-033 for Dave: what is the first pump
+made of? Not mine to decide - his - and the card in the summary gives him
+the table before the menu.
+
+SIX READOUTS, SIX SCRIPTS, EACH RUN AGAINST THE BUG FIRST. The hover that
+read the dark; the tile that never named its bed or its station (the
+smeltery stood idle a whole night over staged ore and coal and nothing on
+screen said "waiting on Fresh Water, Firedamp"); the parked reason that
+said stone whatever the rows say; two panels drawn over the dwarf panel;
+a piped ingredient printed as "+ 1"; a chest that read "409/8". Every one
+MISMATCHED on the pre-fix build in its own words and MATCHES now.
+MaterialClasses.csv, authored weeks ago and read by nothing, is loaded, so
+a parked build can finally say "no metal or wood to build with".
+
+THE DRIVER GREW WHAT THE SESSION NEEDED, and each need was a mismatch
+first: a hover verb (I had been abusing a zero-notch wheel); a key whose
+observation ran a frame early and showed the previous dwarf; a drag whose
+hand moved a tile before the anchor was read, so two rectangles came up
+one column short - I blamed the game for a minute, then counted. The text
+panel is in the observation now, and `thing` can see a station.
+
+What I keep from this one: the play found the wall in an hour, and no
+capture, no fixture and no reading of the sheets would have found it,
+because it is not in any one of them - it is the sheet, the recipe, the
+client and the tutorial disagreeing about what a first hour can build.
+That is exactly the finding D-096 was for. The pump chain and the gas wait
+on his ruling; the mountain is saved at Nine 2, Day 2 with a smeltery that
+can now say what it is waiting for.
