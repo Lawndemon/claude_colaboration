@@ -4711,3 +4711,64 @@ a pile of a KIND the stage did not drop is the likely answer.
 
 Owed still: A-029, A-031, DEBT-028's dial, the ladder complaint's
 survival, and now the wet pile's picture.
+
+
+## 2026-09-08 (night): the vision lands, and playtest five - the port is the engine's geometry
+
+THE VISION SESSION HAD NO REPO. Dave held a long design conversation in
+the mobile app, which cannot see the code, and it produced VISION.md and
+PLAYTESTS.md from memory - a harness the repo largely already has (the
+D21 command surface, PlaySession, the replay fixtures, the captures) and
+a Clacks model half an argument behind the built one. Ramping up meant
+reconciling, not adopting: eleven refinements, two real conflicts, and
+his rulings on all of them the same evening. R3 keeps the throw as the
+crafter's-skill lever and adds a certainty threshold ("none of the 99%
+and it fails"); Clacks propagates as a field and couples by string, then
+tension wires - never electrical. The loop, the gradient (depth and time,
+raids from discovered enemy sources), dwarves with careers, determinism
+as R9, rooms that climb, defence as another Rube Goldberg puzzle, asset
+auras. CLAUDE.md is the front door so the next session never depends on
+a pasted prompt. He asked me to write it because "the experienced version
+of you would do a better job" - the experience being the repo.
+
+THEN EIGHT MORE ITEMS FROM THE COUCH, and the one that mattered most was
+"I'm not sure where I'm supposed to connect a pipe to a barrel." The
+answer is not a picture; it is wherever the sim will notice a pipe. So
+PortsOf composes the ports from the calls the sim already makes - the
+spout, the cog port, the ring the adapters seed from, the dome, the
+tank's walls, Conduits' own inlet and outlet - and seven tests pin each
+family against the sim's helper. The glyph on the shadow cannot disagree
+with the packet's path, because they are the same arithmetic.
+
+THE LENS ASKS RATHER THAN KNOWS. "Highlight all liquid-related assets"
+tempts a list in the client; the honest version is Overlays.At plus
+BuiltPorts, both Core, and sprites that remember their tiles and ask. A
+machine joins the lens the day its store lights a cell or grows a port.
+
+THREE SMALL BUGS, THREE OLD LESSONS. The wheel dragged because it
+remembered the anchor point from the moment it turned - a drag gesture in
+disguise. Cleanup did nothing because it sat in the pile-cycling gate
+beside Dig, and a tool that acts on piles cannot have its click eaten by
+piles; and a marked pile had no readout, so even a drag that landed
+looked like nothing. Pending pipes were stubs because the plan was the
+one caller of the auto-tiler that did not exist yet.
+
+THE FIRST PORT SHOT LIED ABOUT ITSELF: TilePx is eight world pixels, so a
+two-pixel line was a quarter-tile brush and every hollow diamond looked
+filled. Widths in tile fractions now. And the cursor pill was nowhere in
+the priority shot, because a tool that reads the mouse every frame
+overwrites what a stage set - the same trap as the run capture, cured
+the same way, with a staged field. Two captures re-shot; both looked at
+before the claim.
+
+ORE IS 3.4x ROCK AND STILL A MOW. Measured, not fixed: granite four
+swings in five ticks, copper sixteen in seventeen - one tick a swing, the
+clock at its floor (DEBT-028). The sheet's ratio holds; the absolute is
+the swing clock, and that dial is his (A-032). Dave says the dwarves mow
+through ore; the numbers say a second a tile at 1x and a quarter of that
+at 4x. He is right, and the fix is a ruling, not a patch.
+
+Owed: A-029 the pace, A-031 the sprites, A-032 the swing clock, the wet
+pile's picture, and the conversation he asked for about how I playtest -
+which PLAYTESTS.md now frames, and which DEBT-011 (the client's three
+hundred direct calls) is the first honest answer to.
