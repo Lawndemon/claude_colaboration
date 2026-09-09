@@ -4796,3 +4796,41 @@ instructions have one home; the filename keeps the auto-load.
 The vision landed in its own commit with D-095 and four ruled rows
 (strings then wires, asset auras, the logic system, standing on
 outcomes). Every later feature cites it.
+
+
+## 2026-09-08 (night, late): the player driver - the hand that plays
+
+"I don't feel like you are testing the game but, rather, you are testing
+code." He was right, and the admission is in D-096 verbatim: the engine had
+1416 green tests and the client, where every bug of two playtests lived,
+had none; my proof for client work was a photograph staged by engine
+calls. His rule of thumb replaced bullet three of my proposal: the
+sandbox proves the tools and holds every gesture regression, a seed
+library sweeps map-dependent tuning, and a playtest is a new game every
+time - the seed is the bug report's address, never the test.
+
+THE DRIVER TOOK AN EVENING AND TAUGHT FOUR THINGS ON ITS FIRST RUN. Keys
+and the wheel drove the client at once; every click landed under Dave's
+real cursor. Input.WarpMouse does nothing for a window that is not in
+the foreground, and an injected motion event does not move what the
+viewport reports - so every mouse reader in the client now asks one
+place, Pointer, and the driver owns that answer. The viewport is
+stretched, so injected events must carry window pixels. A slab's word
+carries its key digit ("Dig  2"). And the camera glides: tiles must
+become pixels on the frame the hand arrives, and a hand left parked on
+the top bar edge-scrolls the map - which is what a hand does, so the
+driver's hand goes back to the map after a GUI click, as mine would.
+
+THE FIRST FINDING THE DRIVER MADE WAS MINE. The cleanup script tagged
+nothing because the engine's mining verbs discard their yield - they
+predate piles - so the staged piles never existed. DropPile joined the
+command surface as a sandbox god-tool. The second was also mine: an
+armed Dig tool owns the click, so a card opens only for the empty hand;
+my script had assumed otherwise, and the game was right.
+
+Six scripts now replay this week's bugs as gestures and match twice
+through the real input path - the cleanup drag on a pile, right-click
+to Select, the card's X, the duct L's ten sites, the wheel under WASD,
+the Dig band. That is the first time a client claim in this repo has
+been verified rather than photographed. The live mode, where I play a
+fresh mountain one gesture at a time, is next.
