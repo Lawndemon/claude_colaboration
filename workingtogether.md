@@ -4942,3 +4942,61 @@ client and the tutorial disagreeing about what a first hour can build.
 That is exactly the finding D-096 was for. The pump chain and the gas wait
 on his ruling; the mountain is saved at Nine 2, Day 2 with a smeltery that
 can now say what it is waiting for.
+
+
+## 2026-09-09 (afternoon): the stone tier and the living mountain
+
+Dave answered the wall the morning found, and then asked for something
+bigger, and both landed the same afternoon.
+
+THE ANSWER WAS A LIST, AND THE LIST WAS THE CHAIN. Asked what the first
+pump is made of, he wrote: hand pump, small liquid reservoir, all pipes
+and ducts, kiln, gas bladder. Five rows in the build-materials sheet. What
+struck me is that his list IS the minimum viable chain and nothing more -
+a hand pump lifts by muscle with no cog, a stone pipe carries, a small
+stone tank holds, and the tutorial's step is possible again. He did not
+hand me the powered pump or the valves, and that is the gradient: stone
+gets you water in a tank, and everything that shapes or lifts it at scale
+you earn. I wrote the guard that would have caught the original mistake -
+the tutorial's own named kit against the embark manifest, both halves data
+- so the card can never again ask for something day one cannot build.
+
+WHAT I DID NOT DO IS THE PART I WANT TO REMEMBER. He asked for flora and
+fauna. Building the plants, the sowing, the harvest order, the wandering
+beasts - that was a long afternoon but it was only work. The judgement was
+where to STOP. Wild flora regrows after its grow days because it is wild;
+that needed no ruling from him. What a PLANTED crop needs - light, water,
+soil, a farm room - is mechanics, and mechanics are his. So I built the
+wild half and wrote A-034 for farming, hunting and penning rather than
+inventing an answer and calling it content. The same line decided that the
+sower places only CreatureAlignment None: a mountain that spawned a Frost
+Demon today would hold a problem nobody could solve, because there is no
+combat. His own column made that filter one line.
+
+THE SHEETS HAD BEEN LYING TO EACH OTHER FOR WEEKS. Plants.csv named five
+species and their yields and was loaded by NOTHING, while Flora.csv was
+loaded and read by nothing either. Mushroom Wood - the material the Plain
+Cot and the wooden pumps are made of - existed with no source in the
+world, and its only record of where it came from was the dead sheet. One
+home: five species folded into Flora, both sheets archived, and now the
+Ironcap gives wood in the mountain. That closed the half of the morning's
+materials wall that stone did not.
+
+THE GUARDS EARNED THEIR KEEP AGAIN, AND ONE OF THEM TAUGHT ME SOMETHING.
+Adding a task category gives every dwarf one more priority dial, and
+priorities ride the dwarf hash - so the elder save-compat pin moved. It
+moved for v33 through v40 and NOT for v41, and that split is exactly where
+the priorities block landed in the format. I had guessed "the whole elder
+era moves"; the data said "the era boundary is the block", which is a
+better sentence and a truer one. I pinned it as two constants and wrote
+the reason down. A green test that measures nothing is worse than none;
+a red one that tells you where a boundary really is, is worth the hour.
+
+AND A LINE-ENDING TRAP I set for myself: a python edit that read text and
+wrote it back left one stray carriage return in MapExplorer, and git
+quietly stopped normalising the file - a twenty-thousand-line diff for a
+one-line change. Caught by looking at the diffstat before committing,
+which I now think should be as automatic as reading the build line.
+
+Not reached: the gas chain still wants the power train, and the client
+still cannot order handwork (DEBT-030). That is the next tool.
