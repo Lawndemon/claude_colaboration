@@ -4772,3 +4772,27 @@ Owed: A-029 the pace, A-031 the sprites, A-032 the swing clock, the wet
 pile's picture, and the conversation he asked for about how I playtest -
 which PLAYTESTS.md now frames, and which DEBT-011 (the client's three
 hundred direct calls) is the first honest answer to.
+
+
+## 2026-09-08 (late): the vision lands (D-095)
+
+Three more rulings before the commit, and one about a filename. "I don't
+care how long it takes a player to do anything. I just care that it's
+possible to do the thing" - so the experience targets left the vision:
+VISION §9 asserts possibility, PLAYTESTS carries the objectives and records
+the time as a measurement, never a verdict. A logic system for RPA-style
+scripts over Clacks, machines, imps and dwarves is a P1 with the how
+undecided. Standing moves on outcomes only - completing, failing or
+abandoning, declining - and declining any faction's request is a small
+hit, which supersedes D-038's "a dodged posting bills the Firm".
+
+CLAUDE.md was "improperly named" to him, and he is right that the content
+did not belong in a file called that. The name is the mechanism, though:
+Claude Code reads a file by that name at session start and no other. So
+the front door moved into AGENTS.md as "Step zero" - where the manual
+already lived - and CLAUDE.md is three lines that import it. The
+instructions have one home; the filename keeps the auto-load.
+
+The vision landed in its own commit with D-095 and four ruled rows
+(strings then wires, asset auras, the logic system, standing on
+outcomes). Every later feature cites it.
