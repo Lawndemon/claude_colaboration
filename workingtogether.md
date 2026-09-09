@@ -4834,3 +4834,44 @@ to Select, the card's X, the duct L's ten sites, the wheel under WASD,
 the Dig band. That is the first time a client claim in this repo has
 been verified rather than photographed. The live mode, where I play a
 fresh mountain one gesture at a time, is next.
+
+
+## 2026-09-09 (small hours): the first live session - I played, and the game answered
+
+Dave said "looks promising, let's keep going", and the live mode took an
+hour: the driver behind a socket, one gesture in, one observation out,
+tools/play.py as the hand at the other end. Then I sat down at a fresh
+mountain - seed 639245366183239028, veil on, the handbook's opening read
+first - and played it the way he does: look, decide, act, write it down.
+
+THE FIRST HOUR FOUND FOUR CLIENT BUGS THE CAPTURES NEVER COULD. Every
+pause opened a tile card under the pause slab; the tutorial said "press 1
+for Dig" while 1 arms Select; a load reset the checklist to nothing over a
+mountain with a drift and a chest in it; a cot could not be placed in the
+drift because every tile of it wore rubble and the pile card ate the
+click. None of them is visible in a staged frame. All four are gestures
+over time or text read at the moment it matters.
+
+TWO OF MY OWN MISMATCHES WERE THE GAME BEING RIGHT. I marked a block four
+tiles inside the unlit rock with unmarked stone between it and the wall;
+everyone stood idle and the card said nothing was reachable, which was
+true. Later I clicked a tile with Dig armed expecting a card; an armed
+tool owns the click, and the handbook had told me so. The question the
+handbook asks - would a competent player have avoided this - decided
+both, and the run report says "note", not "bug".
+
+THE DRIVER'S FIRST FINDINGS WERE ABOUT THE DRIVER, and that is the right
+order. A stale window held the port for an hour and a second one answered
+nothing, so a taken port is fatal now. Digits parsed as enum members. The
+console could not print the game's stars. Each was a MISMATCH in a
+journal before it was a fix.
+
+THE FIXES SHIPPED WITH THEIR SCRIPTS, AND THE SCRIPTS WERE RUN AGAINST THE
+BUGS FIRST. Both new sandbox scripts mismatched on the pre-fix build and
+matched after - the control arm D-096 asked for, so that no green script
+can be one that measures nothing. Eight scripts match now.
+
+The bedroom before the ladder: by Day 2 the hauler slept on the ladder's
+foot at rest 9%. The tutorial's order is not the handbook's; the next
+session cuts the cots first. BUG-052, the checklist forgetting on load,
+waits on an additive save block. Not reached: water, the pump chain, gas.
