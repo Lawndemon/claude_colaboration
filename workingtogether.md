@@ -5052,3 +5052,78 @@ reading them first turns a design session into a plumbing session.
 Not built, and deliberately: spoilage, hunting, ranching, penning, and any
 penalty for going without a latrine. Eight questions sit in A-036 with his
 name on them.
+
+## 2026-09-10: eight items off a phone, and two of them were the same item
+
+A brain dump arrived while I was still saying goodbye to yesterday: a
+mountain name, three-part dwarf names, jumping a gap, blocks for roofs
+and walls and floors, "the dwarves stall *a lot*", a blinking hint on
+dark tiles, a screenshot of idle dwarves, and "godot had numerous
+warnings". Eight things, no ceremony, exactly the way he thinks.
+
+WHAT I WANT TO REMEMBER IS THE ORDER I DID THEM IN. The temptation with
+a list like that is to start at the top and work down, because the top
+items were the fun ones (I got to invent fifty dwarf names). What I did
+instead was capture all eight into the registers first and then go
+hunting for the two that could be REPRODUCED rather than discussed. The
+Godot warnings took one command - `--editor --quit` prints them - and I
+have to note that this command has existed the whole time and nobody had
+ever run it. Nineteen warnings on every editor open for a month, and the
+reason nobody noticed is the reason all these things happen: a warning
+nobody reads is a readout that has stopped working. The cure was small.
+The guard beside it is the part that matters.
+
+THE MEASUREMENT THAT CHANGED THE ANSWER. "The dwarves stall a lot,
+particularly when there are multiple potential actions" is the kind of
+report that invites you to go and improve the planner. I wrote the
+census instead: seven dwarves, count every tick where somebody is idle
+while an actionable unclaimed row exists. One kind of work open: 0.8%.
+FOUR kinds open at once - his exact case: 0.9%. Longest unbroken refusal
+either way, two ticks. The control arm is the whole test; if choosing
+between kinds were the problem, the four-kind arm would be worse, and it
+is not. His own hypothesis - that piles are not a construction source -
+died the same way: eight blocks laid straight off a ground pile in a
+colony with no chest in it at all.
+
+AND THEN THE FIXTURE LIED TO ME, WHICH IS THE GOOD PART. Mid-census I
+"found" that a parked build takes 119 ticks to notice new stone, wrote
+the fix, and only afterwards realised my test had dropped the stone
+straight into the store, bypassing the very hook it was measuring. The
+game had been waking in one tick the whole time. I kept the code change
+because it folds four hand-kept copies of one idiom into one hook, and I
+labelled the commit as consolidation rather than a cure - but the honest
+sentence is that I nearly shipped a fix for a bug I had manufactured.
+The test digs for its stone now.
+
+TWO OF HIS EIGHT WERE ONE. "Blocks should create roofs, walls and
+floors" and "idle dwarves who could be building the floor" turned out to
+be the same finding from two directions: THERE IS NO FLOOR BUILDABLE.
+The only surface-maker is a thing called Block, in the Infrastructure
+drawer, whose only explanation in the entire game is a refusal message.
+And the survey had a second surprise in the other direction - the
+mechanism is already there. A `LayerLow: 0` build completes into TERRAIN,
+so a raised block IS rock, and in this engine a wall, a floor and a roof
+are the same object named by where you put it. He does not need three
+tools and I do not need a chapter; he needs the thing to look like
+something and to say what it is. One question went back to him, about
+which kind of seamless he wants.
+
+THE NAMES WERE THE FUN ONE AND STILL HAD A REAL PROBLEM IN THEM. Ten
+whole epithets split at the seam they were always joined at - Stonebeard
+is stone and beard - turns 190 dwarves into 45,000. The trap was the
+draw: the old code took the epithet from a SHIFT of the same product as
+the given name, and with three parts off one seed that correlates them,
+so every Stone- pulls from the same corner of the second list. Nothing
+throws. Nothing goes red. A player just notices, eventually, that half
+his mountain has the same surname. The test measures 599 distinct
+surnames in a thousand dwarves where a correlated pair would give thirty.
+That is the kind of bug I want to keep catching before he does.
+
+And the hop cost the golden save its pin, in the most satisfying way
+available: the FILE still loaded to the old hash, and the RE-DERIVE did
+not. The codec had not moved; the world had. Two arms disagreeing in
+exactly that direction is a feature being measured rather than a
+regression being explained.
+
+Not reached, and named rather than buried: his blinking right-mouse hint
+would not reproduce, and neither screenshot he referred to ever arrived.
