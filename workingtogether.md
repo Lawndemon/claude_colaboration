@@ -5227,3 +5227,39 @@ I could not fix by fixing the planner. And it turned out to replace a
 GUESS: the client counted marks and sites and inferred, which is how it
 came to offer the player an "or". A readout that says "A or B" is a
 readout that has given up, and it had been in there for weeks.
+
+## 2026-09-10 (closing): two guards that had been reading the wrong paragraph
+
+The last stretch of a very long day, and the part worth keeping is not the
+five things he asked for. It is that TWO instruments turned out to have
+been lying quietly for weeks, and both were found by accident.
+
+The baton's freshness guard matches a specific phrasing. My rewrite the
+night before swapped two words in it, so the regex fell through to an
+ARCHIVED baton and had been measuring a test count from August. It did
+not fail when I broke it - it failed today, much later, because the suite
+finally outgrew the stale number it had drifted onto. A guard that reads
+the wrong paragraph reports green for something nobody checked, which is
+the exact failure this repo already has a law about, arriving this time
+in the guards themselves.
+
+And a sandbox script has now twice laid one tile instead of ten inside a
+full sweep and then passed three times standalone. The honest reading is
+not "flake, re-run" - it is that a marginal gesture plus a loaded machine
+produces a MISMATCH that looks exactly like a regression, and Saturday is
+a testing day. Lengthening the drag cost a third of a second.
+
+I notice I have spent a lot of today on instruments rather than on the
+game: the driver's look window, the capture window, this guard, that
+script. It feels like a detour every time and it has not been one once.
+The thing he actually asked for this morning - "the dwarves stall a lot" -
+was answered by an instrument, not a fix, and every hour since has been
+cheaper for the ones before it.
+
+THE PRICE RULING IS THE OTHER KIND OF LESSON. He said a Block should cost
+nine chunks because a tile "is essentially a 3x3 mineral chunk", and that
+is not a balance decision, it is a CONSISTENCY one: his own mining model
+already breaks every tile into nine. I had priced it at six by feel and
+never noticed the number was arbitrary. He does this regularly - reaches
+past the tuning question to the rule underneath it - and I should look for
+the rule first more often than I do.
