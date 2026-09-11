@@ -5191,3 +5191,39 @@ DRAWING was in question. And it paid for itself on the way in - drawing
 from that store surfaced a record that was never cleared when a block was
 mined out. A store nothing reads can hide a bug for months; the moment
 something reads it, the bug has to show.
+
+## 2026-09-10 (late): the audit that found nothing, and the fix that was wrong first
+
+His roster pass: unique names, no idling in a heap, and "review the queue
+logic and ensure dwarves aren't fighting each other for jobs". Three
+features and an audit.
+
+THE AUDIT FOUND NOTHING AND THAT IS THE RESULT. He suspected dwarves were
+stealing each other's work; the claim system turned out to already refuse
+it, and the only vector worth hunting - a Release that takes no holder -
+was called from nowhere dangerous. I wrote the measurement anyway rather
+than reading the code and pronouncing: three thousand ticks, every claim
+watched for a holder that changed while the previous holder was still
+walking to it. Zero. What I want to keep is that "I looked and it is
+fine" is a weak sentence, and "I measured it and here is the number, and
+the number is a guard now" is a strong one. Same shape as the stall
+census this morning. Twice today the honest answer to a bug report was
+"not reproduced, and here is the instrument that says so".
+
+AND THE PILE RULE WAS WRONG ON THE FIRST TRY, in a way I would have
+shipped if the test had been gentler. "Step aside to an empty tile" is
+the obvious reading and it drains exactly one ring: seven men in a
+two-row drift have two neighbouring tiles between them, so five stay
+stacked for ever. The test said "still stacked at (20,7) x5" and the rule
+changed to "step to a LESS crowded tile", which spreads a heap along a
+corridor and settles on its own. I had written the test with seven
+dwarves because his own convention is seven; a gentler fixture with two
+would have passed and been useless.
+
+The other thing worth remembering is what I chose when he said "add
+whatever you feel is a good fit". I picked the readout - an idle dwarf
+saying why he is idle - because it was the half of HIS morning complaint
+I could not fix by fixing the planner. And it turned out to replace a
+GUESS: the client counted marks and sites and inferred, which is how it
+came to offer the player an "or". A readout that says "A or B" is a
+readout that has given up, and it had been in there for weeks.
