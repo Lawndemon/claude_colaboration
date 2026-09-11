@@ -5125,5 +5125,16 @@ not. The codec had not moved; the world had. Two arms disagreeing in
 exactly that direction is a feature being measured rather than a
 regression being explained.
 
+AND THEN HE ANSWERED THE QUESTION, so the blocks chapter got its first
+course the same day. What I want to keep from that hour is that my first
+fix changed NOTHING on screen and I nearly reported it as done. A raised
+tile had no mineral, so I gave it one - and the picture came back
+identical, because a finished build dirtied every sprite layer and never
+the terrain. Two bugs stacked, and only the screenshot could tell me the
+first one had not been enough. The code I was fixing carries a long
+comment about being "the only version of this code with no list to fall
+behind", written after two earlier generations of it fell behind. This
+was the third. A list of everything-except-one-thing is still a list.
+
 Not reached, and named rather than buried: his blinking right-mouse hint
 would not reproduce, and neither screenshot he referred to ever arrived.
