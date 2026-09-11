@@ -5173,3 +5173,21 @@ not the flake - it was that a give-up and a regression are the SAME LINE
 in the journal, and testing day is Saturday. An instrument that cannot
 tell "I did not look long enough" from "the game is broken" will cost
 somebody a morning, and it will be the morning they can least afford it.
+
+And then he looked at it and said blocks should not look like the rock at
+all - solid squares, with a thin drawn outline around the whole shape. I
+had read "should look seamless" as "indistinguishable from the mountain",
+which is the literal reading and the useless one. What he actually wanted
+was the opposite of invisible: the LINE between what the mountain gave him
+and what he made, because that is the thing a player reads at a glance.
+Two corrections from him in one evening, both removing something I had
+added - three names for one object, then a texture that hid the object
+entirely. His edits subtract.
+
+The good news is that it was ten minutes of work rather than a rewrite,
+because the survey had already put the truth in the right place: the tile
+is real rock, the store knows which tiles the colony built, and only the
+DRAWING was in question. And it paid for itself on the way in - drawing
+from that store surfaced a record that was never cleared when a block was
+mined out. A store nothing reads can hide a bug for months; the moment
+something reads it, the bug has to show.
