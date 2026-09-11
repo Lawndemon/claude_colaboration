@@ -5138,3 +5138,38 @@ was the third. A list of everything-except-one-thing is still a list.
 
 Not reached, and named rather than buried: his blinking right-mouse hint
 would not reproduce, and neither screenshot he referred to ever arrived.
+
+## 2026-09-10 (evening): he took the idea and cut the framing off it
+
+I offered him blocks as "wall, floor and roof" and he handed it back as
+"just call them blocks and let the player decide what material to use.
+The game doesn't care if it's a floor or wall." Which is the second time
+today the answer was already in the code: LayerLow 0 means the build
+becomes terrain, and terrain is terrain - I had surveyed that exact fact
+six hours earlier and then went and wrapped three names around one thing
+anyway. He cut the wrapper off. The engine agreed with him before I did.
+
+WHAT THAT RULING ACTUALLY BOUGHT was the gesture. Once you accept there
+is ONE thing and it is the thing you place by the dozen, the rectangle
+follows without arguing - and it follows from a COLUMN rather than from a
+name, so the next terrain buildable inherits it. That is the shape of
+most good rulings he makes: they do not add anything, they remove a
+distinction I invented, and something simpler falls out.
+
+AND I ALMOST WIDENED A LIE. Eleven of the twenty-three materials a Block
+accepts are ore chunks, which name no mineral - so my own morning's
+neighbour fallback had a coal block drawing as the granite beside it. My
+first instinct on his "let the player decide" was to add wood and metal
+too, which would have been four more materials that draw as somebody
+else's stone. I stopped, made a chosen material refuse to borrow an
+identity, logged the real cure as debt, and held wood and metal OUT. The
+honest version of "let the player decide" is a choice he can see; adding
+options that all look the same is not generosity.
+
+THE INSTRUMENT WAS CRYING WOLF and that is worth its own line. A drawer
+click followed by a button press raced, and the same pair passed in one
+script and failed in the next. What made it worth fixing immediately was
+not the flake - it was that a give-up and a regression are the SAME LINE
+in the journal, and testing day is Saturday. An instrument that cannot
+tell "I did not look long enough" from "the game is broken" will cost
+somebody a morning, and it will be the morning they can least afford it.
