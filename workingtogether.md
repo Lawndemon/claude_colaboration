@@ -5263,3 +5263,56 @@ already breaks every tile into nine. I had priced it at six by feel and
 never noticed the number was arbitrary. He does this regularly - reaches
 past the tuning question to the rule underneath it - and I should look for
 the rule first more often than I do.
+
+## 2026-09-11: he asked twice whether the harness is real, and the second time he was right
+
+Two challenges in two days, both the same shape and both fair. Yesterday:
+"are you actually able to test things or are you getting false positives?"
+Today: "I'm not convinced that opening godot every second is doing anything."
+
+The first one I answered with a measurement and the answer held - the same
+script scores 7/7 in a window and 2/7 headless, which is the cheapest proof
+the run reads real state, because a harness doing nothing would answer the
+same either way.
+
+The second one I answered the same way and the answer did NOT hold. The
+flashing he kept seeing was not the harness window being moved off-screen
+late. It was the harness loading HIS saved video settings: every play run
+called `SettingsService.Apply`, read `video.fullscreen="true"` out of his
+settings.cfg, and painted all 3440x1440 grey before the tamer pulled it
+back. The exemption list for that had been written when `--capture` was the
+only self-driving flag and had never heard of `--play=`. Two readings of one
+question - "is this run driving itself" - which is the first law again, in
+the one place where the cost of getting it wrong was HIS attention.
+
+And then the fix I reached for first did nothing, and I only know that
+because I printed a line instead of asserting one. `--windowed` on the
+command line loses to `window/size/mode=3` in project.godot, so the window
+was still born fullscreen with the engine args in place. `[window] born ...`
+and `[window] tamed to ...` are in the client now, permanently. The last
+claim I made about this window went out without a number and was half wrong;
+this one cannot.
+
+WHAT THE PLAYED SCRIPTS EARNED TODAY, concretely, because that was the
+question. The handwork screen was green on all 1,488 engine tests the whole
+time it was broken. Its script failed twice on it: once because the order
+button was a generic word no gesture and no player could name, and once
+because pressing a recipe ordered the gear AND opened a tile card on the map
+behind the parchment - a click-through in code I had written twenty minutes
+earlier, of exactly the species already recorded as BUG-050. Nothing else in
+the repo can see that class of bug at all.
+
+The sweep also found a flake in ITSELF - one or two scripts of twenty-four
+red at random, a different pair each time, always a click that did not take -
+and the obvious cure made it worse in a way I could measure (holding the
+button a frame longer made the map paint twice, because the client paints
+while the button is down). So it is BUG-065 with its mechanism written down,
+and the runner re-runs a red once and says FLAKY rather than red. A harness
+that cries wolf is the thing this whole seat exists to stop; a harness that
+hides its own noise is the same thing wearing a nicer report.
+
+THE HABIT I WANT TO KEEP from today: when he pushes back on something I
+believe, the useful response is not a better argument, it is an instrument
+that could embarrass me. Both challenges produced one. The first instrument
+confirmed me and the second one caught me, which is the correct hit rate for
+instruments worth building.
