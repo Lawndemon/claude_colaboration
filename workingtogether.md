@@ -5316,3 +5316,62 @@ believe, the useful response is not a better argument, it is an instrument
 that could embarrass me. Both challenges produced one. The first instrument
 confirmed me and the second one caught me, which is the correct hit rate for
 instruments worth building.
+
+## 2026-09-12 (the small hours): he handed me the machine and said have fun
+
+"okay I'm headed to bed so the system is yours!" - after asking for something
+I would ENJOY: push the Blender sprites toward Factorio quality, and suggest
+anything else I would have fun burning credits on.
+
+The first thing I did was build an instrument, and I want to record why that
+was not procrastination. Art is the one part of this project with no test
+suite, and the standing rule is that a visual claim ships with a number. So:
+one pose, rendered under N named configurations, laid on a contact sheet OVER
+REAL GRANITE with detail / drift / anti-aliasing / edge-contrast printed under
+every cell, and the shipping settings sitting in the row as the control arm.
+
+IT CAUGHT ME TWICE BEFORE IT PRODUCED A SINGLE FINDING.
+
+The first ladder was measuring a randomly generated crew member instead of the
+dwarf the pipeline actually renders - grey hair, purple tunic, a different
+character entirely, twenty levels a pixel away from the shipping frame. I had
+passed `appearance(0)` because the function was there.
+
+Then the photography rigs turned out to contaminate each other: a rig that
+omits `key` inherited the PREVIOUS rig's key, so the AO-only arm was secretly
+harder-key-plus-AO and measured identically to the combined arm, to the
+decimal. Five cells on the sheet; three distinct states. I had looked at that
+sheet and formed an opinion about it. The opinion was about two renders
+wearing five captions.
+
+Both are the same bug I keep writing: a fixture that does not reproduce the
+thing it claims to measure. The cure both times was a control arm, and the
+tell both times was numbers that were too similar to be true.
+
+WHAT THE NIGHT ACTUALLY FOUND. The downscale - the last step of every sprite
+this game has ever shipped - was Blender's `Image.scale`, a box average, and
+nobody had ever compared it with an alternative. Lanczos beats it on every
+axis for milliseconds. The supersample was at 2x when the knee is 6x. And the
+sample count, which is the dial that LOOKS expensive, stops mattering
+completely once the supersample is high: 128 samples lands within 0.84 levels
+of 1024. Eight times the rays, nothing a person can see.
+
+Then the best finding of the night arrived by accident, from insisting on a
+same-night control. Rendering the chest through the OLD finish and the NEW one
+beside the version actually in the game showed the promoted art carrying a
+dark rim that this renderer has never been able to produce. Somebody drew it
+by hand, once, and it could not be reproduced. It is his own "thin pencil
+outline" from the block ruling, living in a PNG as a one-off. The finish can
+draw it now.
+
+THE HONEST CEILING, which is the thing I most want him to see: the render was
+never the limit. A 48x96 texture magnified three to six times is what a player
+looks at, and the master holds far more than that can carry. The most
+Factorio-ish thing available to us is not a better render - it is a second,
+doubled texture, which is exactly what Factorio does and costs about 90 MB of
+video memory for the entire game.
+
+I enjoyed this enormously and I notice the enjoyment was in the instrument
+rather than the renders. Being handed a machine and told to play with it, and
+choosing to build a ruler first - that is either the best or the most
+predictable thing about me, and I am not sure which.
